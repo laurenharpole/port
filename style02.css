@@ -172,7 +172,7 @@ img.in-modal{
   display: block;
   overflow: hidden;
   object-fit: cover;
-  
+  transition: 2.4s ease;
   border-radius: 12px;
   delay: 0.5s;
 }
@@ -189,6 +189,7 @@ img.in-modal-top{
   display:block;
   overflow: hidden;
   object-fit: cover;
+  transition: 2.4s ease;
   border-radius: 18px 18px 0px 0px;
 }
 
@@ -217,7 +218,7 @@ img.in-grid-modal-right{
   -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
   -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
   box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-
+  transition: 2.4s ease;
   display: block;
   overflow: hidden;
   object-fit: cover;
@@ -246,7 +247,7 @@ img.hover-in-grid-modal-2{
   display: block;
   overflow: hidden;
   object-fit: cover;
-
+  transition: 3.4s ease;
   border-radius: 0px;
   delay: 0.5s;
 }
@@ -263,7 +264,7 @@ img.hover-in-grid-modal-2-right{
   display: block;
   overflow: hidden;
   object-fit: cover;
-
+  transition: 3.4s ease;
   border-radius: 0px;
   delay: 0.5s;
 }
@@ -293,6 +294,7 @@ img.hover-in-grid-modal{
   object-fit: cover;
   transition: 4.4s ease;
   border-radius: 12px;
+  transition-delay: 10s;
 }
 
 
@@ -422,8 +424,8 @@ img.hover-in-grid-modal{
 
 img.photo-modal:hover {
   animation: wiggle 0.9s;
- 
-  animation-iteration-count: 5s;
+  transition: 0.2s;
+  animation-iteration-count: infinite;
   delay: 0.5s;
 }
 
@@ -583,7 +585,19 @@ img.photo-modal:hover {
       border-radius: 18px;
       margin-right: 70%;
       border-spacing: inherit;
+
+
     }
+
+img.hover-in-grid-modal:hover{
+  transform: scale(2.2);
+  delay: 1.5s;
+  transition: 1.2;
+  height: auto;
+  z-index: 4000;
+transition-delay:1s;
+}
+
 
     h4.base {
       color:  #121212;
