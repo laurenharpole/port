@@ -177,35 +177,6 @@ img.in-modal{
   delay: 0.5s;
 }
 
-img.in-modal-s{
-  width: 45vw;
-  height:auto;
-  /*border: 30px solid #434351;
-  border-radius: 18px;*/
-  margin-bottom: 5%;
-  align-content: center;
-  margin-left: 3%;
-  -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  display: block;
-  overflow: hidden;
-  object-fit: cover;
-  padding-left: 20%;
-  transition: 2.4s ease;
-  border-radius: 12px;
-  opacity: 0.7;
-}
-img.in-modal-s:hover{
-  margin-top: 35%;
-  margin-bottom: 35%;
-  padding-left:15%;
-  transform: scale(1.7);
-  transition: 2.4s ease;
-  border-radius: 0px;
-  opacity: 0.7;
-  delay: 0.5s;
-}
 
 img.in-modal-top{
   width: 75vw;
@@ -280,16 +251,6 @@ img.hover-in-grid-modal-2{
   border-radius: 0px;
   delay: 0.5s;
 }
-img.hover-in-grid-modal-2:hover{
-  transform: scale(1.9);
-
-  margin-top: 30%;
-  margin-bottom: 30%;
-  padding-left: 37%;
-  transition: 2.7s ease;
-  border-radius: 0px;
-  delay: 0.5s;
-}
 
 img.hover-in-grid-modal-2-right{
   width: 36.5vw;
@@ -307,16 +268,7 @@ img.hover-in-grid-modal-2-right{
   border-radius: 0px;
   delay: 0.5s;
 }
-img.hover-in-grid-modal-2-right:hover{
-  transform: scale(1.5);
 
-  margin-top: 30%;
-  margin-bottom: 33%;
-  padding-right: 210%;
-  transition: 2.7s ease;
-  border-radius: 0px;
-  delay: 0.5s;
-}
 
 img.hover-in-grid-modal-3{
   width: 26.5vw;
@@ -332,11 +284,7 @@ img.hover-in-grid-modal-3{
   transition: 2.4s ease;
   border-radius: 12px;
 }
-img.hover-in-grid-modal-3:hover{
-  width: 70.5vw;
-  transition: 2.7s ease;
-  border-radius: 0px;
-}
+
 
 img.hover-in-grid-modal{
   height: 12.5vw;
@@ -348,12 +296,6 @@ img.hover-in-grid-modal{
   border-radius: 12px;
 }
 
-img.hover-in-grid-modal:hover{
-  width: 35vw;
-  height: auto;
-  transition: 5.7s ease;
-  border-radius: 0px;
-}
 
 
 .video-in-modal{
@@ -486,12 +428,6 @@ img.photo-modal:hover {
   delay: 0.5s;
 }
 
-.video-modal:hover {
-  animation: wiggle 0.9s;
-  transition: 0.2s;
-  animation-iteration-count: infinite;
-  delay: 0.5s;
-}
 
 
 .glow {
@@ -738,25 +674,13 @@ img.photo-modal:hover {
         display: block;
         overflow: hidden;
         object-fit: cover;
-        transform: scale(1);
+
         border-radius: 12px;
         z-index:0;
         position: static;
       }
 
-      img.hover-in-grid-modal:hover{
-         transform: scale(1.35);
-        height: auto;
 
-        z-index:15;
-        margin-right: 90%;
-          margin-top: 40%;
-        margin-bottom: 40%;
-        position: relative;
-        border-radius: 0px;
-        position: overlay;
-        delay: 0.5s;
-      }
 
       .row{
         display: flex;
@@ -781,8 +705,7 @@ img.photo-modal:hover {
         flex-wrap: wrap;
         align-items: bottom;
         justify-content: center;
-       transform: scale(1.0);
-position: static;
+
       }
 
       #grid.row:first-child {
@@ -796,7 +719,6 @@ position: static;
 
         flex-basis: 45%;
         justify-content: center;
-        transform: scale(1.0);
         width: 90vw;
         height: auto;
 
