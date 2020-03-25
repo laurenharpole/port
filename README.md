@@ -1,2 +1,1 @@
-# portfolio
-Portfolio website for Lauren Harpole
+# visabilities
