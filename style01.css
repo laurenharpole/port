@@ -304,15 +304,16 @@ footer{
 
 .f-one-column{
   margin-bottom: 0px;
-  margin-left: 10%;
+  margin-left: 0%;
   margin-right: 0px;
   text-align: center;
 }
 
-.f-two-column, .f-three-column{
+.f-three-column{
 
   flex-direction: row;
   text-align: right;
+margin-left: 20vw;
 }
 
 .f-three-column ul {
@@ -341,14 +342,16 @@ footer{
 
 h1.foot{
   font-size: 14px;
+
   font-weight:lighter;
-  padding-left: 30%;
+  margin-left: 5vw;
+  margin-right: 20vw;
   color:#0700EF;
 }
 
 h2.foot{
+  text-align: center;
 
-  padding-left: 40%;
   padding-right: 0%;
   color:#0700EF;
 }
@@ -466,7 +469,6 @@ margin-top: 10%;
     -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
     box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
     display: block;
-
     object-fit: cover;
     transition: 2.4s ease;
     border-radius: 12px;
@@ -487,7 +489,7 @@ margin-top: 10%;
     font-size:52px;
     text-align: justify;
     word-wrap: break-word;
-    text-align: left;
+    text-align: center;
     margin-right: 0%;
     margin-left: 10%;
     margin-top: 6px;
