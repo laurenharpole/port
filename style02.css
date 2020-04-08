@@ -83,6 +83,7 @@ img.title{
     padding-bottom: 190px;
     transition: 1s;
     transition-delay: 0.1s;
+	 z-index: 9999;
 
 }
 img.close:hover,
@@ -95,7 +96,7 @@ img.close:focus {
   padding-bottom: 190px;
   transition: 1s;
   transition-delay: 0.1s;
-
+ z-index: 9999;
 }
 img.photo-modal{
   width: 30vw;
@@ -553,7 +554,7 @@ img.hover-in-grid-modal:hover{
           padding-bottom: 190px;
           transition: 1s;
           transition-delay: 0.1s;
-
+ z-index: 9999;
       }
       img.close:hover,
       img.close:focus {
@@ -565,7 +566,7 @@ img.hover-in-grid-modal:hover{
         padding-bottom: 190px;
         transition: 1s;
         transition-delay: 0.1s;
-
+ z-index: 9999;
       }
 
       img.hover-in-grid-modal{
