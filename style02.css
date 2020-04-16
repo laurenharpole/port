@@ -13,7 +13,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     overflow: scroll; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-
+filter: blur(4px);
 
 }
 
