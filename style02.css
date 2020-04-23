@@ -133,7 +133,6 @@ img.in-modal-top{
   display:block;
   overflow: hidden;
   object-fit: cover;
-  transition: 0.4s ease;
   border-radius: 12px 12px 0px 0px;
   z-index: -1;
 }
@@ -200,9 +199,6 @@ img.hover-in-grid-modal-2{
 
 img.hover-in-grid-modal-2-right{
   width: 36.5vw;
-
-  /*border: 30px solid #434351;
-  border-radius: 18px;*/
   align-content: center;
   -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
   -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
@@ -238,7 +234,7 @@ img.hover-in-grid-modal{
   display: block;
   overflow: hidden;
   object-fit: cover;
-  transition: 1.4s ease;
+  
   border-radius: 12px;
   transition-delay: 1s;
 }
@@ -457,8 +453,8 @@ img.photo-modal:hover {
 img.hover-in-grid-modal:hover{
   transform: scale(2.2);
   height: auto;
-  z-index: 4000;
-  transition-delay:1s;
+  z-index: 9999;
+  transition-delay:1.4s;
 }
 
 
