@@ -271,7 +271,7 @@ img.hover-in-grid-modal{
   border-width: thin;
   margin: 1px;
   height: 46.5vw;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   overflow: hidden;
   object-fit: cover;
 }
@@ -328,7 +328,7 @@ img.hover-in-grid-modal{
   width: 30vw;
   border-radius: 18px;
   border-width: thin;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
    height: 25.5vw;
   overflow: hidden;
   object-fit: cover;
