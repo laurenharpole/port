@@ -361,7 +361,7 @@ img.photo-modal:hover {
   flex-direction:  row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: -60px;
+  
 }
 .column{
   display: flex;
