@@ -353,7 +353,7 @@ h2.foot{
     -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
     -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
     box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    background-color:  #e5c700;
+    background-color:  #D2DF54;
     transition: 2.4s;
   }
 @media screen and (max-width: 1024px){
@@ -521,7 +521,7 @@ h2.foot{
     -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
     -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
     box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    background-color:  #acdcff;
+    background-color:  #D2DF54;
     transition: 2.4s;
   }
 
