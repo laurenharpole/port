@@ -1,6 +1,5 @@
 
 body {
-  font-family: "Helvetica";
   background-color: #eeded7;
 }
 
@@ -115,6 +114,7 @@ nav li a:hover, a:focus {
   border-radius: 48px;
 }
 
+/* big header blue words */
 h1.egg{
   font-size: 100px;
   word-wrap: break-word;
@@ -129,6 +129,7 @@ h1.egg{
   padding-bottom: -10px;
 }
 
+/* section */
 .about-me{
   padding-top: 5%;
   margin-top: 4%;
@@ -142,6 +143,8 @@ h1.egg{
   background: linear-gradient(118deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
   transition: 2.4s;
 }
+
+/* hover over section */
 .about-me:hover{
  transform:scale(1.05);
   border-radius: 12px;
@@ -153,6 +156,7 @@ h1.egg{
 }
 
 
+/* skill category titles */
 h2.skilltitle{
   font-size:34px;
   text-align: justify;
@@ -161,9 +165,10 @@ h2.skilltitle{
   margin-top: 10%;
   line-height: 49%;
   color:rgb(255,255,255,0.7);
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat';
 }
 
+/* the skills lists */
  p.skills{
   color:rgb(255,255,255,0.7);
   font-family: "Raleway", sans-serif;
@@ -223,10 +228,11 @@ h2.about{
   margin-top: 6px;
   line-height: 49%;
   color:rgb(255,255,255,0.7);
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat';
   font-weight: 400;
 }
 
+/* about paragraph */
 p.about{
   margin-left: 10%;
   margin-right: 10%;
@@ -236,7 +242,7 @@ p.about{
   line-height: 25px;
   font-size: 18px;
   color:rgb(255,255,255,0.7);
-  font-family: "Raleway", sans-serif;
+  font-family:'Raleway', sans-serif;
   font-weight: 400;
 }
 
@@ -254,7 +260,7 @@ h2.skills{
   font-size: 24px;
   text-align: center;
   color:rgb(255,255,255,0.7);
-  font-family: "Raleway", sans-serif;
+  font-family:'Raleway', sans-serif;
   font-weight: 400;
 }
 
@@ -267,7 +273,8 @@ footer{
   height: 100px;
   width: 100vw;
 }
-
+/* 
+footer row */
 .f-row{
   display: flex;
   flex-direction:  row;
@@ -277,6 +284,7 @@ footer{
   height: 100%;
 }
 
+/* footer col */
 .f-column{
   display: flex;
   flex: 1;
@@ -284,6 +292,7 @@ footer{
   border-spacing: 0px;
 }
 
+/* footer col */
 .f-one-column{
   margin-bottom: 0px;
   margin-left: 0%;
@@ -291,17 +300,21 @@ footer{
   text-align: center;
 }
 
+/* footer col */
 .f-three-column{
   flex-direction: row;
   text-align: right;
   margin-left: 20vw;
 }
 
+/* footer col links */
 .f-three-column ul {
   list-style-type: none;
   display:flex;
   text-decoration: none;
 }
+
+/* footer col links */
 .f-three-column ul li  a {
   margin: 5px;
   text-decoration: none;
@@ -315,12 +328,14 @@ footer{
   transition: background-size .3s;
 }
 
+/* footer col links hover */
 .f-three-column ul li  a:hover, a:focus {
     text-align: right;
     text-decoration: none;
     background-size: 100% 5px;
 }
 
+/* footer */
 h1.foot{
   font-size: 14px;
   font-weight:lighter;
@@ -329,12 +344,14 @@ h1.foot{
   color:#0700EF;
 }
 
+/* footer */
 h2.foot{
   text-align: center;
   padding-right: 0%;
   color:#0700EF;
 }
 
+/* section hover*/
 .skill-background:hover {
   transform:scale(1.05);
   margin-top: 10%;
@@ -346,6 +363,8 @@ h2.foot{
   -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
   box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
 }
+
+/* section hover*/
   .skill-background {
     padding-top: .5%;
     padding-bottom: 6%;
@@ -359,6 +378,7 @@ h2.foot{
     background: linear-gradient(118deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
     transition: 2.4s;
   }
+
 @media screen and (max-width: 1024px){
   /*navigation*/
   nav ul {
