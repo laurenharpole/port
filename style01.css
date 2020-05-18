@@ -154,7 +154,7 @@ h1.egg{
   -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
   -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
   box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  background: rgb(131,58,180);
+  background: rgb(131,58,180, 0.9);
   background: linear-gradient(118deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
 }
 
@@ -388,7 +388,7 @@ h2.foot{
     -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
     -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
     box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    background: rgb(131,58,180);
+    background: rgb(131,58,180, 0.9);
     background: linear-gradient(118deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
     transition: 2.4s;
   }
