@@ -349,10 +349,9 @@ h1.foot{
 }
 
 p.foot{
-font-size: 3vw;
+font-size: 3.5vw;
   font-weight:lighter;
   margin-left: 5vw;
-  margin-right: 20vw; 
   text-align: center
   color:#0700EF;
 }
