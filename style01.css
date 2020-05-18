@@ -129,14 +129,6 @@ h1.egg{
   padding-bottom: -10px;
 }
 
-h2.skills{
-  color:#524DFF;
-  text-align: center;
-  padding-top: 2px;
-  padding-bottom: -60px;
-  font-size: 24px;
-  font-weight: lighter;
-}
 
 .about-me{
   padding-top: 5%;
@@ -147,7 +139,8 @@ h2.skills{
   -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
   -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
   box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  background-color:  #acdcff;
+  background: rgb(131,58,180);
+  background: linear-gradient(118deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
   transition: 2.4s;
 }
 .about-me:hover{
@@ -156,7 +149,8 @@ h2.skills{
   -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
   -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
   box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  background-color:  #acdcff;
+  background: rgb(131,58,180);
+  background: linear-gradient(118deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
 }
 
 
@@ -167,11 +161,11 @@ h2.skilltitle{
   text-align: center;
   margin-top: 10%;
   line-height: 49%;
-  color: #0700EF;
+  color: #fff;
 }
 
  p.skills{
-  color: #524DFF;
+  color: #fff;
 }
 
 .row{
@@ -226,11 +220,11 @@ h2.about{
   margin-left: 10%;
   margin-top: 6px;
   line-height: 49%;
-  color: #0700EF;
+  color: #fff;
 }
 
 p.about{
-  color: #524DFF;
+  color: #fff;
   margin-left: 10%;
   margin-right: 10%;
   padding-bottom: 5%;
@@ -250,7 +244,7 @@ section.skills{
 /* this is skills */
 h2.skills{
   padding-bottom: -15%;
-  color:  #0700EF;
+  color: #fff;
   font-weight: bold;
   font-size: 24px;
   text-align: center;
@@ -336,7 +330,7 @@ h2.foot{
 .skill-background:hover {
   transform:scale(1.05);
   margin-top: 10%;
-  padding-bottom: 1%;
+  padding-bottom: 4%;
   margin-left: 4%;
   margin-right: 4%;
   border-radius: 12px;
@@ -353,7 +347,8 @@ h2.foot{
     -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
     -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
     box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    background-color:  #d6e921;
+    background: rgb(131,58,180);
+    background: linear-gradient(118deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
     transition: 2.4s;
   }
 @media screen and (max-width: 1024px){
@@ -456,11 +451,10 @@ h2.foot{
     margin-left: 10%;
     margin-top: 6px;
     line-height: 49%;
-    color: #0700EF;
+    
   }
 
   p.about{
-    color: #524DFF;
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 5%;
@@ -477,7 +471,6 @@ h2.foot{
     text-align: center;
     margin-top: 10%;
     line-height: 49%;
-    color: #0700EF;
   }
 	
 .skill-background:hover {
@@ -499,17 +492,16 @@ h2.foot{
     -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
     -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
     box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    background-color:  #e5c700;
+    background: rgb(131,58,180);
+    background: linear-gradient(118deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
     transition: 2.4s;
   }
 
   h2.skills{
-   color: #524DFF;
    font-size: 35px;
   }
 
    p.skills{
-    color: #524DFF;
     font-size: 24px;
   }
 
@@ -521,7 +513,8 @@ h2.foot{
     -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
     -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
     box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    background-color:  #D2DF54;
+    background: rgb(131,58,180);
+    background: linear-gradient(118deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
     transition: 2.4s;
   }
 
@@ -532,7 +525,8 @@ h2.foot{
     -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
     -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
     box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    background-color:  #acdcff;
+    background: rgb(131,58,180);
+    background: linear-gradient(118deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
   }
 
   img.in-modal:hover{
