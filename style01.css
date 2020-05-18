@@ -162,10 +162,12 @@ h2.skilltitle{
   margin-top: 10%;
   line-height: 49%;
   color: #fff;
+  font-family: "Montserrat";
 }
 
  p.skills{
   color: #fff;
+  font-family: "Raleway";
 }
 
 .row{
@@ -224,7 +226,7 @@ h2.about{
 }
 
 p.about{
-  color: #fff;
+  color: rgb(255,255,255,0.7);
   margin-left: 10%;
   margin-right: 10%;
   padding-bottom: 5%;
@@ -232,6 +234,7 @@ p.about{
   letter-spacing: 1.5;
   line-height: 25px;
   font-size: 18px;
+  font-family: "Raleway";
 }
 
 /*not actually section skills this section is about stuff */
@@ -248,6 +251,7 @@ h2.skills{
   font-weight: bold;
   font-size: 24px;
   text-align: center;
+  font-family: "Raleway";
 }
 
 /*footer css */
