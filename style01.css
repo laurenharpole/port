@@ -340,8 +340,8 @@ footer row */
 
 /* footer */
 h1.foot{
-  font-size: 14px;
-  font-weight:lighter;
+  font-size: 6vw;
+  font-weight:normal;
   margin-left: 5vw;
   margin-right: 20vw;
   color:#0700EF;
