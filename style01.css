@@ -129,7 +129,6 @@ h1.egg{
   padding-bottom: -10px;
 }
 
-
 .about-me{
   padding-top: 5%;
   margin-top: 4%;
@@ -161,13 +160,14 @@ h2.skilltitle{
   text-align: center;
   margin-top: 10%;
   line-height: 49%;
-  color: #fff;
-  font-family: "Montserrat";
+  color:rgb(255,255,255,0.7);
+  font-family: "Montserrat", sans-serif;
 }
 
  p.skills{
-  color: #fff;
-  font-family: "Raleway";
+  color:rgb(255,255,255,0.7);
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 
 .row{
@@ -222,11 +222,12 @@ h2.about{
   margin-left: 10%;
   margin-top: 6px;
   line-height: 49%;
-  color: #fff;
+  color:rgb(255,255,255,0.7);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 p.about{
-  color: rgb(255,255,255,0.7);
   margin-left: 10%;
   margin-right: 10%;
   padding-bottom: 5%;
@@ -234,7 +235,9 @@ p.about{
   letter-spacing: 1.5;
   line-height: 25px;
   font-size: 18px;
-  font-family: "Raleway";
+  color:rgb(255,255,255,0.7);
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 
 /*not actually section skills this section is about stuff */
@@ -247,11 +250,12 @@ section.skills{
 /* this is skills */
 h2.skills{
   padding-bottom: -15%;
-  color: #fff;
   font-weight: bold;
   font-size: 24px;
   text-align: center;
-  font-family: "Raleway";
+  color:rgb(255,255,255,0.7);
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 
 /*footer css */
@@ -455,7 +459,6 @@ h2.foot{
     margin-left: 10%;
     margin-top: 6px;
     line-height: 49%;
-    
   }
 
   p.about{
