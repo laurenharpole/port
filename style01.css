@@ -152,13 +152,16 @@ h3.information {
   color: transparent;
   background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
   letter-spacing: .2em;
-  text-shadow:-1px 1px 1px #F4EAE5,  -2px -1px 3px #fff, -2px 0px 2px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 1px 2px 1px  #988E8A,
+  text-shadow:-1px 1px 1px #F4EAE5,  -2px -1px 3px #fff, -2px 0px 2px #fdfaf9,
+  -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 1px 2px 1px  #988E8A,
   2px 3px 1px  #988E8A, 3px 4px 1px  #988E8A,
-  4px 5px 2px  #988E8A, 5px 5px 7px  #7A726E,  5.5px 5px 1px #7A726E, 11px 7px 8px #7A726E;
+  4px 5px 2px  #988E8A, 5px 5px 7px  #7A726E,  5.5px 5px 1px #7A726E,
+  11px 7px 8px #7A726E;
   color:transparent;
   margin-left:0vw;
-    margin-bottom: -7vw;
+  margin-bottom: -12vw;
   background: none;
+  font-weight: normal;
 }
 
 /* skill category titles */
@@ -175,9 +178,12 @@ h2.skilltitle{
   color: transparent;
   background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
   letter-spacing: .1em;
-  text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 1px #fdfaf9, -3px 0px 1px #fdfaf9, -2px 0px 1px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 0px 2px 1px  #988E8A,
+  text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 1px #fdfaf9,
+  -3px 0px 1px #fdfaf9, -2px 0px 1px #fdfaf9, -3px -1px 3px #fdfaf9,
+  0px 1px 1px  #988E8A, 0px 2px 1px  #988E8A,
   0.5px 2.5px 1px  #988E8A, 1.4px 2px 1px  #988E8A,
-  2.7px 3px 1px  #988E8A, 3px 3px 3px  #988E8A,  3.3px 3px 1px #7A726E, 4px 3px 8px #7A726E;
+  2.7px 3px 1px  #988E8A, 3px 3px 3px  #988E8A,  3.3px 3px 1px #7A726E,
+  4px 3px 8px #7A726E;
   color:transparent;
   background: none;
   margin-bottom: -60px;
@@ -210,7 +216,8 @@ h2.skilltitle{
   width: 98%;
   background-color: transparent;
   border-radius: 1.6vw;
-  box-shadow: inset -3px -3px 7px rgba(94, 104, 121, 0.412), inset 3px 3px 5px rgba(94, 104, 121, 0.471);
+  box-shadow: inset -3px -3px 7px rgba(94, 104, 121, 0.412),
+  inset 3px 3px 5px rgba(94, 104, 121, 0.471);
   opacity: 1;
 }
 
@@ -693,7 +700,7 @@ p.about{
   width: 75%;
   height:100%;
   opacity: 1;
-  margin-bottom:10vh;
+  margin-bottom:0vh;
 }
 
 /* skill category titles */
@@ -730,6 +737,11 @@ h2.skilltitle{
     margin-left: 1vw;
   }
 
+/* bottom header */
+  h3.information {
+    font-size: 12vw;
+    margin-bottom: -6vh;
+  }
 
   body {
   font-size: 38px;
@@ -798,10 +810,10 @@ h2.skilltitle{
   }
 
   img.in-modal{
-    height: 700px;
+    height: 800px;
     width: 80vw;
     display: block;
-    margin-bottom: 0%;
+    margin-bottom: -11vh;
     align-content: left;
     margin-left: 7%;
     display: block;
@@ -979,7 +991,7 @@ h2.skilltitle{
     width: 75%;
     height:100%;
     opacity: 1;
-    margin-bottom:10vh;
+    margin-bottom:6vh;
   }
   /* skill flex box */
   .row{
@@ -1019,7 +1031,7 @@ h2.skilltitle{
     padding-right: 1%;
     margin-left:9%;
     margin-right: 3%;
-    margin-top: 10%;
+    margin-top: 5%;
     border-radius: 12px;
     align-items: center;
     width: 80%;
