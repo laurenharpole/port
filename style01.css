@@ -33,12 +33,8 @@ img.in-modal{
   display: block;
   overflow: hidden;
   object-fit: cover;
-  /* padding-top: 20px; */
-  /* padding-top: 20px; */
-  /* padding-left: 20px; */
   margin-top: 90px;
   border: 10px solid #eeded7;
-  /* transition: rotate(45); */
   -webkit-border-radius:63px 63px 63px 63px/
   108px 108px 72px 72px;
   /* fails in Safari, but overwrites in Chrome */
@@ -161,7 +157,7 @@ h3.information {
   margin-left:0vw;
   margin-bottom: -12vw;
   background: none;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 /* skill category titles */
@@ -328,7 +324,6 @@ p.skills{
   flex-wrap: wrap;
   align-items: bottom;
   justify-content: center;
-  transition: 1.7s;
 }
 
 .column{
@@ -336,7 +331,6 @@ p.skills{
   flex-direction:  column;
   height: auto;
   justify-content: center;
-  transition: 1.7s;
 }
 
 
@@ -400,7 +394,6 @@ footer{
 
 /* section hover*/
 .skill-background {
-  /* padding-top: -9.5%; */
   padding-bottom: 1%;
   padding-left: 1%;
   padding-right: 1%;
@@ -409,18 +402,14 @@ footer{
   margin-top: 10%;
   border-radius: 12px;
   align-items: center;
-  /* box-shadow:  5px 5px 31px #79716e,
-  -5px -5px 31px #ffffff; */
   background: none;
   margin-bottom:1%;
-  transition: 2.4s;
   box-shadow:  5px 5px 10px #c1b4ae,
-  -5px -5px 10px #ffffff
+  -5px -5px 10px #ffffff;
 }
 
 /* section hover*/
 .contact-background {
-  /* padding-top: -9.5%; */
   padding-bottom: 1%;
   padding-left: 1%;
   padding-right: 1%;
@@ -429,15 +418,10 @@ footer{
   margin-top: 10%;
   border-radius: 12px;
   align-items: center;
-  /* box-shadow:  5px 5px 31px #79716e,
-  -5px -5px 31px #ffffff; */
   background: none;
   margin-bottom:1%;
   transition: 2.4s;
-  /* box-shadow:  5px 5px 10px #c1b4ae,
-  -5px -5px 10px #ffffff */
 }
-
 
 /* section hover*/
 .contact-background {
@@ -448,11 +432,9 @@ footer{
   margin-top: 10%;
   border-radius: 11px;
   align-items: center;
-  /* box-shadow: 0px -29px 34px -4px #b3a6a1; */
   background: none;
   margin-bottom:5%;
   transition: 2.4s;
-  /* border-top: 55px solid #b3a6a1; */
 }
 
 /* general messages section */
@@ -663,7 +645,6 @@ footer{
   -5px -5px 31px #ffffff;
   background: #d8c8c2 ;
   margin-bottom:0%;
-  transition: 2.4s;
   display: flex;
   flex-direction:  row;
   flex-wrap: wrap;
@@ -741,6 +722,12 @@ h2.skilltitle{
   h3.information {
     font-size: 10vw;
     margin-bottom: -6vh;
+    text-shadow:-1px 1px 1px #F4EAE5,  -2px -1px 3px #fff, -2px 0px 2px #fdfaf9,
+    -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 1px 2px 1px  #988E8A,
+    2px 3px 1px  #988E8A, 3px 4px 1px  #988E8A,
+    4px 5px 2px  #988E8A, 5px 5px 7px  #7A726E,  5.5px 5px 1px #7A726E,
+    11px 7px 8px #7A726E;
+    letter-spacing: 0.1em;
   }
 
   body {
@@ -1037,7 +1024,6 @@ h2.skilltitle{
     width: 80%;
     background: #eeded7 ;
     margin-bottom:1%;
-    transition: 2.4s;
     box-shadow:  5px 5px 10px #c1b4ae,
     -5px -5px 10px #ffffff
   }
