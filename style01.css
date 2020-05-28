@@ -1,7 +1,8 @@
 
 body {
-  background-color: #eeded7;
+  background: linear-gradient(100deg, #ffeee6, #d6c8c2);
   font-family: 'Helvetica';
+  font-size: 23px;
 }
 
 /*navigation*/
@@ -24,37 +25,53 @@ img.title{
 }
 
 img.in-modal{
-  width: 90vw;
-  height: 80vh;
-  margin-bottom:0%;
+  height: 75vh;
+  width: 500px;
   display: block;
-  transition: 2.7s ease;
   margin-bottom: 5%;
   align-content: left;
-  padding-left: -14%;
-  -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
+  margin-left: 5%;
   display: block;
   overflow: hidden;
   object-fit: cover;
-  transition: 2.4s ease;
-  border-radius: 12px;
+  /* padding-top: 20px; */
+  /* padding-top: 20px; */
+  /* padding-left: 20px; */
+  margin-top: 90px;
+  border: 10px solid #eeded7;
+  /* transition: rotate(45); */
+  -webkit-border-radius:63px 63px 63px 63px/
+  108px 108px 72px 72px;
+  /* fails in Safari, but overwrites in Chrome */
+  border-radius:50% 50% 50% 40%/15% 60% 40% 90%;
+  box-shadow:  5px 5px 10px #ababab,
+  -5px -5px 10px #ffffff;
 }
+
 
 img.in-modal:hover{
   margin-bottom:7%;
   display: block;
   overflow: hidden;
   transform:scale(1.05);
+  box-shadow:  8px 8px 15px #ababab,
+  -8px -8px 15px #ffffff;
+  transition: 2.4s ease;
 }
 
 nav li a {
   text-align: center;
   padding: 4px 16px;
   text-decoration: none;
-  font-size: 34px;
-  color: #0700EF;
+  font-size: 38px;
+  color: transparent;
+  background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
+  letter-spacing: .1em;
+  text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 1px #fff, -3px 0px 1px #fdfaf9, -2px 0px 1px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 0px 2px 1px  #988E8A,
+  0.5px 2.5px 1px  #988E8A, 1.4px 2px 1px  #988E8A,
+  2.7px 3px 1px  #988E8A, 3px 3px 3px  #988E8A,  3.3px 3px 3px #7A726E, 4px 3px 8px #7A726E;
+  color:transparent;
+  background: none;
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 9% 95%;
   background-repeat: no-repeat;
@@ -63,10 +80,13 @@ nav li a {
 }
 
 nav li a:hover, a:focus {
+  text-shadow:-2px 1px 2px #0700EF, -2px 0px 1px #8782ff, -2px 0px 1px #8782ff, 0px 1px 1px #050099, 0px 2px 1px  #050099,
+  0.5px 2.5px 1px  #050099, 1.4px 2px 1px  #050099,
+  2.7px 3px 1px  #050099, 3px 3px 3px  #050099,  3.3px 3px 1px #7A726E, 4px 3px 8px #7A726E;
   text-align: center;
   padding: 4px 16px;
   text-decoration: none;
-  font-size: 34px;
+  font-size: 38px;
   background-size: 100% 5px;
   font-family: 'Helvetica';
 }
@@ -117,72 +137,172 @@ nav li a:hover, a:focus {
 }
 
 /* big header blue words */
-h1.egg{
+.egg{
   font-size: 100px;
-  word-wrap: break-word;
-  color: #0700EF;
-  word-spacing: 1;
   text-align: left;
   padding-left: 5%;
-  line-height: 79%;
+  line-height: 89%;
   padding-top: 420px;
   padding-right: 10%;
   padding-left: 10%;
   padding-bottom: -10px;
-  font-family: 'Helvetica';
+  /* background: linear-gradient(to right,#005180 0%, #040078 60%); */
+  /* background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%); */
+/* background: #857c77;
+#857c77
+#c4b6af
+#ffece3
+#fff1eb
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+    text-shadow: rgba(238, 222, 215,0.45) 0px 3px 3px; */
+ /* I'm Lauren Harpole, a budding software engineer and developer who keeps human interaction in mind.  */
+ color: transparent;
+ background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
+ letter-spacing: .1em;
+ text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 3px #fff, -2px -1px 3px #fff, -2px 0px 2px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 1px 2px 1px  #988E8A,
+ 2px 3px 1px  #988E8A, 3px 4px 1px  #988E8A,
+ 4px 5px 2px  #988E8A, 5px 5px 7px  #7A726E,  5.5px 5px 1px #7A726E, 11px 7px 8px #7A726E;
+ color:transparent;
+ background: none;
 }
 
-/* section */
-.about-me{
-  padding-top: 5%;
-  margin-top: 4%;
-  margin-left: 4%;
-  margin-right: 4%;
-  border-radius: 12px;
-  -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  background: rgb(131,58,180);
-  background: linear-gradient(118deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
-  transition: 2.4s;
-}
 
-/* hover over section */
-.about-me:hover{
- transform:scale(1.05);
-  border-radius: 12px;
-  -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  background: rgb(131,58,180, 0.9);
-  background: linear-gradient(118deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
+h3.information {
+  font-size: 60px;
+  text-align: center;
+  color: transparent;
+  background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
+  letter-spacing: .2em;
+  text-shadow:-1px 1px 1px #F4EAE5,  -2px -1px 3px #fff, -2px 0px 2px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 1px 2px 1px  #988E8A,
+  2px 3px 1px  #988E8A, 3px 4px 1px  #988E8A,
+  4px 5px 2px  #988E8A, 5px 5px 7px  #7A726E,  5.5px 5px 1px #7A726E, 11px 7px 8px #7A726E;
+  color:transparent;
+  margin-left:0vw;
+    margin-bottom: -7vw;
+  background: none;
 }
-
+/* color: transparent;
+background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
+letter-spacing: .1em;
+text-shadow:-1px 2px 1px #817DF7, -2px 0px 1px #fff, 0px 1px 1px  #3933F2, 1px 2px 1px  #3933F2,
+2px 3px 1px  #3933F2, 3px 4px 1px  #3933F2,
+4px 5px 1px  #3933F2, 5px 6px 1px  #0700EF, 6px 7px 1px #0700EF,
+6px 8px 1px #0700EF, 7px 7px 1px #0700EF, 12px 12px 8px #857c77;
+color:transparent;
+background: none; */
 
 /* skill category titles */
 h2.skilltitle{
-  font-size: 4.4vw;
-  text-align: justify;
-  word-wrap: break-word;
-  text-align: center;
-  margin-top: 10%;
-  line-height: 49%;
-  color:rgb(255,255,255,0.9);
+  font-size: 55px;
+  padding-top: 40px;
+  text-align: left;
+  line-height: 0.9;
   font-family: 'Montserrat', sans-serif;
+  opacity: 1;
+  margin: 2px;
+  font-weight: 500;
+  border-radius: 5vw;
+
+  /* background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0px 3px 3px rgba(255,255,255,0.4); */
+  color: transparent;
+  background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
+  letter-spacing: .1em;
+  text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 1px #fdfaf9, -3px 0px 1px #fdfaf9, -2px 0px 1px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 0px 2px 1px  #988E8A,
+  0.5px 2.5px 1px  #988E8A, 1.4px 2px 1px  #988E8A,
+  2.7px 3px 1px  #988E8A, 3px 3px 3px  #988E8A,  3.3px 3px 1px #7A726E, 4px 3px 8px #7A726E;
+  color:transparent;
+  background: none;
+  margin-bottom: -60px;
+  margin-left: 7vw;
+}
+
+/* skills title neumorphism border */
+.neu-about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  margin-left: 35%;
+  margin-right: 41%;
+  width: 26.5%;
+  height: 0%;
+  border-radius: 1.6vw;
+  position: relative;
+  opacity: 1;
+  border: 0.45vw solid #eeded7;
+  box-shadow: -3px -3px 7px #ffffffb0, 3px 3px 5px rgba(94, 104, 121, 0.412);
+}
+
+/* skills title neumorphism border */
+.neu-about:after{
+  content: '';
+  position: absolute;
+  height: 98%;
+  width: 98%;
+  background-color: transparent;
+  border-radius: 1.6vw;
+  box-shadow: inset -3px -3px 7px rgba(94, 104, 121, 0.412), inset 3px 3px 5px rgba(94, 104, 121, 0.471);
+  opacity: 1;
+}
+
+/* skills title neumorphism border */
+.neu-about-skill{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  margin-left: 38%;
+  margin-right: 41%;
+  width: 21.3%;
+  height: 0%;
+  border-radius: 1.6vw;
+  position: relative;
+  opacity: 1;
+  border: 0.45vw solid #eeded7;
+  box-shadow: -3px -3px 7px #ffffffb0, 3px 3px 5px rgba(94, 104, 121, 0.412);
+}
+
+/* skills title neumorphism border */
+.neu-about-skill:after{
+  content: '';
+  position: absolute;
+  height: 98%;
+  width: 98%;
+  background-color: transparent;
+  border-radius: 1.6vw;
+  box-shadow: inset -3px -3px 7px rgba(94, 104, 121, 0.412), inset 3px 3px 5px rgba(94, 104, 121, 0.471);
+  opacity: 1;
 }
 
 /* the skills lists */
- p.skills{
-  color:rgb(255,255,255,0.85);
+p.skills{
   font-family: "Raleway", sans-serif;
   font-weight: 400;
+  font-size: 1.8vw;
+  letter-spacing: 1.3;
+  background: linear-gradient(95deg, rgb(0, 120, 254), #0700EF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  opacity: 0.85;
+  text-shadow: 0px 2px 3px rgba(255,255,255,0.4);
 }
 
 .row{
   display: flex;
   flex-direction:  row;
   flex-wrap: wrap;
-  padding-top: 5%;
+  padding-top: 1%;
   width:  100%;
   height: 100%;
 }
@@ -203,6 +323,37 @@ h2.skilltitle{
   text-align: center;
 }
 
+.row-about{
+  display: flex;
+  flex-direction:  row;
+  flex-wrap: wrap;
+  padding-top: 1%;
+  width:  100%;
+  height: 100%;
+}
+
+.column-about{
+  display: flex;
+  flex-direction:  column;
+  flex: .5;
+  align-items: center;
+  border-spacing: 5px;
+  margin: 10px;
+}
+
+.one-column-about, {
+  margin-bottom: 0px;
+  margin-left: -20px;
+  margin-right: -20px;
+  text-align: center;
+}
+
+.two-column-about {
+  margin-bottom: 0px;
+  margin-left: -20px;
+  margin-right: -20px;
+  text-align: center;
+}
 /*about css here */
 .row{
   display: flex;
@@ -221,32 +372,28 @@ h2.skilltitle{
   transition: 1.7s;
 }
 
-h2.about{
-  font-size: 4.4vw;
-  text-align: justify;
-  word-wrap: break-word;
-  text-align: center;
-  margin-right: 0%;
-  margin-left: 0%;
-  margin-top: 6px;
-  line-height: 49%;
-  color:rgb(255,255,255,0.9);
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-}
 
 /* about paragraph */
 p.about{
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-bottom: 5%;
-  margin-bottom: 10%;
   letter-spacing: 1.5;
-  line-height: 25px;
-  font-size: 18px;
-  color:rgb(255,255,255,0.85);
+  line-height: 1.5;
+  font-size: 17px;
+  padding-top: 3%;
+  padding-left: 14%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  /* background: #0700EF; */
+  background: linear-gradient(95deg, rgb(0, 120, 254), #0700EF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
   font-family:'Raleway', sans-serif;
-  font-weight: 400;
+  font-weight: bold;
+  width: 75%;
+  height:100%;
+  opacity: 0.85;
+  margin-bottom:10vh;
+  text-shadow: 0px 2px 3px rgba(255,255,255,0.4);
 }
 
 /*not actually section skills this section is about stuff */
@@ -259,12 +406,19 @@ section.skills{
 /* this is skills */
 h2.skills{
   padding-bottom: -15%;
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 2.1vw;
   text-align: center;
-  color:rgb(255,255,255,0.85);
-  font-family:'Raleway', sans-serif;
-  font-weight: 400;
+  color: transparent;
+  background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
+  letter-spacing: .1em;
+  text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 1px #fdfaf9, -3px 0px 1px #fdfaf9, -2px 0px 1px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 0px 2px 1px  #988E8A,
+  0.5px 2.5px 1px  #988E8A, 1.4px 2px 1px  #988E8A,
+1.5px 3px 1px  #988E8A, 1.6px 3px 3px  #988E8A,  1.7px 3px 1px #7A726E, 2px 2px 6px #7A726E;
+  color:transparent;
+  background: none;
+  opacity: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 /*footer css */
@@ -272,102 +426,16 @@ footer{
   margin-top: 10%;
   display:  flex;
   flex-direction: row;
-  background-color: #eeded7;
+  background-color: none;
   height: 100px;
   width: 100vw;
 }
-/* 
-footer row */
-.f-row{
-  display: flex;
-  flex-direction:  row;
-  flex-wrap: wrap;
-  padding-top: 5%;
-  width:  100%;
-  height: 100%;
-}
 
-/* footer col */
-.f-column{
-  display: flex;
-  flex: 1;
-  align-items: center;
-  border-spacing: 0px;
-}
-
-/* footer col */
-.f-one-column{
-  margin-bottom: 0px;
-  margin-left: 0%;
-  margin-right: 0px;
-  text-align: center;
-}
-
-/* footer col */
-.f-three-column{
-  flex-direction: row;
-  text-align: right;
-  margin-left: 20vw;
-}
-
-/* footer col links */
-.f-three-column ul {
-  list-style-type: none;
-  display:flex;
-  text-decoration: none;
-}
-
-/* footer col links */
-.f-three-column ul li  a {
-  margin: 5px;
-  text-decoration: none;
-  font-size: relative;
-  text-align: left;
-  color: #0700EF;
-  background-image: linear-gradient(currentColor, currentColor);
-  background-position: 9% 95%;
-  background-repeat: no-repeat;
-  background-size: 0% 5px;
-  transition: background-size .3s;
-}
-
-/* footer col links hover */
-.f-three-column ul li  a:hover, a:focus {
-    text-align: right;
-    text-decoration: none;
-    background-size: 100% 5px;
-}
-
-/* footer */
-h1.foot{
-  font-size: 6vw;
-  font-weight:normal;
-  margin-left: 5vw;
-  margin-right: 20vw; 
-  text-align: left;
-  color:#0700EF;
-}
-
-p.foot{
-font-size: 3.5vw;
-  font-weight:lighter;
-  margin-left: 5vw;
-  text-align: center
-  color:#0700EF;
-}
-}
-
-/* footer */
-h2.foot{
-  text-align: center;
-  padding-right: 0%;
-  color:#0700EF;
-}
 
 /* section hover*/
-.skill-background:hover {
+/* .skill-background:hover {
   transform:scale(1.05);
-  margin-top: 10%;
+  margin-top: 15%;
   padding-bottom: 4%;
   margin-left: 4%;
   margin-right: 4%;
@@ -375,24 +443,333 @@ h2.foot{
   -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
   -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
   box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
+} */
+
+/* section hover*/
+.skill-background {
+  /* padding-top: -9.5%; */
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left:3%;
+  margin-right: 3%;
+  margin-top: 10%;
+  border-radius: 12px;
+  align-items: center;
+  /* box-shadow:  5px 5px 31px #79716e,
+  -5px -5px 31px #ffffff; */
+  background: none;
+  margin-bottom:1%;
+  transition: 2.4s;
+  box-shadow:  5px 5px 10px #c1b4ae,
+  -5px -5px 10px #ffffff
 }
 
 /* section hover*/
-  .skill-background {
-    padding-top: .5%;
-    padding-bottom: 6%;
-    margin-left:4%;
-    margin-right: 4%;
-    border-radius: 12px;
-    -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    background: rgb(131,58,180, 0.9);
-    background: linear-gradient(118deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
-    transition: 2.4s;
-  }
+.contact-background {
+  /* padding-top: -9.5%; */
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left:3%;
+  margin-right: 3%;
+  margin-top: 10%;
+  border-radius: 12px;
+  align-items: center;
+  /* box-shadow:  5px 5px 31px #79716e,
+  -5px -5px 31px #ffffff; */
+  background: none;
+  margin-bottom:1%;
+  transition: 2.4s;
+  /* box-shadow:  5px 5px 10px #c1b4ae,
+  -5px -5px 10px #ffffff */
+}
 
-@media screen and (max-width: 1024px){
+
+/* section hover*/
+.contact-background {
+  padding-top: .5%;
+  padding-bottom: -10%;
+  margin-left:4%;
+  margin-right: 2%;
+  margin-top: 10%;
+  border-radius: 11px;
+  align-items: center;
+  /* box-shadow: 0px -29px 34px -4px #b3a6a1; */
+  background: none;
+  margin-bottom:5%;
+  transition: 2.4s;
+  /* border-top: 55px solid #b3a6a1; */
+}
+
+.chat {
+  padding-top: 20%;
+  margin-bottom: -5%;
+  width: 102vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2vw;
+  margin-top: 0vh;
+  margin-left: -10.9vw;
+}
+
+.messages {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 7%;
+}
+
+.message {
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 1px;
+  display: inline-block;
+}
+
+.yours {
+  align-items: flex-start;
+}
+
+.yours .message {
+  margin-right: 25%;
+  width: 250px;
+  background-color: #EEE;
+  position: relative;
+  border: 8px solid #eeded7;
+  background: linear-gradient(145deg, #EEE, #EEE);
+  box-shadow:  5px 5px 10px #c8bab5,
+               -5px -5px 10px #faf5f3;
+}
+
+.yours .message.last:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: -7px;
+  height: 20px;
+  width: 20px;
+  background: #EEE;
+  border-bottom-right-radius: 15px;
+}
+
+.yours .message.last:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: -7px;
+  width: 7px;
+  height: 20px;
+  background:#eeded7;
+  border-right: 11px;
+  border-bottom-right-radius: 10px;
+}
+
+.mine {
+  align-items: flex-end;
+}
+
+.mine .message {
+  color: white;
+  margin-left: 27%;
+  background: rgb(0, 120, 254);
+  position: relative;
+  border: 8px solid #eeded7;
+  background: linear-gradient(145deg, rgb(0, 120, 254), #0700EF);
+  box-shadow:  5px 5px 10px #c8bab5,
+               -5px -5px 10px #f5e9e6;
+}
+
+.mine .message.last:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  right: -4px;
+  height: 20px;
+  width: 20px;
+  background: #0700EF;
+  border-bottom-left-radius: 15px;
+}
+
+.mine .message.last:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: -7px;
+  width: 7px;
+  height: 20px;
+  background: #eeded7 ;
+  border-bottom-left-radius: 10px;
+}
+
+/* footer col */
+.f-three-column{
+  list-style-type: none;
+  display: block;
+  margin-left: vw;
+  margin-top: -1vh;
+  margin-bottom: -1vh;
+  font-size: 16px;
+  line-height: 0.9;
+  width: 145px;
+  margin-left: -5vh;
+}
+
+/* footer col links */
+.last ul li  a {
+  color: #fff;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 7% 95%;
+  background-repeat: no-repeat;
+  background-size: 0% 5px;
+  font-weight: 300;
+  font-family: "Helvetica";
+}
+/* skills title neumorphism border */
+.neu-skill{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 4%;
+  margin-left: 15%;
+  margin-right: 4%;
+  width: 70%;
+  height: 110%;
+  border-radius: 6vw;
+  /* box-shadow: 3px 3px 5px rgba(94, 104, 121, 0.412); */
+  box-shadow: inset 7px 7px 14px #c8bab5,
+              inset -7px -7px 14px #faf5f3;
+  position: relative;
+  opacity: 1;
+}
+
+/* skills title neumorphism border */
+/* .neu-skill:after{
+  content: '';
+  position: absolute;
+  height: 98%;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 6vw;
+  border: 3px solid #F4EAE5;
+  box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 2px rgba(94, 104, 121, 0.471);
+  opacity: 1;
+} */
+
+/* skills list inset neumorphism */
+.neu-skill-list {
+  background: none ;
+  /* the skill list boxes */
+  /* box-shadow: inset 11px 11px 22px #cabdb7,
+  inset -11px -11px 22px #fffff7; */
+  box-shadow: inset 5px 5px 10px #c1b4ae,
+  inset -5px -5px 10px #faf5f3;
+  border-radius: 0.7vw;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 1vh;
+}
+
+/* skills inset neumorphism title */
+.neu-skill-title{
+  width: 38%;
+  height: 90%;
+  border-radius: 3vw;
+  padding-top: 1%;
+  margin-left:31%;
+  margin-top: 9%;
+  opacity: 0.9;
+}
+
+/* skills body  neumorphism */
+.neu-skill-body{
+  background: #eeded7 ;
+  box-shadow: inset 7px 7px 14px #c1b4ae,
+  inset -7px -7px 14px #faf5f3;
+  width: 88%;
+  height: 100%;
+  border-radius: 3vw;
+  margin-left:3%;
+  margin-right:2%;
+  padding-left:3%;
+  padding-right:3%;
+  margin-top: 4%;
+  opacity: 1;
+  padding-top: 1%;
+}
+
+/* section hover*/
+.foot-background {
+  padding-top: .5%;
+  padding-bottom: 6%;
+  margin-left:0%;
+  margin-right: 3%;
+  margin-top: 10%;
+  border-radius: 9px;
+  align-items: center;
+  background: linear-gradient(145deg, #ffeee6, #d6c8c2);
+  box-shadow:  5px 5px 31px #79716e,
+  -5px -5px 31px #ffffff;
+  background: #d8c8c2 ;
+  margin-bottom:0%;
+  transition: 2.4s;
+  display: flex;
+  flex-direction:  row;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  width:  100%;
+  height: 170%;
+}
+
+@media screen and (max-width: 1100px){
+/* about paragraph */
+p.about{
+  letter-spacing: 1.5;
+  line-height: 1.5;
+  font-size: 16px;
+  padding-top: 9%;
+  padding-left: 14%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  background: linear-gradient(95deg, rgb(0, 120, 254), #0700EF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-family:'Raleway', sans-serif;
+  font-weight: bold;
+  width: 75%;
+  height:100%;
+  opacity: 1;
+  margin-bottom:10vh;
+}
+
+/* skill category titles */
+h2.skilltitle{
+  font-size: 55px;
+  padding-top: 9%;
+  text-align: left;
+  line-height: 0.9;
+  font-family: 'Montserrat', sans-serif;
+  opacity: 1;
+  margin: 2px;
+  font-weight: 500;
+  border-radius: 5vw;
+  /* background: linear-gradient(to right, rgb(0, 120, 254), #0700EF); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: -90px;
+  margin-left: 14%;
+}
+
+}
+@media screen and (max-width: 1000px){
   /*navigation*/
   nav ul {
     list-style-type: none;
@@ -404,20 +781,38 @@ h2.foot{
     float: right;
   }
 
+  img.title{
+    padding-top: 44px;
+    width: 50px;
+  }
+
   nav li a {
     text-align: right;
     padding: 3px 16px;
     text-decoration: none;
     font-size: 60px;
-    color: #0700EF;
-    background-image: linear-gradient(currentColor, currentColor);
+
+
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 5px;
     transition: background-size .3s;
+
+    color: transparent;
+    background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
+    letter-spacing: .1em;
+    text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 1px #fdfaf9, -3px 0px 1px #fdfaf9, -2px 0px 1px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 0px 2px 1px  #988E8A,
+    0.5px 2.5px 1px  #988E8A, 1.4px 2px 1px  #988E8A,
+    2.7px 3px 1px  #988E8A, 3px 3px 3px  #988E8A,  3.3px 3px 1px #7A726E, 4px 3px 8px #7A726E;
+    color:transparent;
+    background: none;
+
   }
 
   nav li a:hover, a:focus {
+    text-shadow:-2px 1px 2px #0700EF, -2px 0px 1px #8782ff, -2px 0px 1px #8782ff, 0px 1px 1px #050099, 0px 2px 1px  #050099,
+    0.5px 2.5px 1px  #050099, 1.4px 2px 1px  #050099,
+    2.7px 3px 1px  #050099, 3px 3px 3px  #050099,  3.3px 3px 1px #7A726E, 4px 3px 8px #7A726E;
     text-align: right;
     padding: 4px 16px;
     text-decoration: none;
@@ -425,155 +820,337 @@ h2.foot{
     background-size: 100% 5px;
   }
 
-  h1.egg{
-    font-size: 100px;
-    word-wrap: break-word;
-    color: #0700EF;
-    word-spacing: 1;
-    text-align: left;
-    padding-left: 5%;
-    line-height: 79%;
-    padding-top: 650px;
-    padding-right: 5%;
-    padding-left: 10%;
-    padding-bottom: -10px;
-  }
-
-  .f-three-column ul{
-    list-style-type: none;
-    display:inline;
-    text-decoration: none;
-    line-height: 0.5;
-    margin-top:-10px;
-    text-align: right;
-  }
-
-  .f-three-column ul li{
-    font-size: 24px;
+  .chat {
+    padding-top: 20%;
+    margin-bottom: -5%;
+    width: 102vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2vw;
+    margin-top: 0vh;
+    margin-left: -10.9vw;
   }
 
   img.in-modal{
-    height: 80vh;
-    margin-bottom: 45%;
-    size: cover;
-    overflow: hidden;
+    height: 700px;
+    width: 70vw;
     display: block;
-    transition: 2.7s ease;
-    margin-bottom: 5%;
+    margin-bottom: 0%;
     align-content: left;
-    padding-left: -14%;
-    -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
+    margin-left: 12%;
     display: block;
+    overflow: hidden;
     object-fit: cover;
-    transition: 2.4s ease;
-    border-radius: 12px;
-  }
-	
-  img.title{
-    display: flex;
-    float: left;
-    margin-top: 9px;
-    margin-left: 69px;
-    width: 50px;
-  }
 
-  h1.foot{
-    font-size: 24px;
-  }
+    /* padding-top: 20px; */
+    margin-top: 13vh;
+    border: 10px solid #eeded7;
+    /* transition: rotate(45); */
+    -webkit-border-radius:63px 63px 63px 63px/
+    108px 108px 72px 72px;
+    /* fails in Safari, but overwrites in Chrome */
+    border-radius:50% 50% 50% 40%/15% 60% 40% 90%;
+    box-shadow:  5px 5px 10px #ababab,
+    -5px -5px 10px #ffffff;
 
-  h2.about{
-    font-size: 2.4vw;
-    text-align: justify;
-    word-wrap: break-word;
-    text-align: center;
-    margin-right: 0%;
-    margin-left: 0%;
-    margin-top: 6px;
-    line-height: 49%;
-  }
-
-  p.about{
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-bottom: 5%;
-    margin-bottom: 10%;
-    letter-spacing: 1.5;
-    line-height: 50px;
-    font-size: 34px;
-  }
-
-  h2.skilltitle{
-    font-size: 2.4vw;
-    text-align: justify;
-    word-wrap: break-word;
-    text-align: center;
-    margin-top: 10%;
-    line-height: 49%;
-  }
-	
-.skill-background:hover {
-  transform:scale(1.05);
-  padding-top: 0%;
-  padding-bottom: 4%;
-  border-radius: 12px;
-  -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-}
-	
-  .skill-background {
-    padding-top: .5%;
-    padding-bottom: 6%;
-    margin-left: 4%;
-    margin-right: 4%;
-    border-radius: 12px;
-    -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    background: rgb(131,58,180);
-    background: linear-gradient(118deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
-    transition: 2.4s;
-  }
-
-  h2.skills{
-   font-size: 30px;
-  }
-
-   p.skills{
-    font-size: 24px;
-  }
-
-  .about-me{
-    padding-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 12px;
-    -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    background: rgb(131,58,180);
-    background: linear-gradient(118deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
-    transition: 2.4s;
-  }
-
-  .about-me:hover{
-    margin-top: 8%;
-    transform:scale(1.05);
-    border-radius: 12px;
-    -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-    background: rgb(131,58,180);
-    background: linear-gradient(118deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
   }
 
   img.in-modal:hover{
-    margin-bottom: 8%;
+    margin-bottom:7%;
     display: block;
     overflow: hidden;
     transform:scale(1.05);
+    box-shadow:  8px 8px 15px #ababab,
+    -8px -8px 15px #ffffff;
   }
+
+
+  /* skills title neumorphism border */
+  .neu-about-skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: 38%;
+    margin-right: 41%;
+    width: 21.3%;
+    height: 0%;
+    border-radius: 1.6vw;
+    position: relative;
+    opacity: 1;
+    border: 0.45vw solid #eeded7;
+    box-shadow: -3px -3px 7px #faf5f3, 3px 3px 5px rgba(94, 104, 121, 0.412);
+  }
+
+  /* skills title neumorphism border */
+  .neu-about-skill:after{
+    content: '';
+    position: absolute;
+    height: 98%;
+    width: 98%;
+    background-color: transparent;
+    border-radius: 1.6vw;
+    box-shadow: inset -3px -3px 7px rgba(94, 104, 121, 0.412), inset 3px 3px 5px rgba(94, 104, 121, 0.471);
+    opacity: 1;
+  }
+
+  /* the skills lists */
+  p.skills{
+    font-weight: 400;
+    letter-spacing: 1.3;
+    background: linear-gradient(95deg, rgb(0, 120, 254), #0700EF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    opacity: 0.85;
+    text-shadow: 0px 2px 3px rgba(255,255,255,0.4);
+    font-size: 2.8vw;
+  }
+
+
+  /*not actually section skills this section is about stuff */
+  section.skills{
+    padding-top: 20%;
+    padding-left:13%;
+    padding-right: 13%;
+  }
+
+  /* this is skills */
+  h2.skills{
+    padding-bottom: -15%;
+    font-size: 4vw;
+    text-align: center;
+    /* background: linear-gradient(95deg, rgb(0, 120, 254), #0700EF); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+
+  /* skills title neumorphism border */
+  .neu-about-skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: 38%;
+    margin-right: 41%;
+    width: 21.3%;
+    height: 0%;
+    border-radius: 1.6vw;
+    position: relative;
+    opacity: 1;
+    border: 0.45vw solid #eeded7;
+    box-shadow: -3px -3px 7px #ffffffb0, 3px 3px 5px rgba(94, 104, 121, 0.412);
+  }
+
+  /* skills title neumorphism border */
+  .neu-about-skill:after{
+    content: '';
+    position: absolute;
+    height: 98%;
+    width: 98%;
+    background-color: transparent;
+    border-radius: 1.6vw;
+    box-shadow: inset -3px -3px 7px rgba(94, 104, 121, 0.412), inset 3px 3px 5px rgba(94, 104, 121, 0.471);
+    opacity: 1;
+  }
+
+  .row-about{
+    display: flex;
+    flex-direction:  column;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    width:  100%;
+    height: 100%;
+  }
+
+  .column-about{
+    display: flex;
+    flex-direction:  column;
+    flex: 1;
+    align-items: center;
+    border-spacing: 5px;
+    margin: 10px;
+  }
+
+  .one-column-about{
+    margin-bottom: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    text-align: center;
+    width:  100%;
+  }
+
+  .two-column-about{
+    margin-bottom: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    text-align: center;
+    width:  100%;
+  }
+
+  /* skill category titles */
+  h2.skilltitle{
+    font-size: 75px;
+    padding-top: 40px;
+    text-align: center;
+    line-height: 0.9;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 1;
+    margin: 2px;
+    font-weight: 500;
+    border-radius: 5vw;
+    /* background: linear-gradient(to right, rgb(0, 120, 254), #0700EF); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* border: 2vw solid #eeded7; */
+    margin-bottom: -60px;
+    margin-left: 6vw;
+  }
+
+  /* about paragraph */
+  p.about{
+    letter-spacing: 1.5;
+    line-height: 1.5;
+    font-size: 24px;
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    background: linear-gradient(95deg, rgb(0, 120, 254), #0700EF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    font-family:'Raleway', sans-serif;
+    font-weight: bold;
+    width: 75%;
+    height:100%;
+    opacity: 1;
+    margin-bottom:10vh;
+  }
+
+
+  .row{
+    display: flex;
+    flex-direction:  column;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    width:  98.5%;
+    height: 100%;
+
+  }
+
+  .column{
+    display: flex;
+    flex-direction:  column;
+    flex: .5;
+    align-items: center;
+    border-spacing: 5px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-bottom: 9vh;
+    margin-top: 9vh;
+  }
+
+  .one-column, .two-column, .three-column{
+    margin-bottom: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    text-align: center;
+    height: 10%;
+  }
+  /* section hover*/
+  .skill-background {
+    /* padding-top: -9.5%; */
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left:9%;
+    margin-right: 3%;
+    margin-top: 10%;
+    border-radius: 12px;
+    align-items: center;
+    width: 80%;
+    /* box-shadow:  5px 5px 31px #79716e,
+    -5px -5px 31px #ffffff; */
+    background: #eeded7 ;
+    margin-bottom:1%;
+    transition: 2.4s;
+    box-shadow:  5px 5px 10px #c1b4ae,
+    -5px -5px 10px #ffffff
+  }
+
+  /* skills title neumorphism border */
+  .neu-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 19%;
+    margin-right: 4%;
+    width: 60%;
+    height: 0%;
+    /* border-radius: 6vw; */
+    text-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.612);
+    position: relative;
+    opacity: 1;
+    line-height: 0;
+    /* background-color:#fff; */
+    border-top: 30px dotted #000;
+  }
+
+  /* skills title neumorphism border */
+  span.neu-line{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-left: 22%;
+    margin-right: 4%;
+    width: 60%;
+    height: 1%;
+    border-radius: 0.2vw;
+    background-color:#fff;
+    border-bottom: 1px dotted #fffbf3; */
+    /* box-shadow:  5px 5px 6px #837a76,
+             -5px -5px 10px #fffbf3; */
+    /* position: relative;
+    opacity: 1;
+    line-height: 0.5; */
+
+  }
+
+  /* skills list inset neumorphism */
+  .neu-skill-list {
+    background: #eeded7 ;
+    /* the skill list boxes */
+    box-shadow: inset 11px 11px 22px #cabdb7,
+    inset -11px -11px 22px #fffff7;
+    box-shadow: inset 10px 10px 20px #aba09b,
+            inset -10px -10px 20px #ffffff;
+    border-radius: 3vw;
+    height: 100%;
+    width: 102%;
+    padding-bottom: 1vh;
+  }
+  /* skills title neumorphism border */
+  .neu-line:after{
+    /* content: '';
+    position: absolute;
+    height: 3%;
+    width: 98%;
+    background-color: transparent;
+    border-radius: 6vw;
+    box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.471);
+    opacity: 1; */
+  }
+
 
 }
