@@ -1,4 +1,3 @@
-
 body {
   background: linear-gradient(100deg, #ffeee6, #d6c8c2);
   font-family: 'Helvetica';
@@ -146,19 +145,6 @@ nav li a:hover, a:focus {
   padding-right: 10%;
   padding-left: 10%;
   padding-bottom: -10px;
-  /* background: linear-gradient(to right,#005180 0%, #040078 60%); */
-  /* background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%); */
-/* background: #857c77;
-#857c77
-#c4b6af
-#ffece3
-#fff1eb
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
-    text-shadow: rgba(238, 222, 215,0.45) 0px 3px 3px; */
- /* I'm Lauren Harpole, a budding software engineer and developer who keeps human interaction in mind.  */
  color: transparent;
  background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
  letter-spacing: .1em;
@@ -184,15 +170,6 @@ h3.information {
     margin-bottom: -7vw;
   background: none;
 }
-/* color: transparent;
-background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
-letter-spacing: .1em;
-text-shadow:-1px 2px 1px #817DF7, -2px 0px 1px #fff, 0px 1px 1px  #3933F2, 1px 2px 1px  #3933F2,
-2px 3px 1px  #3933F2, 3px 4px 1px  #3933F2,
-4px 5px 1px  #3933F2, 5px 6px 1px  #0700EF, 6px 7px 1px #0700EF,
-6px 8px 1px #0700EF, 7px 7px 1px #0700EF, 12px 12px 8px #857c77;
-color:transparent;
-background: none; */
 
 /* skill category titles */
 h2.skilltitle{
@@ -205,13 +182,6 @@ h2.skilltitle{
   margin: 2px;
   font-weight: 500;
   border-radius: 5vw;
-
-  /* background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
-  text-shadow: 0px 3px 3px rgba(255,255,255,0.4); */
   color: transparent;
   background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
   letter-spacing: .1em;
@@ -502,6 +472,7 @@ footer{
   /* border-top: 55px solid #b3a6a1; */
 }
 
+/* general messages section */
 .chat {
   padding-top: 20%;
   margin-bottom: -5%;
@@ -512,7 +483,7 @@ footer{
   margin-top: 0vh;
   margin-left: -10.9vw;
 }
-
+/* placement for messages sections */
 .messages {
   margin-top: 0px;
   display: flex;
@@ -520,6 +491,7 @@ footer{
   margin-left: 7%;
 }
 
+/* shaping of messages */
 .message {
   border-radius: 20px;
   padding: 8px 15px;
@@ -529,10 +501,12 @@ footer{
   display: inline-block;
 }
 
+/* gray messages  */
 .yours {
   align-items: flex-start;
 }
 
+/* gray messages  */
 .yours .message {
   margin-right: 25%;
   width: 250px;
@@ -544,6 +518,7 @@ footer{
                -5px -5px 10px #faf5f3;
 }
 
+/* gray messages  */
 .yours .message.last:before {
   content: "";
   position: absolute;
@@ -556,6 +531,7 @@ footer{
   border-bottom-right-radius: 15px;
 }
 
+/* gray messages  */
 .yours .message.last:after {
   content: "";
   position: absolute;
@@ -569,13 +545,15 @@ footer{
   border-bottom-right-radius: 10px;
 }
 
+/* blue messages  */
 .mine {
   align-items: flex-end;
 }
 
+/* blue messages  */
 .mine .message {
   color: white;
-  margin-left: 27%;
+  margin-left: 18%;
   background: rgb(0, 120, 254);
   position: relative;
   border: 8px solid #eeded7;
@@ -583,7 +561,7 @@ footer{
   box-shadow:  5px 5px 10px #c8bab5,
                -5px -5px 10px #f5e9e6;
 }
-
+/* blue messages  */
 .mine .message.last:before {
   content: "";
   position: absolute;
@@ -595,7 +573,7 @@ footer{
   background: #0700EF;
   border-bottom-left-radius: 15px;
 }
-
+/* blue messages  */
 .mine .message.last:after {
   content: "";
   position: absolute;
@@ -608,7 +586,7 @@ footer{
   border-bottom-left-radius: 10px;
 }
 
-/* footer col */
+/* blue message link list */
 .f-three-column{
   list-style-type: none;
   display: block;
@@ -643,32 +621,15 @@ footer{
   width: 70%;
   height: 110%;
   border-radius: 6vw;
-  /* box-shadow: 3px 3px 5px rgba(94, 104, 121, 0.412); */
   box-shadow: inset 7px 7px 14px #c8bab5,
               inset -7px -7px 14px #faf5f3;
   position: relative;
   opacity: 1;
 }
 
-/* skills title neumorphism border */
-/* .neu-skill:after{
-  content: '';
-  position: absolute;
-  height: 98%;
-  width: 100%;
-  background-color: transparent;
-  border-radius: 6vw;
-  border: 3px solid #F4EAE5;
-  box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 2px rgba(94, 104, 121, 0.471);
-  opacity: 1;
-} */
-
 /* skills list inset neumorphism */
 .neu-skill-list {
   background: none ;
-  /* the skill list boxes */
-  /* box-shadow: inset 11px 11px 22px #cabdb7,
-  inset -11px -11px 22px #fffff7; */
   box-shadow: inset 5px 5px 10px #c1b4ae,
   inset -5px -5px 10px #faf5f3;
   border-radius: 0.7vw;
@@ -729,6 +690,15 @@ footer{
 }
 
 @media screen and (max-width: 1100px){
+
+    /*intro text*/
+    .egg{
+      font-size: 110px;
+      word-wrap: break-word;
+      width:80%;
+      margin-left: -2vw;
+    }
+
 /* about paragraph */
 p.about{
   letter-spacing: 1.5;
@@ -761,7 +731,6 @@ h2.skilltitle{
   margin: 2px;
   font-weight: 500;
   border-radius: 5vw;
-  /* background: linear-gradient(to right, rgb(0, 120, 254), #0700EF); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: -90px;
@@ -769,7 +738,31 @@ h2.skilltitle{
 }
 
 }
+
+  /*mobile state*/
 @media screen and (max-width: 1000px){
+  /*intro text*/
+  .egg{
+    font-size: 120px;
+    word-wrap: break-word;
+    width:80%;
+    margin-left: -2vw;
+  }
+
+  .f-three-column{
+    font-size: 30px;
+    margin-left: 1vw;
+  }
+
+
+  body {
+  font-size: 38px;
+  }
+
+  /* blue messages  */
+  .mine .message.last{
+    width: 350px;
+  }
   /*navigation*/
   nav ul {
     list-style-type: none;
@@ -790,18 +783,15 @@ h2.skilltitle{
     text-align: right;
     padding: 3px 16px;
     text-decoration: none;
-    font-size: 60px;
-
-
+    font-size: 70px;
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 5px;
     transition: background-size .3s;
-
     color: transparent;
     background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
     letter-spacing: .1em;
-    text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 1px #fdfaf9, -3px 0px 1px #fdfaf9, -2px 0px 1px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 0px 2px 1px  #988E8A,
+    text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 3px #fdfaf9, -3px 0px 2px #fdfaf9, -2px 0px 1px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 0px 2px 1px  #988E8A,
     0.5px 2.5px 1px  #988E8A, 1.4px 2px 1px  #988E8A,
     2.7px 3px 1px  #988E8A, 3px 3px 3px  #988E8A,  3.3px 3px 1px #7A726E, 4px 3px 8px #7A726E;
     color:transparent;
@@ -816,7 +806,7 @@ h2.skilltitle{
     text-align: right;
     padding: 4px 16px;
     text-decoration: none;
-    font-size: 60px;
+    font-size: 70px;
     background-size: 100% 5px;
   }
 
@@ -833,37 +823,23 @@ h2.skilltitle{
 
   img.in-modal{
     height: 700px;
-    width: 70vw;
+    width: 80vw;
     display: block;
     margin-bottom: 0%;
     align-content: left;
-    margin-left: 12%;
+    margin-left: 7%;
     display: block;
     overflow: hidden;
     object-fit: cover;
-
-    /* padding-top: 20px; */
     margin-top: 13vh;
     border: 10px solid #eeded7;
-    /* transition: rotate(45); */
     -webkit-border-radius:63px 63px 63px 63px/
     108px 108px 72px 72px;
     /* fails in Safari, but overwrites in Chrome */
     border-radius:50% 50% 50% 40%/15% 60% 40% 90%;
     box-shadow:  5px 5px 10px #ababab,
     -5px -5px 10px #ffffff;
-
   }
-
-  img.in-modal:hover{
-    margin-bottom:7%;
-    display: block;
-    overflow: hidden;
-    transform:scale(1.05);
-    box-shadow:  8px 8px 15px #ababab,
-    -8px -8px 15px #ffffff;
-  }
-
 
   /* skills title neumorphism border */
   .neu-about-skill{
@@ -908,7 +884,6 @@ h2.skilltitle{
     font-size: 2.8vw;
   }
 
-
   /*not actually section skills this section is about stuff */
   section.skills{
     padding-top: 20%;
@@ -921,7 +896,6 @@ h2.skilltitle{
     padding-bottom: -15%;
     font-size: 4vw;
     text-align: center;
-    /* background: linear-gradient(95deg, rgb(0, 120, 254), #0700EF); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     opacity: 1;
@@ -959,6 +933,7 @@ h2.skilltitle{
     opacity: 1;
   }
 
+  /* about flex box */
   .row-about{
     display: flex;
     flex-direction:  column;
@@ -967,7 +942,7 @@ h2.skilltitle{
     width:  100%;
     height: 100%;
   }
-
+  /* about flex box */
   .column-about{
     display: flex;
     flex-direction:  column;
@@ -976,7 +951,7 @@ h2.skilltitle{
     border-spacing: 5px;
     margin: 10px;
   }
-
+  /* about flex box */
   .one-column-about{
     margin-bottom: 0px;
     margin-left: -20px;
@@ -984,7 +959,7 @@ h2.skilltitle{
     text-align: center;
     width:  100%;
   }
-
+  /* about flex box */
   .two-column-about{
     margin-bottom: 0px;
     margin-left: -20px;
@@ -995,8 +970,8 @@ h2.skilltitle{
 
   /* skill category titles */
   h2.skilltitle{
-    font-size: 75px;
-    padding-top: 40px;
+    font-size: 85px;
+    padding-top: 0px;
     text-align: center;
     line-height: 0.9;
     font-family: 'Montserrat', sans-serif;
@@ -1004,10 +979,8 @@ h2.skilltitle{
     margin: 2px;
     font-weight: 500;
     border-radius: 5vw;
-    /* background: linear-gradient(to right, rgb(0, 120, 254), #0700EF); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* border: 2vw solid #eeded7; */
     margin-bottom: -60px;
     margin-left: 6vw;
   }
@@ -1032,8 +1005,7 @@ h2.skilltitle{
     opacity: 1;
     margin-bottom:10vh;
   }
-
-
+  /* skill flex box */
   .row{
     display: flex;
     flex-direction:  column;
@@ -1041,9 +1013,8 @@ h2.skilltitle{
     padding-top: 1%;
     width:  98.5%;
     height: 100%;
-
   }
-
+/* skill flex box */
   .column{
     display: flex;
     flex-direction:  column;
@@ -1056,7 +1027,7 @@ h2.skilltitle{
     margin-bottom: 9vh;
     margin-top: 9vh;
   }
-
+/* skill flex box */
   .one-column, .two-column, .three-column{
     margin-bottom: 0px;
     margin-left: -20px;
@@ -1064,9 +1035,9 @@ h2.skilltitle{
     text-align: center;
     height: 10%;
   }
+
   /* section hover*/
   .skill-background {
-    /* padding-top: -9.5%; */
     padding-bottom: 1%;
     padding-left: 1%;
     padding-right: 1%;
@@ -1076,8 +1047,6 @@ h2.skilltitle{
     border-radius: 12px;
     align-items: center;
     width: 80%;
-    /* box-shadow:  5px 5px 31px #79716e,
-    -5px -5px 31px #ffffff; */
     background: #eeded7 ;
     margin-bottom:1%;
     transition: 2.4s;
@@ -1096,41 +1065,16 @@ h2.skilltitle{
     margin-right: 4%;
     width: 60%;
     height: 0%;
-    /* border-radius: 6vw; */
     text-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.612);
     position: relative;
     opacity: 1;
     line-height: 0;
-    /* background-color:#fff; */
     border-top: 30px dotted #000;
-  }
-
-  /* skills title neumorphism border */
-  span.neu-line{
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3%;
-    margin-bottom: 4%;
-    margin-left: 22%;
-    margin-right: 4%;
-    width: 60%;
-    height: 1%;
-    border-radius: 0.2vw;
-    background-color:#fff;
-    border-bottom: 1px dotted #fffbf3; */
-    /* box-shadow:  5px 5px 6px #837a76,
-             -5px -5px 10px #fffbf3; */
-    /* position: relative;
-    opacity: 1;
-    line-height: 0.5; */
-
   }
 
   /* skills list inset neumorphism */
   .neu-skill-list {
-    background: #eeded7 ;
-    /* the skill list boxes */
+    background: #eeded7;
     box-shadow: inset 11px 11px 22px #cabdb7,
     inset -11px -11px 22px #fffff7;
     box-shadow: inset 10px 10px 20px #aba09b,
@@ -1140,17 +1084,5 @@ h2.skilltitle{
     width: 102%;
     padding-bottom: 1vh;
   }
-  /* skills title neumorphism border */
-  .neu-line:after{
-    /* content: '';
-    position: absolute;
-    height: 3%;
-    width: 98%;
-    background-color: transparent;
-    border-radius: 6vw;
-    box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.471);
-    opacity: 1; */
-  }
-
 
 }
