@@ -48,16 +48,6 @@ img.in-modal{
 }
 
 
-img.in-modal:hover{
-  margin-bottom:7%;
-  display: block;
-  overflow: hidden;
-  transform:scale(1.05);
-  box-shadow:  8px 8px 15px #ababab,
-  -8px -8px 15px #ffffff;
-  transition: 2.4s ease;
-}
-
 nav li a {
   text-align: center;
   padding: 4px 16px;
@@ -401,20 +391,6 @@ footer{
   width: 100vw;
 }
 
-
-/* section hover*/
-/* .skill-background:hover {
-  transform:scale(1.05);
-  margin-top: 15%;
-  padding-bottom: 4%;
-  margin-left: 4%;
-  margin-right: 4%;
-  border-radius: 12px;
-  -webkit-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  -moz-box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-  box-shadow: 0px 3px 39px 16px rgba(0,0,0,0.24);
-} */
-
 /* section hover*/
 .skill-background {
   /* padding-top: -9.5%; */
@@ -740,10 +716,10 @@ h2.skilltitle{
 }
 
   /*mobile state*/
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1010px){
   /*intro text*/
   .egg{
-    font-size: 120px;
+    font-size: 150px;
     word-wrap: break-word;
     width:80%;
     margin-left: -2vw;
@@ -776,7 +752,7 @@ h2.skilltitle{
 
   img.title{
     padding-top: 44px;
-    width: 50px;
+    width: 80px;
   }
 
   nav li a {
@@ -791,7 +767,7 @@ h2.skilltitle{
     color: transparent;
     background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
     letter-spacing: .1em;
-    text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 3px #fdfaf9, -3px 0px 2px #fdfaf9, -2px 0px 1px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 0px 2px 1px  #988E8A,
+    text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 2px #fdfaf9, -3px 0px 2px #fdfaf9, -2px 0px 1px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 0px 2px 1px  #988E8A,
     0.5px 2.5px 1px  #988E8A, 1.4px 2px 1px  #988E8A,
     2.7px 3px 1px  #988E8A, 3px 3px 3px  #988E8A,  3.3px 3px 1px #7A726E, 4px 3px 8px #7A726E;
     color:transparent;
