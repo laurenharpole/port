@@ -71,6 +71,7 @@ nav li a:hover, a:focus {
   text-align: center;
   padding: 4px 16px;
   text-decoration: none;
+  color: transparent;
   font-size: 38px;
   background-size: 100% 5px;
   font-family: 'Helvetica';
@@ -94,33 +95,6 @@ nav li a:hover, a:focus {
   width:100vw;
 }
 
-.parallax2:nth-of-type(1) {
-  background-image:   url('index_files/bckgrnd.png');
-  height:120vh;
-}
-
-.parallax:nth-of-type(1) {
-  background-image:   url('index_files/bckgrnd.png');
-  height:120vh;
-  overflow: hidden;
-}
-
-.parallax:nth-of-type(2) {
-  background-image:   url('port_files/GTXP2141.jpg');
-  height:65vh;
-  border-radius: 48px;
-  width: 70vw;
-  margin-left: 15%;
-}
-
-.parallax:nth-of-type(3) {
-  background-image:   url('port_files/bckgrnd.png');
-  background-image: blur(10px);
-  height:85vh;
-  width: 80vw;
-  border-radius: 48px;
-}
-
 /* big header blue words */
 .egg{
   font-size: 100px;
@@ -131,24 +105,24 @@ nav li a:hover, a:focus {
   padding-right: 10%;
   padding-left: 10%;
   padding-bottom: -10px;
- color: transparent;
- background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
- letter-spacing: .1em;
- text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 3px #fff, -2px -1px 3px #fff, -2px 0px 2px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 1px 2px 1px  #988E8A,
- 2px 3px 1px  #988E8A, 3px 4px 1px  #988E8A,
- 4px 5px 2px  #988E8A, 5px 5px 7px  #7A726E,  5.5px 5px 1px #7A726E, 11px 7px 8px #7A726E;
- color:transparent;
- background: none;
+  color: transparent;
+  background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
+  letter-spacing: .1em;
+  text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 3px #fff, -2px -1px 3px #fff, -2px 0px 2px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 1px 2px 1px  #988E8A,
+  2px 3px 1px  #988E8A, 3px 4px 1px  #988E8A,
+  4px 5px 2px  #988E8A, 5px 5px 7px  #7A726E,  5.5px 5px 1px #7A726E, 11px 7px 8px #7A726E;
+  color:transparent;
+  background: none;
 }
 
-
+/* bottom header */
 h3.information {
   font-size: 60px;
   text-align: center;
   color: transparent;
   background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
   letter-spacing: .2em;
-  text-shadow:-1px 1px 1px #eeded7,  -2px -1px 3px #F4EAE5, -2px 0px 2px #fdfaf9,
+  text-shadow:-1px 1px 1px #F4EAE5,  -2px -1px 3px #fff, -2px 0px 2px #fdfaf9,
   -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 1px 2px 1px  #988E8A,
   2px 3px 1px  #988E8A, 3px 4px 1px  #988E8A,
   4px 5px 2px  #988E8A, 5px 5px 7px  #7A726E,  5.5px 5px 1px #7A726E,
@@ -317,21 +291,6 @@ p.skills{
   margin-right: -20px;
   text-align: center;
 }
-/*about css here */
-.row{
-  display: flex;
-  flex-direction:  row;
-  flex-wrap: wrap;
-  align-items: bottom;
-  justify-content: center;
-}
-
-.column{
-  display: flex;
-  flex-direction:  column;
-  height: auto;
-  justify-content: center;
-}
 
 
 /* about paragraph */
@@ -374,7 +333,7 @@ h2.skills{
   letter-spacing: .1em;
   text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 1px #fdfaf9, -3px 0px 1px #fdfaf9, -2px 0px 1px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 0px 2px 1px  #988E8A,
   0.5px 2.5px 1px  #988E8A, 1.4px 2px 1px  #988E8A,
-1.5px 3px 1px  #988E8A, 1.6px 3px 3px  #988E8A,  1.7px 3px 1px #7A726E, 2px 2px 6px #7A726E;
+  1.5px 3px 1px  #988E8A, 1.6px 3px 3px  #988E8A,  1.7px 3px 1px #7A726E, 2px 2px 6px #7A726E;
   color:transparent;
   background: none;
   opacity: 1;
@@ -410,24 +369,9 @@ footer{
 
 /* section hover*/
 .contact-background {
-  padding-bottom: 1%;
-  padding-left: 1%;
-  padding-right: 1%;
-  margin-left:3%;
-  margin-right: 3%;
-  margin-top: 10%;
-  border-radius: 12px;
-  align-items: center;
-  background: none;
-  margin-bottom:1%;
-  transition: 2.4s;
-}
-
-/* section hover*/
-.contact-background {
   padding-top: .5%;
   padding-bottom: -10%;
-  margin-left:4%;
+  margin-left:5%;
   margin-right: 2%;
   margin-top: 10%;
   border-radius: 11px;
@@ -458,7 +402,7 @@ footer{
 
 /* shaping of messages */
 .message {
-  border-radius: 20px;
+  border-radius: 29px;
   padding: 8px 15px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -480,7 +424,7 @@ footer{
   border: 8px solid #eeded7;
   background: linear-gradient(145deg, #EEE, #EEE);
   box-shadow:  5px 5px 10px #c8bab5,
-               -5px -5px 10px #faf5f3;
+  -5px -5px 10px #faf5f3;
 }
 
 /* gray messages  */
@@ -524,7 +468,7 @@ footer{
   border: 8px solid #eeded7;
   background: linear-gradient(145deg, rgb(0, 120, 254), #0700EF);
   box-shadow:  5px 5px 10px #c8bab5,
-               -5px -5px 10px #f5e9e6;
+  -5px -5px 10px #f5e9e6;
 }
 /* blue messages  */
 .mine .message.last:before {
@@ -571,7 +515,7 @@ footer{
   background-position: 7% 95%;
   background-repeat: no-repeat;
   background-size: 0% 5px;
-  font-weight: 300;
+  font-weight: 400;
   font-family: "Helvetica";
 }
 /* skills title neumorphism border */
@@ -587,7 +531,7 @@ footer{
   height: 110%;
   border-radius: 6vw;
   box-shadow: inset 7px 7px 14px #c8bab5,
-              inset -7px -7px 14px #faf5f3;
+  inset -7px -7px 14px #faf5f3;
   position: relative;
   opacity: 1;
 }
@@ -631,79 +575,57 @@ footer{
   padding-top: 1%;
 }
 
-/* section hover*/
-.foot-background {
-  padding-top: .5%;
-  padding-bottom: 6%;
-  margin-left:0%;
-  margin-right: 3%;
-  margin-top: 10%;
-  border-radius: 9px;
-  align-items: center;
-  background: linear-gradient(145deg, #ffeee6, #d6c8c2);
-  box-shadow:  5px 5px 31px #79716e,
-  -5px -5px 31px #ffffff;
-  background: #d8c8c2 ;
-  margin-bottom:0%;
-  display: flex;
-  flex-direction:  row;
-  flex-wrap: wrap;
-  padding-top: 5%;
-  width:  100%;
-  height: 170%;
-}
-
 @media screen and (max-width: 1100px){
 
-    /*intro text*/
-    .egg{
-      font-size: 110px;
-      word-wrap: break-word;
-      width:80%;
-      margin-left: -2vw;
-    }
+  /*intro text*/
+  .egg{
+    font-size: 110px;
+    word-wrap: break-word;
+    width:80%;
+    margin-left: -2vw;
+  }
 
-/* about paragraph */
-p.about{
-  letter-spacing: 1.5;
-  line-height: 1.5;
-  font-size: 16px;
-  padding-top: 9%;
-  padding-left: 14%;
-  padding-right: 5%;
-  padding-bottom: 3%;
-  background: linear-gradient(95deg, rgb(0, 120, 254), #0700EF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: left;
-  font-family:'Raleway', sans-serif;
-  font-weight: bold;
-  width: 75%;
-  height:100%;
-  opacity: 1;
-  margin-bottom:0vh;
+  /* about paragraph */
+  p.about{
+    letter-spacing: 1.5;
+    line-height: 1.5;
+    font-size: 16px;
+    padding-top: 9%;
+    padding-left: 14%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    background: linear-gradient(95deg, rgb(0, 120, 254), #0700EF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    font-family:'Raleway', sans-serif;
+    font-weight: bold;
+    width: 75%;
+    height:100%;
+    opacity: 1;
+    margin-bottom:0vh;
+  }
+
+  /* skill category titles */
+  h2.skilltitle{
+    font-size: 55px;
+    padding-top: 9%;
+    text-align: left;
+    line-height: 0.9;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 1;
+    margin: 2px;
+    font-weight: 500;
+    border-radius: 5vw;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: -90px;
+    margin-left: 14%;
+  }
+
 }
 
-/* skill category titles */
-h2.skilltitle{
-  font-size: 55px;
-  padding-top: 9%;
-  text-align: left;
-  line-height: 0.9;
-  font-family: 'Montserrat', sans-serif;
-  opacity: 1;
-  margin: 2px;
-  font-weight: 500;
-  border-radius: 5vw;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: -90px;
-  margin-left: 14%;
-}
-
-}
-
-  /*mobile state*/
+/*mobile state*/
 @media screen and (max-width: 1010px){
   /*intro text*/
   .egg{
@@ -718,7 +640,7 @@ h2.skilltitle{
     margin-left: 0.5vw;
   }
 
-/* bottom header */
+  /* bottom header */
   h3.information {
     font-size: 10vw;
     margin-bottom: -6vh;
@@ -731,7 +653,7 @@ h2.skilltitle{
   }
 
   body {
-  font-size: 38px;
+    font-size: 38px;
   }
 
   /* blue messages  */
@@ -775,10 +697,12 @@ h2.skilltitle{
   }
 
   nav li a:hover, a:focus {
+    color: transparent;
     text-shadow:-2px 1px 2px #0700EF, -2px 0px 1px #8782ff, -2px 0px 1px #8782ff, 0px 1px 1px #050099, 0px 2px 1px  #050099,
     0.5px 2.5px 1px  #050099, 1.4px 2px 1px  #050099,
     2.7px 3px 1px  #050099, 3px 3px 3px  #050099,  3.3px 3px 1px #7A726E, 4px 3px 8px #7A726E;
     text-align: right;
+    color: transparent;
     padding: 4px 16px;
     text-decoration: none;
     font-size: 70px;
@@ -980,6 +904,7 @@ h2.skilltitle{
     opacity: 1;
     margin-bottom:6vh;
   }
+
   /* skill flex box */
   .row{
     display: flex;
@@ -989,7 +914,7 @@ h2.skilltitle{
     width:  98.5%;
     height: 100%;
   }
-/* skill flex box */
+  /* skill flex box */
   .column{
     display: flex;
     flex-direction:  column;
@@ -1002,7 +927,8 @@ h2.skilltitle{
     margin-bottom: 9vh;
     margin-top: 9vh;
   }
-/* skill flex box */
+
+  /* skill flex box */
   .one-column, .two-column, .three-column{
     margin-bottom: 0px;
     margin-left: -20px;
@@ -1052,7 +978,7 @@ h2.skilltitle{
     box-shadow: inset 11px 11px 22px #cabdb7,
     inset -11px -11px 22px #fffff7;
     box-shadow: inset 10px 10px 20px #aba09b,
-            inset -10px -10px 20px #ffffff;
+    inset -10px -10px 20px #ffffff;
     border-radius: 3vw;
     height: 100%;
     width: 102%;
