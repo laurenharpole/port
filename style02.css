@@ -29,7 +29,7 @@ img.title{
 
 /* launch the site button */
 .launch a {
-               color: rgba(0,0,0,0.7);
+               color: rgba(220, 232, 245,0.97);
                text-decoration: none;
                margin-top: 1vh;
                margin-bottom: 5vh;
@@ -41,16 +41,16 @@ img.title{
                padding-left: 4vw;
                padding-right: 6vw;
                padding-top: 2vh;
-
                padding-bottom: 2vh;
                border: 2px solid rgba(255,255,255,0.7);
-             background: linear-gradient(145deg, #d3d8df, #d3d8df);
+             background: linear-gradient(145deg, rgb(0, 120, 254), #0700EF);
              box-shadow:  5px 5px 10px #8a8e92,
               -5px -5px 10px #d0d6db;
 }
 
 p.launch{
-  text-align: center;
+  text-align: left;
+  margin-left: 2%;
 }
 
 img.in-modal{
@@ -514,7 +514,7 @@ img.photo-modal:hover {
 h4.data {
   color:  #fcfdff;
   margin-top: 2vh;
-  margin-left: 3%;
+  margin-left: 4%;
   font-weight: bold;
   line-height: 0.8;
   text-align: center;
@@ -532,7 +532,7 @@ h4.data {
 h4.vis {
   color:  #fcfdff;
   margin-top: 2vh;
-    margin-left: 3%;
+    margin-left: 4%;
   font-weight: bold;
   line-height: 0.8;
   text-align: center;
@@ -550,7 +550,7 @@ h4.vis {
 h4.cheme {
   color:  #fcfdff;
   margin-top: 2vh;
-  margin-left: 3%;
+  margin-left: 4%;
   font-weight: bold;
   line-height: 0.8;
   text-align: center;
@@ -575,7 +575,7 @@ img.hover-in-grid-modal:hover{
 h4.base {
   color:  #fcfdff;
   margin-top: 2vh;
-    margin-left: 3%;
+    margin-left: 4%;
   font-weight: bold;
   line-height: 0.8;
   text-align: center;
@@ -593,7 +593,7 @@ h4.base {
 h4.photo {
   color:  #fcfdff;
   margin-top: 2vh;
-    margin-left: 3%;
+    margin-left: 4%;
   font-weight: bold;
   line-height: 0.8;
   text-align: center;
@@ -611,7 +611,7 @@ h4.photo {
 h4.game {
   color:  #fcfdff;
   margin-top: 2vh;
-    margin-left: 3%;
+    margin-left: 4%;
   font-weight: bold;
   line-height: 0.8;
   text-align: center;
@@ -629,7 +629,7 @@ h4.game {
 h4.graphic {
   color:  #fcfdff;
   margin-top: 2vh;
-    margin-left: 3%;
+    margin-left: 4%;
   font-weight: bold;
   line-height: 0.8;
   text-align: center;
@@ -937,6 +937,19 @@ h3.information {
     padding-top: 40px;
   }
 
+  img.in-modal{
+    width: 75vw;
+    height:auto;
+    margin-bottom: 7%;
+    align-content: center;
+    margin-left: 2%;
+    display: block;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 0px;
+    transition-delay: 0.5s;
+  }
+
   img.in-modal-top{
     width: 75vw;
   height:25vh;
@@ -950,6 +963,43 @@ h3.information {
     z-index: 1;
     border: 2px solid transparent;
     border-radius: 24px;
+    background:
+        linear-gradient(to bottom, transparent, transparent),
+        linear-gradient(320deg, #D1D9E6, #fff);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+                 box-shadow:  2px 2px 7px #9da8b3,
+               -2px -2px 7px  #f6fcff;
+  }
+
+  /* mostly for gifs and book images in graphics */
+  img.in-grid-modal{
+    width: 67.5vw;
+    align-content: center;
+    display: block;
+    overflow: hidden;
+    object-fit: cover;
+    margin-bottom: 2%;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background:
+        linear-gradient(to bottom, transparent, transparent),
+        linear-gradient(320deg, #D1D9E6, #fff);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+                 box-shadow:  2px 2px 7px #9da8b3,
+               -2px -2px 7px  #f6fcff;
+  }
+
+  img.in-grid-modal-right{
+    width: 67.5vw;
+    align-content: center;
+    transition: 0.4s ease;
+    display: block;
+    overflow: hidden;
+    object-fit: cover;
+    border: 2px solid transparent;
+    border-radius: 4px;
     background:
         linear-gradient(to bottom, transparent, transparent),
         linear-gradient(320deg, #D1D9E6, #fff);
