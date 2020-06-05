@@ -44,8 +44,8 @@ img.title{
                padding-bottom: 2vh;
                border: 2px solid rgba(255,255,255,0.7);
              background: linear-gradient(145deg, rgb(0, 120, 254), #0700EF);
-             box-shadow:  5px 5px 10px #8a8e92,
-              -5px -5px 10px #d0d6db;
+             box-shadow:  9px 7px 40px #1c64ff,
+              -5px -5px 10px #fff;
 }
 
 p.launch{
@@ -524,7 +524,7 @@ h4.data {
   background-color:#70baff;
   border-radius: 28px;
   border-spacing: inherit;
-  background-origin: padding-box, border-box; box-shadow:  2px 2px 11px #70baff,
+  background-origin: padding-box, border-box; box-shadow:  2px 2px 14px #70baff,
              -3px -3px 8px #ffffff;
 }
 
@@ -543,7 +543,7 @@ h4.vis {
   border-radius: 28px;
   margin-right: 70%;
   border-spacing: inherit;
-  background-origin: padding-box, border-box; box-shadow:  1px 4px 14px #05edbb,
+  background-origin: padding-box, border-box; box-shadow:  1px 4px 16px #05edbb,
              -3px -3px 5px #ffffff;
 }
 
@@ -561,7 +561,7 @@ h4.cheme {
   border-radius: 28px;
   margin-right: 70%;
   border-spacing: inherit;
-  background-origin: padding-box, border-box; box-shadow:  2px 2px 14px #d93727 ,
+  background-origin: padding-box, border-box; box-shadow:  2px 2px 16px #d93727 ,
              -3px -3px 8px #ffffff;
 }
 
