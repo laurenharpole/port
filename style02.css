@@ -14,7 +14,7 @@ nav ul {
   overflow: hidden;
   display: flex;
   float: right;
-    margin-bottom: 15vh;
+  margin-bottom: 15vh;
 }
 
 img.title{
@@ -24,28 +24,28 @@ img.title{
   margin-left: 69px;
   width: 30px;
   shadow:  9px 9px 18px #645d5a,
-               -9px -9px 18px #ffffff;
+  -9px -9px 18px #ffffff;
 }
 
 /* launch the site button */
 .launch a {
-               color: rgba(220, 232, 245,0.97);
-               text-decoration: none;
-               margin-top: 1vh;
-               margin-bottom: 5vh;
-               font-weight: bold;
-               line-height: 0.1;
-               text-align: center;
-               font-size: 30px;
-               border-radius: 14px;
-               padding-left: 4vw;
-               padding-right: 6vw;
-               padding-top: 2vh;
-               padding-bottom: 2vh;
-               border: 2px solid rgba(255,255,255,0.7);
-             background: linear-gradient(145deg, rgb(0, 120, 254), #0700EF);
-             box-shadow:  9px 7px 40px #1c64ff,
-              -5px -5px 10px #fff;
+  color: rgba(220, 232, 245,0.97);
+  text-decoration: none;
+  margin-top: 1vh;
+  margin-bottom: 5vh;
+  font-weight: bold;
+  line-height: 0.1;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 14px;
+  padding-left: 4vw;
+  padding-right: 6vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  border: 2px solid rgba(255,255,255,0.7);
+  background: linear-gradient(145deg, rgb(0, 120, 254), #0700EF);
+  box-shadow:  9px 7px 40px #1c64ff,
+  -5px -5px 10px #fff;
 }
 
 p.launch{
@@ -66,17 +66,16 @@ img.in-modal{
   margin-top: 90px;
   -webkit-border-radius:63px 63px 63px 63px/
   108px 108px 72px 72px;
-    border: 4px solid transparent;
-    border-radius: 7px;
-    background:
-        linear-gradient(to bottom, transparent, transparent),
-        linear-gradient(320deg, #D1D9E6, #fff);
-    background-clip: padding-box, border-box;
-    background-origin: padding-box, border-box;
-    box-shadow:  10px 10px 20px #9da8b3 ,
-                 -10px -10px 20px #ffffff;
+  border: 4px solid transparent;
+  border-radius: 7px;
+  background:
+  linear-gradient(to bottom, transparent, transparent),
+  linear-gradient(320deg, #D1D9E6, #fff);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  box-shadow:  10px 10px 20px #9da8b3 ,
+  -10px -10px 20px #ffffff;
 }
-
 
 nav li a {
   text-align: center;
@@ -116,10 +115,10 @@ nav li a:hover, a:focus {
   width: 76vw;
   font-size: 4px;
   margin-left: 2vw;
-             background: #ebf0f7;
-             box-shadow:  2px 2px 5px #8b8e92,
-                          -2px -1px 5px #ffffff;
-              border-radius: 10vw;
+  background: #ebf0f7;
+  box-shadow:  2px 2px 5px #8b8e92,
+  -2px -1px 5px #ffffff;
+  border-radius: 10vw;
 }
 
 /* The Modal (background) */
@@ -133,9 +132,6 @@ nav li a:hover, a:focus {
   width: 100vw; /* Full width */
   height: 80vh; /* Full height */
   overflow: scroll; /* Enable scroll if needed */
-  /* background-color: rgba(215, 245, 239, 0.5) /*#eaf8f3; /* Fallback color */
-  /* background-color: #EAF0F8; /* Black w/ opacity */
-  /* filter: blur(.05em); */
 }
 
 /* * The Close Button */
@@ -168,7 +164,7 @@ img.photo-modal{
   border-radius: 18px;
   overflow: hidden;
   box-shadow:  9px 9px 18px #645d5a,
-             -9px -9px 18px #ffffff;
+  -9px -9px 18px #ffffff;
 }
 
 img.in-modal{
@@ -197,12 +193,12 @@ img.in-modal-top{
   border: 4px solid transparent;
   border-radius: 24px;
   background:
-      linear-gradient(to bottom, transparent, transparent),
-      linear-gradient(320deg, #D1D9E6, #fff);
+  linear-gradient(to bottom, transparent, transparent),
+  linear-gradient(320deg, #D1D9E6, #fff);
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
-               box-shadow:  2px 2px 7px #9da8b3,
-             -2px -2px 7px  #f6fcff;
+  box-shadow:  2px 2px 7px #9da8b3,
+  -2px -2px 7px  #f6fcff;
 }
 
 /* not a header image, the only image */
@@ -219,12 +215,12 @@ img.not-modal-top{
   border: 4px solid transparent;
   border-radius: 24px;
   background:
-      linear-gradient(to bottom, transparent, transparent),
-      linear-gradient(320deg, #D1D9E6, #fff);
+  linear-gradient(to bottom, transparent, transparent),
+  linear-gradient(320deg, #D1D9E6, #fff);
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
-               box-shadow:  2px 2px 7px #9da8b3,
-             -2px -2px 7px  #f6fcff;
+  box-shadow:  2px 2px 7px #9da8b3,
+  -2px -2px 7px  #f6fcff;
 }
 
 /* mostly for gifs and book images in graphics */
@@ -238,12 +234,12 @@ img.in-grid-modal{
   border: 2px solid transparent;
   border-radius: 4px;
   background:
-      linear-gradient(to bottom, transparent, transparent),
-      linear-gradient(320deg, #D1D9E6, #fff);
+  linear-gradient(to bottom, transparent, transparent),
+  linear-gradient(320deg, #D1D9E6, #fff);
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
-               box-shadow:  2px 2px 7px #9da8b3,
-             -2px -2px 7px  #f6fcff;
+  box-shadow:  2px 2px 7px #9da8b3,
+  -2px -2px 7px  #f6fcff;
 }
 
 img.in-grid-modal-right{
@@ -256,12 +252,12 @@ img.in-grid-modal-right{
   border: 2px solid transparent;
   border-radius: 4px;
   background:
-      linear-gradient(to bottom, transparent, transparent),
-      linear-gradient(320deg, #D1D9E6, #fff);
+  linear-gradient(to bottom, transparent, transparent),
+  linear-gradient(320deg, #D1D9E6, #fff);
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
-               box-shadow:  2px 2px 7px #9da8b3,
-             -2px -2px 7px  #f6fcff;
+  box-shadow:  2px 2px 7px #9da8b3,
+  -2px -2px 7px  #f6fcff;
 }
 
 p.graphic-3 {
@@ -302,7 +298,6 @@ img.hover-in-grid-modal-2-right{
   transition-delay: 0.5s;
 }
 
-
 img.hover-in-grid-modal-3{
   width: 26.5vw;
   align-content: center;
@@ -316,7 +311,6 @@ img.hover-in-grid-modal-3{
   border-radius: 12px;
 }
 
-
 img.hover-in-grid-modal{
   height: 12.5vw;
   width: 12.5vw;
@@ -328,12 +322,12 @@ img.hover-in-grid-modal{
   border: 2px solid transparent;
   border-radius: 7px;
   background:
-      linear-gradient(to bottom, transparent, transparent),
-      linear-gradient(320deg, #D1D9E6, #fff);
+  linear-gradient(to bottom, transparent, transparent),
+  linear-gradient(320deg, #D1D9E6, #fff);
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
   box-shadow:  10px 10px 20px #9da8b3 ,
-               -10px -10px 20px #ffffff;
+  -10px -10px 20px #ffffff;
   /* #A7B3BE */
 }
 
@@ -341,18 +335,18 @@ img.hover-in-grid-modal{
 .video-in-modal{
   width: 72vw;
   align-content: center;
-    margin-top: 12%;
-      margin-bottom: 2%;
+  margin-top: 12%;
+  margin-bottom: 2%;
   margin-left: 4%;
   border: 4px solid transparent;
   border-radius: 7px;
   background:
-      linear-gradient(to bottom, transparent, transparent),
-      linear-gradient(320deg, #D1D9E6, #fff);
+  linear-gradient(to bottom, transparent, transparent),
+  linear-gradient(320deg, #D1D9E6, #fff);
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
   box-shadow:  10px 10px 20px #9da8b3 ,
-               -10px -10px 20px #ffffff;
+  -10px -10px 20px #ffffff;
   overflow: hidden;
   object-fit: cover;
   transition: 2.4s ease;
@@ -420,13 +414,13 @@ img.hover-in-grid-modal{
   overflow: hidden;
   object-fit: cover;
   background-color: #f9484a;
-  background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
+  background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%); */
 
   /* (good gradiant yelloq) background-color: #f9484a;
   background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%); */
 
   /* background-color: #f5df2e;
-background-image: linear-gradient(315deg, #f5df2e 0%, #f07654 74%); */
+  background-image: linear-gradient(315deg, #f5df2e 0%, #f07654 74%); */
 
   /* background-color: #f39f86;
   background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%); */
@@ -509,8 +503,8 @@ img.photo-modal:hover {
   bottom: 0;
   left: 0;
   -webkit-backdrop-filter: blur(5px);
-   backdrop-filter: blur(5px);
-   background-color: rgba(92, 150, 173, 0.195);
+  backdrop-filter: blur(5px);
+  background-color: rgba(92, 150, 173, 0.195);
   z-index: 99999;
   opacity:0;
   -webkit-transition: opacity 400ms ease-in;
@@ -543,32 +537,32 @@ h4.data {
   line-height: 0.8;
   text-align: center;
   font-size: 20px;
-    width: 240px;
+  width: 240px;
   border: 10px solid #70baff;
   background-color:#70baff;
   border-radius: 28px;
   border-spacing: inherit;
   background-origin: padding-box, border-box; box-shadow:  2px 2px 14px #70baff,
-             -3px -3px 8px #ffffff;
+  -3px -3px 8px #ffffff;
 }
 
 /* the visability project word bubble */
 h4.vis {
   color:  #fcfdff;
   margin-top: 2vh;
-    margin-left: 4%;
+  margin-left: 4%;
   font-weight: bold;
   line-height: 0.8;
   text-align: center;
   font-size: 20px;
-    width: 230px;
+  width: 230px;
   border: 10px solid #05edbb;
   background-color:#05edbb;
   border-radius: 28px;
   margin-right: 70%;
   border-spacing: inherit;
   background-origin: padding-box, border-box; box-shadow:  1px 4px 16px #05edbb,
-             -3px -3px 5px #ffffff;
+  -3px -3px 5px #ffffff;
 }
 
 h4.cheme {
@@ -579,14 +573,14 @@ h4.cheme {
   line-height: 0.8;
   text-align: center;
   font-size: 20px;
-    width: 160px;
+  width: 160px;
   border: 10px solid#d93727;
   background-color:#d93727;
   border-radius: 28px;
   margin-right: 70%;
   border-spacing: inherit;
   background-origin: padding-box, border-box; box-shadow:  2px 2px 16px #d93727 ,
-             -3px -3px 8px #ffffff;
+  -3px -3px 8px #ffffff;
 }
 
 img.hover-in-grid-modal:hover{
@@ -599,7 +593,7 @@ img.hover-in-grid-modal:hover{
 h4.base {
   color:  #fcfdff;
   margin-top: 2vh;
-    margin-left: 4%;
+  margin-left: 4%;
   font-weight: bold;
   line-height: 0.8;
   text-align: center;
@@ -611,66 +605,66 @@ h4.base {
   margin-right: 70%;
   border-spacing: inherit;
   background-origin: padding-box, border-box; box-shadow:  2px 4px 16px #d92742,
-             -3px -3px 8px #ffffff;
+  -3px -3px 8px #ffffff;
 }
 
 h4.photo {
   color:  #fcfdff;
   margin-top: 2vh;
-    margin-left: 4%;
+  margin-left: 4%;
   font-weight: bold;
   line-height: 0.8;
   text-align: center;
   font-size: 20px;
-    width: 190px;
+  width: 190px;
   border: 10px solid #6bcde3;
   background-color:#6bcde3;
   border-radius: 28px;
   margin-right: 70%;
   border-spacing: inherit;
   background-origin: padding-box, border-box; box-shadow:  2px 4px 16px #6bcde3,
-             -3px -3px 8px #ffffff;
+  -3px -3px 8px #ffffff;
 }
 
 h4.game {
   color:  #fcfdff;
   margin-top: 2vh;
-    margin-left: 4%;
+  margin-left: 4%;
   font-weight: bold;
   line-height: 0.8;
   text-align: center;
   font-size: 20px;
-    width: 170px;
+  width: 170px;
   border: 10px solid #ffd800;
   background-color:#ffd800;
   border-radius: 28px;
   margin-right: 70%;
   border-spacing: inherit;
   background-origin: padding-box, border-box; box-shadow: 1px 1px 10px #ffd800,
-             -3px -3px 8px #ffffff;
+  -3px -3px 8px #ffffff;
 }
 
 h4.graphic {
   color:  #fcfdff;
   margin-top: 2vh;
-    margin-left: 4%;
+  margin-left: 4%;
   font-weight: bold;
   line-height: 0.8;
   text-align: center;
   font-size: 20px;
-    width: 140px;
+  width: 140px;
   border: 10px solid #db0338;
   background-color:#db0338;
   border-radius: 28px;
   margin-right: 70%;
   border-spacing: inherit;
   background-origin: padding-box, border-box; box-shadow:  2px 2px 14px #d93727 ,
-             -3px -3px 8px #ffffff;
+  -3px -3px 8px #ffffff;
 }
 
 p.graphic-2 {
   background-color: #90979e;
-font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: transparent;
   text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.6);
   -webkit-background-clip: text;
@@ -684,26 +678,26 @@ font-family: 'Raleway', sans-serif;
 }
 
 h2.data {
-      margin-top: -0.5%;
+  margin-top: -0.5%;
   padding-left: 3%;
-font-size: 80px;
-text-align: left;
-line-height: 89%;
-color: transparent;
-background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
-letter-spacing: .01em;
-text-shadow:0px 3px 1px #ebf0f7, -1px 2px 3px #fff, 0px 2px 3px #fff, -1px 1px 2px #ebf0f7, -2px 1px 3px #ebf0f7, 0px 1px 1px  #90979e, 1px 2px 1px  #90979e,
-2px 3px 1px  #90979e, 3px 4px 1px  #90979e,
-4px 5px 2px  #90979e, 5px 5px 7px  #9da8b3,  5.5px 5px 2px #9da8b3, 8px 7px 6px #9da8b3;
-color:transparent;
-background: none;
-margin-bottom: 3%;
+  font-size: 80px;
+  text-align: left;
+  line-height: 89%;
+  color: transparent;
+  background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
+  letter-spacing: .01em;
+  text-shadow:0px 3px 1px #ebf0f7, -1px 2px 3px #fff, 0px 2px 3px #fff, -1px 1px 2px #ebf0f7, -2px 1px 3px #ebf0f7, 0px 1px 1px  #90979e, 1px 2px 1px  #90979e,
+  2px 3px 1px  #90979e, 3px 4px 1px  #90979e,
+  4px 5px 2px  #90979e, 5px 5px 7px  #9da8b3,  5.5px 5px 2px #9da8b3, 8px 7px 6px #9da8b3;
+  color:transparent;
+  background: none;
+  margin-bottom: 3%;
 }
 
 
 p.data {
   background-color: #90979e;
-font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: transparent;
   text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.6);
   -webkit-background-clip: text;
@@ -837,6 +831,17 @@ h3.information {
   border-bottom-right-radius: 15px;
 }
 
+.last ul {
+  text-decoration: none;
+  color: #fff;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-size: 0% 5px;
+  font-weight: 400;
+  font-family: "Helvetica";
+  list-style-type: none;
+  display: block;
+}
 /* gray messages  */
 .yours .message.last:after {
   content: "";
@@ -892,28 +897,15 @@ h3.information {
   border-bottom-left-radius: 10px;
 }
 
-/* blue message link list */
-.f-three-column{
-  list-style-type: none;
-  display: block;
-  margin-left: vw;
-  margin-top: -1vh;
-  margin-bottom: -1vh;
-  font-size: 16px;
-  line-height: 0.9;
-  width: 145px;
-  margin-left: -5vh;
-}
-
 /* footer col links */
 .last ul li  a {
   color: #fff;
   background-image: linear-gradient(currentColor, currentColor);
-  background-position: 7% 95%;
   background-repeat: no-repeat;
   background-size: 0% 5px;
   font-weight: 400;
   font-family: "Helvetica";
+  text-align: left;
 }
 
 /*mobile state*/
@@ -922,18 +914,18 @@ h3.information {
   .video-in-modal{
     width: 72vw;
     align-content: center;
-      margin-top: -2%;
-        margin-bottom: 2%;
+    margin-top: -2%;
+    margin-bottom: 2%;
     margin-left: 4%;
     border: 4px solid transparent;
     border-radius: 7px;
     background:
-        linear-gradient(to bottom, transparent, transparent),
-        linear-gradient(320deg, #D1D9E6, #fff);
+    linear-gradient(to bottom, transparent, transparent),
+    linear-gradient(320deg, #D1D9E6, #fff);
     background-clip: padding-box, border-box;
     background-origin: padding-box, border-box;
     box-shadow:  10px 10px 20px #9da8b3 ,
-                 -10px -10px 20px #ffffff;
+    -10px -10px 20px #ffffff;
     overflow: hidden;
     object-fit: cover;
     transition: 2.4s ease;
@@ -976,8 +968,8 @@ h3.information {
 
   img.in-modal-top{
     width: 75vw;
-  height:25vh;
-  margin-top: 21%;
+    height:25vh;
+    margin-top: 21%;
     margin-bottom: 3%;
     align-content: center;
     margin-left: 2.7%;
@@ -988,12 +980,12 @@ h3.information {
     border: 2px solid transparent;
     border-radius: 24px;
     background:
-        linear-gradient(to bottom, transparent, transparent),
-        linear-gradient(320deg, #D1D9E6, #fff);
+    linear-gradient(to bottom, transparent, transparent),
+    linear-gradient(320deg, #D1D9E6, #fff);
     background-clip: padding-box, border-box;
     background-origin: padding-box, border-box;
-                 box-shadow:  2px 2px 7px #9da8b3,
-               -2px -2px 7px  #f6fcff;
+    box-shadow:  2px 2px 7px #9da8b3,
+    -2px -2px 7px  #f6fcff;
   }
 
   /* mostly for gifs and book images in graphics */
@@ -1007,12 +999,12 @@ h3.information {
     border: 2px solid transparent;
     border-radius: 4px;
     background:
-        linear-gradient(to bottom, transparent, transparent),
-        linear-gradient(320deg, #D1D9E6, #fff);
+    linear-gradient(to bottom, transparent, transparent),
+    linear-gradient(320deg, #D1D9E6, #fff);
     background-clip: padding-box, border-box;
     background-origin: padding-box, border-box;
-                 box-shadow:  2px 2px 7px #9da8b3,
-               -2px -2px 7px  #f6fcff;
+    box-shadow:  2px 2px 7px #9da8b3,
+    -2px -2px 7px  #f6fcff;
   }
 
   img.in-grid-modal-right{
@@ -1025,12 +1017,12 @@ h3.information {
     border: 2px solid transparent;
     border-radius: 4px;
     background:
-        linear-gradient(to bottom, transparent, transparent),
-        linear-gradient(320deg, #D1D9E6, #fff);
+    linear-gradient(to bottom, transparent, transparent),
+    linear-gradient(320deg, #D1D9E6, #fff);
     background-clip: padding-box, border-box;
     background-origin: padding-box, border-box;
-                 box-shadow:  2px 2px 7px #9da8b3,
-               -2px -2px 7px  #f6fcff;
+    box-shadow:  2px 2px 7px #9da8b3,
+    -2px -2px 7px  #f6fcff;
   }
 
   /* blue messages  */
@@ -1070,7 +1062,7 @@ h3.information {
     -2px 0px 1px #8782ff, 0px 1px 1px #050099, 0px 2px 1px  #050099,
     0.5px 2.5px 1px  #050099, 1.4px 2px 1px  #050099,
     2.7px 3px 1px  #050099, 3px 3px 3px  #050099,  3.3px 3px 1px #7A726E,
-     4px 3px 8px #7A726E;
+    4px 3px 8px #7A726E;
     text-align: right;
     color: transparent;
     text-decoration: none;
@@ -1090,40 +1082,39 @@ h3.information {
   }
 
   /* The Close Button */
-    img.hover-in-grid-modal{
-      height: 30.5vw;
-      width: 30.5vw;
-      display: block;
-      overflow: hidden;
-      object-fit: cover;
-      border-radius: 12px;
-      z-index:0;
-      position: static;
-      z-index: 1;
-    }
+  img.hover-in-grid-modal{
+    height: 30.5vw;
+    width: 30.5vw;
+    display: block;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 12px;
+    z-index:0;
+    position: static;
+    z-index: 1;
+  }
 
-    p.data {
-      background-color: #90979e;
+  p.data {
+    background-color: #90979e;
     font-family: 'Raleway', sans-serif;
-      color: transparent;
-      text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.6);
-      -webkit-background-clip: text;
-      -moz-background-clip: text;
-      background-clip: text;
-      margin-left: 3%;
-      font-size: 4vw;
-    }
+    color: transparent;
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.6);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    margin-left: 3%;
+    font-size: 4vw;
+  }
 
-    p.data-2 {
-      color: #fff;
-      font-family: 'Raleway', sans-serif;
-      font-size: 20px;
-    }
+  p.data-2 {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+  }
 
-
-    h2.data {
-      margin-top: -0.5%;
-      padding-left: 3%;
+  h2.data {
+    margin-top: -0.5%;
+    padding-left: 3%;
     font-size: 100px;
     text-align: left;
     line-height: 89%;
@@ -1136,55 +1127,54 @@ h3.information {
     color:transparent;
     background: none;
     margin-bottom: 5%;
-    }
+  }
 
 
-    #grid.row{
-      display: flex;
-      flex-direction:  row;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
+  #grid.row{
+    display: flex;
+    flex-direction:  row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-    #grid.row:first-child {
-      z-index: 1;
-    }
+  #grid.row:first-child {
+    z-index: 1;
+  }
 
-    #grid.column{
-      display: flex;
-      flex-direction:  column;
-      height: auto;
-      flex-basis: 35%;
-      justify-content: center;
-      width: 90vw;
-      height: auto;
-      padding-bottom: 9%;
+  #grid.column{
+    display: flex;
+    flex-direction:  column;
+    height: auto;
+    flex-basis: 35%;
+    justify-content: center;
+    width: 90vw;
+    height: auto;
+    padding-bottom: 9%;
+  }
 
-    }
+  img.photo-modal{
+    width: 30vw;
+    border-radius: 18px;
+    margin-bottom: 0%;
+    overflow: hidden;
+  }
 
-    img.photo-modal{
-      width: 30vw;
-      border-radius: 18px;
-      margin-bottom: 0%;
-      overflow: hidden;
-    }
+  /*navigation*/
+  nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 19px;
+    padding-top: 0%;
+    overflow: hidden;
+    display:inline;
+    float: right;
+    padding-top: 75px;
+    margin-bottom: 15vh;
+  }
 
-    /*navigation*/
-    nav ul {
-      list-style-type: none;
-      margin: 0px;
-      padding: 19px;
-      padding-top: 0%;
-      overflow: hidden;
-      display:inline;
-      float: right;
-      padding-top: 75px;
-      margin-bottom: 15vh;
-    }
-
-    img.title{
-      margin-top: 63px;
-      width: 80px;
-    }
+  img.title{
+    margin-top: 63px;
+    width: 80px;
+  }
 
 }
