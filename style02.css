@@ -966,6 +966,18 @@ h3.information {
     transition-delay: 0.5s;
   }
 
+  .last ul {
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-repeat: no-repeat;
+    background-size: 0% 5px;
+    font-weight: 400;
+    font-family: "Helvetica";
+    list-style-type: none;
+    display: block;
+  }
+
   img.in-modal-top{
     width: 75vw;
     height:45vh;

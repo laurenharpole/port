@@ -24,8 +24,8 @@ img.title{
 }
 
 img.in-modal{
-  height: 75vh;
-  width: 500px;
+  height: 90vh;
+  width: 600px;
   display: block;
   margin-bottom: 5%;
   align-content: left;
@@ -33,7 +33,7 @@ img.in-modal{
   display: block;
   overflow: hidden;
   object-fit: cover;
-  margin-top: 90px;
+  margin-top: 30vh;
   border: 10px solid #eeded7;
   -webkit-border-radius:63px 63px 63px 63px/
   108px 108px 72px 72px;
@@ -136,7 +136,7 @@ h3.information {
 
 /* skill category titles */
 h2.skilltitle{
-  font-size: 55px;
+  font-size: 3.3vw;
   padding-top: 40px;
   text-align: left;
   line-height: 0.9;
@@ -297,7 +297,7 @@ p.skills{
 p.about{
   letter-spacing: 1.5;
   line-height: 1.5;
-  font-size: 17px;
+  font-size: 1.0vw;
   padding-top: 3%;
   padding-left: 14%;
   padding-right: 5%;
