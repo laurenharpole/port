@@ -1,5 +1,5 @@
 // Get the modal
-var modal = document.getElementsByClassName('modal');
+var modal = document.getElementsByClassName('modalDialog');
 
 // Get the button that opens the modal
 var btn = document.getElementsByClassName("glow");
@@ -10,11 +10,11 @@ var btn = document.getElementsByClassName("glow");
 
   // When the user clicks the button, open the modal
   btn[0].onclick = function() {
-    modal[0].style.display = "block";
+    modal[0].style.display = "visible";
   }
 
 btn[1].onclick = function() {
-  modal[1].style.display = "block";
+  modal[1].style.display = "visible";
 }
 // When the user clicks on <span> (x), close the modal
 // span[0].onclick = function() {

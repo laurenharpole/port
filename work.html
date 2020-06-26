@@ -68,7 +68,7 @@
 </div>
 
 <!-- <div class="neu-box"></div> -->
-<div id="openModal1" class="modalDialog">
+<div id="openModal1" class="modalDialog" >
   <div>
     <p class="close2"><a href="#close" title="Close" class="close">✕</a></p>
     <img src="port_files/data0.png" alt="data" class="in-modal-top">
@@ -87,7 +87,7 @@
 </div>
 
 
-<div id="openModal2" class="modalDialog">
+<div id="openModal2" class="modalDialog" style="visability: hidden;">
   <div>
     <p class="close2"><a href="#close" title="Close" class="close">✕</a></p>
 
@@ -107,7 +107,7 @@
 </div>
 
 
-<div id="openModal3" class="modalDialog">
+<div id="openModal3" class="modalDialog" style="visability: hidden;">
   <div>
     <p class="close2"><a href="#close" title="Close" class="close">✕</a></p>
     <img src="port_files/basecover.png" alt="data" class="in-modal-top">
@@ -129,7 +129,7 @@
 </div>
 
 
-<div id="openModal4" class="modalDialog">
+<div id="openModal4" class="modalDialog" style="visability: hidden;">
   <div>
     <p class="close2"><a href="#close" title="Close" class="close">✕</a></p>
     <img src="port_files/DSC_0089.JPG" alt="data" class="in-modal-top">
@@ -272,7 +272,7 @@
 </div>
 
 
-<div id="openModal5" class="modalDialog">
+<div id="openModal5" class="modalDialog" style="visability: hidden;">
   <div>
     <p class="close2"><a href="#close" title="Close" class="close">✕</a></p>
     <br></br><br></br>
@@ -287,7 +287,7 @@
 </div>
 
 
-<div id="openModal6" class="modalDialog">
+<div id="openModal6" class="modalDialog" style="visability: hidden;">
   <div>
     <p class="close2"><a href="#close" title="Close" class="close">✕</a></p>
     <img src="port_files/sharptruth2.jpg" alt="data" class="in-modal-top">
@@ -340,7 +340,7 @@
     </section>
   </div>
 </div>
-<div id="openModal7" class="modalDialog">
+<div id="openModal7" class="modalDialog" style="visability: hidden;">
   <div>
     <p class="close2"><a href="#close" title="Close" class="close">✕</a></p>
     <img src="port_files/vis1.gif" alt="data" class="not-modal-top">
@@ -359,7 +359,7 @@
   </div>
 </div>
 
-<div id="openModal8" class="modalDialog">
+<div id="openModal8" class="modalDialog" style="visability: hidden;">
   <div>
     <p class="close2"><a href="#close" title="Close" class="close">✕</a></p>
     <img src="port_files/KTBYTE.jpg" alt="data" class="in-modal-top">
@@ -379,17 +379,30 @@
 
 </body>
 <section class="contact-background">
-  <h3 class="information"> Additional <br>Information</h3>
   <div class="chat">
+    <!-- get the user's time stamp and display information text header -->
+    <p class="stamp"> Information, <span id="info"> </span></p>
+    <script>
+    var d = new Date();
+    if(d.getMinutes() == 0){
+      document.getElementById("info").innerHTML =  d.getHours()+ ":" + 0 + 0;
+    }
+    else if(d.getMinutes() < 10){
+      document.getElementById("info").innerHTML = d.getHours()+ ":" + 0 + d.getMinutes();
+    }
+    else{
+      document.getElementById("info").innerHTML =  + d.getHours()+ ":" + d.getMinutes();
+    }
+    </script>
     <div class="mine messages">
       <div class="message">
         👩‍💼&nbsp;Here's some of my additional info
       </div>
       <div class="message last">
-        <ul>
-          <li>✉️&nbsp;&nbsp;<a href="mailto:lrh72@cornell.edu">email</a></li>
-          <li>🤝&nbsp;&nbsp;<a href="https://www.linkedin.com/in/lauren-harpole/">linkedin </a></li>
-          <li>💻&nbsp;&nbsp;<a href="https://github.com/laurenharpole">github </a></li>
+        <ul class='f-three-column'>
+          <li><h2 class="last">✉️&nbsp;&nbsp;<a href="mailto:lrh72@cornell.edu">email</a></h2></li>
+          <li><h2 class="last">🤝&nbsp;&nbsp;<a href="https://www.linkedin.com/in/lauren-harpole/">linkedin </a></h2></li>
+          <li><h2 class="last">‍💻&nbsp;&nbsp;<a href="https://github.com/laurenharpole">github </a></h2></li>
         </ul>
       </div>
     </div>
