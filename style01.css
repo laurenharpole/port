@@ -591,7 +591,7 @@ footer{
 @media screen and (max-width: 1010px) and (min-width: 850px){
   /*intro text*/
   .egg{
-    font-size: 150px;
+    font-size: 190px;
     word-wrap: break-word;
     width:80%;
     margin-left: -2vw;
@@ -631,14 +631,16 @@ footer{
   nav li a {
     text-align: right;
     padding: 3px 16px;
-    font-size: 70px;
+    font-size: 100px;
     background-position: 0% 100%;
+    /* color: hsl(206, 3%, 91%); */
+
     }
 
   nav li a:hover, a:focus {
     text-align: right;
     padding: 4px 16px;
-    font-size: 70px;
+    font-size: 100px;
     background-size: 100% 5px;
   }
 
@@ -721,8 +723,8 @@ footer{
 
   /* skill category titles */
   h2.skilltitle{
-    font-size: 65px;
-    margin-top: -50px;
+    font-size: 125px;
+    margin-top: -20px;
     text-align: center;
     border-radius: 5vw;
     margin-bottom: -10px;
@@ -795,7 +797,7 @@ footer{
 @media screen and (max-width: 850px) and (min-width: 600px){
 /*intro text*/
 .egg{
-  font-size: 150px;
+  font-size: 190px;
   word-wrap: break-word;
   width:80%;
   margin-left: -2vw;
@@ -835,7 +837,7 @@ img.title{
 nav li a {
   text-align: right;
   padding: 3px 16px;
-  font-size: 70px;
+  font-size: 100px;
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 5px;
@@ -844,7 +846,7 @@ nav li a {
 nav li a:hover, a:focus {
   text-align: right;
   padding: 4px 16px;
-  font-size: 70px;
+  font-size: 100px;
   background-size: 100% 5px;
 }
 
@@ -966,7 +968,7 @@ p.about{
 @media screen and (max-width: 600px) {
 /*intro text*/
 .egg{
-  font-size: 150px;
+  font-size: 190px;
   word-wrap: break-word;
   width:80%;
   margin-left: -2vw;
@@ -1006,7 +1008,7 @@ img.title{
 nav li a {
   text-align: right;
   padding: 3px 16px;
-  font-size: 70px;
+  font-size: 80px;
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 5px;
@@ -1015,7 +1017,7 @@ nav li a {
 nav li a:hover, a:focus {
   text-align: right;
   padding: 4px 16px;
-  font-size: 70px;
+  font-size: 80px;
   background-size: 100% 5px;
 }
 
