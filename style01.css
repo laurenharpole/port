@@ -183,11 +183,11 @@ h2.skilltitle{
   font-family: "Segoe UI",sans-serif;
   opacity: 1;
   margin: 2px;
-  font-weight: 400;
+  font-weight: 800;
   border-radius: 5vw;
-  color: hsl(210, 8%, 92%);
+  color: hsl(210, 8%, 89%);
   text-shadow: 4px 1.6px 10px hsl(210, 8%, 60%)	,-1px -3px 10px hsl(210, 8%, 100%);
-  -webkit-text-stroke: 0.8px  #f6f7f8;
+  -webkit-text-stroke: 1px  #f6f7f8;
   background: none;
   margin-bottom: 0px;
   margin-left: 6vw;
@@ -724,7 +724,7 @@ footer{
   /* skill category titles */
   h2.skilltitle{
     font-size: 125px;
-    margin-top: -20px;
+    margin-top: -30px;
     text-align: center;
     border-radius: 5vw;
     margin-bottom: -10px;
@@ -910,7 +910,7 @@ h2.skilltitle{
   border-radius: 5vw;
   margin-bottom: -20px;
   margin-left: 8vw;
-  margin-top: -50px;
+  margin-top: -30px;
 }
 
 /* about paragraph */
@@ -1088,7 +1088,7 @@ h2.skilltitle{
   text-align: center;
   border-radius: 5vw;
   margin-bottom: -10px;
-  margin-top: -40px;
+  margin-top: -30px;
 }
 
 /* about paragraph */
