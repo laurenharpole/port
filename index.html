@@ -13,7 +13,7 @@
   <header>
     <!--- navigation --->
     <nav>
-      <a href="index2.html"><img src="index_files/LH.svg"  class="title"></a>
+      <a href="index2.html"><img src="index_files/LH.svg"  alt="logo" class="title"></a>
       <ul>
         <li><a href="index.html">About</a></li>
         <li><a href="work.html"> Work</a></li>
@@ -114,7 +114,15 @@
   </section>
 </section>
 </body>
+
+
+
 <section class="contact-background">
+  <p id="demo"></p>
+  <script>
+  var d = new Date();
+  document.getElementById("demo").innerHTML = "Information, " + d.getHours()+ ":" + d.getMinutes();
+  </script>
   <!-- <h3 class="information"> Additional <br>Information</h3> -->
   <div class="chat">
     <div class="mine messages">

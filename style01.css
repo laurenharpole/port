@@ -195,9 +195,9 @@ h2.skilltitle{
   font-weight: 800;
   border-radius: 5vw;
   color: hsl(210, 8%, 89%);
-  text-shadow: 5px 5px 11px hsl(210, 8%, 57%)	,-1px -6px 10px hsl(210, 8%, 100%),
+  text-shadow: 7px 5px 13px hsl(210, 8%, 63%)	,-1px -6px 10px hsl(210, 8%, 100%),
   -4px -8px 24px hsl(210, 8%, 94%);
-  -webkit-text-stroke: 1.4px  #f6f7f8;
+  -webkit-text-stroke: 2px  #f6f7f8;
   background: none;
   margin-bottom: 0px;
   margin-left: 6vw;
@@ -434,7 +434,9 @@ footer{
   position: relative;
   background: #d6dadd;
   /* #f0f4f7; */
-  box-shadow:  -4px -4px 20px rgb(255, 255, 255,1), 0px 8px 25px hsl(210, 8%, 55%);
+  box-shadow:  -6px -4px 29px rgb(255, 255, 255,1),
+  -4px -12px 15px rgb(255, 255, 255,0.4)
+  , 5px 8px 29px hsl(210, 8%, 50%);
 
 }
 
@@ -488,6 +490,7 @@ footer{
   box-shadow:  6px 4px 22px rgb(55, 106, 255,0.9),
   -5px -5px 9px rgb(255,255,255,1);
 }
+
 /* blue message link list outer class */
 .f-three-column{
   list-style-type: none;
@@ -609,7 +612,7 @@ footer{
 
   .f-three-column{
     font-size: 26px;
-    margin-left: 0.5vw;
+  margin-left: -3.5vw;
   }
 
   /* bottom header */
@@ -625,7 +628,7 @@ footer{
 
   /* blue messages  */
   .mine .message.last{
-    width: 350px;
+    width: 230px;
   }
 
   /*navigation*/
@@ -815,7 +818,7 @@ footer{
 
 .f-three-column{
   font-size: 26px;
-  margin-left: 0.5vw;
+  margin-left: -3.5vw;
 }
 
 /* bottom header */
@@ -831,7 +834,7 @@ body {
 
 /* blue messages  */
 .mine .message.last{
-  width: 350px;
+  width: 230px;
 }
 
 /*navigation*/
@@ -986,7 +989,7 @@ p.about{
 
 .f-three-column{
   font-size: 26px;
-  margin-left: 0.5vw;
+  margin-left: -7vw;
 }
 
 /* bottom header */
@@ -1002,7 +1005,7 @@ body {
 
 /* blue messages  */
 .mine .message.last{
-  width: 350px;
+  width: 230px;
 }
 
 /*navigation*/
