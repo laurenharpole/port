@@ -16,6 +16,14 @@ nav ul {
   float: right;
 }
 
+p.stamp{
+  color:  hsl(0, 0%, 36%);
+  text-shadow: 2px 4px 14px rgb(91, 91, 91,0.8);
+  text-align: center;
+  margin-left: 9vw;
+  opacity: 0.7;
+}
+
 img.title{
   display: flex;
   float: left;
@@ -164,23 +172,6 @@ color:transparent;
 rgb(246, 252, 255, 1),
 -1.5px 0px 34px rgb(246, 252, 255, 1),-1.5px -1px 14px rgb(246, 252, 255, 0.4)
 ,0px -1px 18px hsl(220, 16%, 100%);; */
-/* bottom header */
-h3.information {
-  font-size: 60px;
-  text-align: center;
-  color: transparent;
-  letter-spacing: .2em;
-  text-shadow:-1px 1px 1px #F4EAE5,  -2px 1px 3px #fff, -2px 2px 2px #fdfaf9,
-  -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 1px 2px 1px  #988E8A,
-  0px 3px 1px  #988E8A, 1px 4px 1px  #988E8A,
-  2px 3px 2px  #988E8A, 3px 3px 7px  #7A726E,  3.5px 3px 1px #7A726E,
-  3.2px 4px 8px #7A726E;
-  color:transparent;
-  margin-left:0vw;
-  margin-bottom: -12vw;
-  background: none;
-  font-weight: lighter;
-}
 
 /* skill category titles */
 h2.skilltitle{
@@ -615,13 +606,6 @@ footer{
   margin-left: -3.5vw;
   }
 
-  /* bottom header */
-  h3.information {
-    font-size: 10vw;
-    margin-bottom: -6vh;
-    letter-spacing: 0.1em;
-  }
-
   body {
     font-size: 38px;
   }
@@ -646,8 +630,6 @@ footer{
     padding: 3px 16px;
     font-size: 100px;
     background-position: 0% 100%;
-    /* color: hsl(206, 3%, 91%); */
-
     }
 
   nav li a:hover, a:focus {
@@ -821,13 +803,6 @@ footer{
   margin-left: -3.5vw;
 }
 
-/* bottom header */
-h3.information {
-  font-size: 10vw;
-  margin-bottom: -6vh;
-  letter-spacing: 0.1em;
-}
-
 body {
   font-size: 38px;
 }
@@ -990,13 +965,6 @@ p.about{
 .f-three-column{
   font-size: 26px;
   margin-left: -7vw;
-}
-
-/* bottom header */
-h3.information {
-  font-size: 10vw;
-  margin-bottom: -6vh;
-  letter-spacing: 0.1em;
 }
 
 body {
