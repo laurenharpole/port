@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(100deg, #ffeee6, #d6c8c2);
+  background: linear-gradient(315deg, #dee2e6, #f0f4f7);
   font-family: 'Helvetica';
   font-size: 23px;
   padding-top: 75px;
@@ -29,7 +29,7 @@ img.title{
 
 /* launch the site button */
 .launch a {
-  color : hsl(222, 9%, 72%);
+  color : #666666;
   text-decoration: none;
   margin-top: 1vh;
   margin-bottom: 5vh;
@@ -37,7 +37,7 @@ img.title{
   font-weight: bold;
   line-height: 0.1;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   border-radius: 14px;
   padding-left: 4vw;
   padding-right: 6vw;
@@ -76,7 +76,7 @@ img.in-modal{
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
   box-shadow:  10px 10px 20px #9da8b3 ,
-  -10px -10px 20px #ffffff;
+  -10px -10px 20px rgb(255,255,255,0.5);
 }
 
 nav li a {
@@ -171,9 +171,10 @@ p.close2{
 img.photo-modal{
   width: 30vw;
   border-radius: 18px;
+  border: .05em solid white;
   overflow: hidden;
-  box-shadow:  9px 9px 18px #645d5a,
-  -9px -9px 18px #ffffff;
+  box-shadow:  9px 9px 18px hsl(220, 16%, 62%),
+  -9px -9px 18px rgb(255,255,255,0.6);
 }
 
 img.in-modal{

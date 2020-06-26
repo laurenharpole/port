@@ -1,6 +1,7 @@
 body {
-  background: linear-gradient(100deg, #ffeee6, #d6c8c2);
-  font-family: 'Helvetica';
+  background: linear-gradient(315deg, #e0e4e7
+, #f0f4f7);
+    font-family: 'Helvetica';
   font-size: 23px;
 }
 
@@ -21,58 +22,91 @@ img.title{
   margin-top: -16px;
   margin-left: 69px;
   width: 30px;
+  /* color:rgb(74,121,255); */
+   filter: drop-shadow(7px 4px 14px  rgb(74,121,255,0.6))
+   drop-shadow(2px 1.6px 3px hsl(210, 8%, 45%))
+   drop-shadow(-2px -4px 3px hsl(210, 8%, 100%))
+   drop-shadow(-4px -4px 4px hsl(210, 8%, 100%))
+   drop-shadow(-4px -4px 4px hsl(210, 8%, 100%));
+  /* box-shadow: 1px 0px 15px  rgb(74,121,255)
+  , 2px 1.6px 4px hsl(210, 8%, 62%)	,
+  -1px -2px 4px hsl(210, 8%, 100%); */
 }
 
 img.in-modal{
-  height: 80vh;
-  width: 600px;
+  height: 700px;
+  width: 400px;
   display: block;
   margin-bottom: 5%;
   align-content: left;
   margin-left: 5%;
+  float:center;
   display: block;
   overflow: hidden;
   object-fit: cover;
   margin-top: 20vh;
-  border: 10px solid #eeded7;
-  -webkit-border-radius:63px 63px 63px 63px/
-  108px 108px 72px 72px;
-  /* fails in Safari, but overwrites in Chrome */
-  border-radius:50% 50% 50% 40%/15% 60% 40% 90%;
-  box-shadow:  5px 5px 10px #ababab,
-  -5px -5px 10px #ffffff;
+  border: 5px solid transparent;
+  border-radius: 24px;
+  background:
+  linear-gradient(to bottom, transparent, transparent),
+  linear-gradient(320deg, #d9dcdf, #e3e3e3);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  border-radius: 70% 30% 30% 70% / 40% 60% 40% 60%;
+  box-shadow:  5px 5px 10px hsl(210, 8%, 60%),
+  -5px -5px 10px rgb(255,255,255,0.6);
 }
-
 
 nav li a {
   text-align: center;
   padding: 4px 16px;
   text-decoration: none;
-  font-size: 38px;
+  font-size: 44px;
   color: transparent;
-  background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
-  letter-spacing: .1em;
-  text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 1px #fff, -3px 0px 1px #fdfaf9, -2px 0px 1px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 0px 2px 1px  #988E8A,
-  0.5px 2.5px 1px  #988E8A, 1.4px 2px 1px  #988E8A,
-  2.7px 3px 1px  #988E8A, 3px 3px 3px  #988E8A,  3.3px 3px 3px #7A726E, 4px 3px 8px #7A726E;
-  color:transparent;
-  background: none;
-  background-image: linear-gradient(currentColor, currentColor);
+  letter-spacing: .05em;
+  font-weight: bold;
+  color:#dfe3e6;
+  text-shadow: 0.3px 1px 1px hsl(220, 16%, 85%),
+  1.9px 0.5px 1px hsl(220, 16%, 88%),
+  1px 1.3px 1px hsl(220, 16%, 85%), 1.3px 1.7px 1px
+  hsl(220, 16%, 84%),
+  1.5px 1.9px 1px hsl(210, 8%, 82%),1.95px 2.1px 1px
+  hsl(210, 8%, 80%),
+  2px 2.3px 1px hsl(210, 8%, 79%),2.2px 2.9px 1px
+  hsl(210, 8%, 77%),  2.3px 3px 0.5px hsl(210, 8%, 75%),
+  3px 4px 11px hsl(210, 8%, 56%),0px -1px 18px hsl(220, 16%, 100%);
+  -webkit-text-stroke: 0.9px  rgb(246, 247, 248, 1);
   background-position: 9% 95%;
   background-repeat: no-repeat;
   background-size: 0% 5px;
   transition: background-size .3s;
 }
 
+/*
+text-shadow: 0.7px 0.1px 1px hsl(220, 16%, 90%),0.9px 1px 1px hsl(220, 16%, 89%),
+1.3px 1.3px 1px hsl(220, 16%, 87%), 1.45px 1.6px 1px hsl(220, 16%, 86%),
+1.7px 1.9px 1px hsl(220, 16%, 85%),1.85px 2.1px 1px hsl(220, 16%, 83%),
+1.95px 2.3px 1px hsl(220, 16%, 80%),1.95px 2.9px 1px hsl(220, 16%, 80%),
+2.1px 2.9px 1px hsl(220, 16%, 74%),   2.3px 3px 1px hsl(220, 16%, 73%),
+7px 7px 9px hsl(220, 16%, 73%), 2px 1px 9px hsl(220, 16%, 73%), 5px 6px 23px #d8dbde;
+-webkit-text-stroke: 1px  #f6f7f8; */
+
+
 nav li a:hover, a:focus {
-  text-shadow:-2px 1px 2px #0700EF, -2px 0px 1px #8782ff, -2px 0px 1px #8782ff, 0px 1px 1px #050099, 0px 2px 1px  #050099,
-  0.5px 2.5px 1px  #050099, 1.4px 2px 1px  #050099,
-  2.7px 3px 1px  #050099, 3px 3px 3px  #050099,  3.3px 3px 1px #7A726E, 4px 3px 8px #7A726E;
+  color: #dfe3e6;
+  text-shadow: 0.3px 1px 1px hsl(220, 16%, 85%),
+  1.9px 0.5px 1px hsl(220, 16%, 88%),
+  1px 1.3px 1px hsl(220, 16%, 85%), 1.3px 1.7px 1px
+  hsl(220, 16%, 84%),
+  1.5px 1.9px 1px hsl(220, 16%, 82%),1.95px 2.1px 1px
+  hsl(220, 16%, 80%),
+  2px 2.3px 1px hsl(220, 16%, 79%),2.2px 2.9px 1px
+  hsl(220, 16%, 77%),  2.3px 3px 0.5px hsl(220, 16%, 75%),
+  3px 4px 11px #3366ff,0px -3px 8px hsl(220, 16%, 100%)
+  ,0px -3px 12px hsl(220, 16%, 100%);
   text-align: center;
   padding: 4px 16px;
   text-decoration: none;
-  color: transparent;
-  font-size: 38px;
   background-size: 100% 5px;
   font-family: 'Helvetica';
 }
@@ -100,19 +134,25 @@ nav li a:hover, a:focus {
   font-size: 100px;
   text-align: left;
   padding-left: 5%;
-  line-height: 89%;
+  line-height: 100%;
   padding-top: 420px;
   padding-right: 10%;
   padding-left: 10%;
   padding-bottom: -10px;
-  color: transparent;
-  background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
-  letter-spacing: .1em;
-  text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 3px #fff, -2px -1px 3px #fff, -2px 0px 2px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 1px 2px 1px  #988E8A,
-  2px 3px 1px  #988E8A, 3px 4px 1px  #988E8A,
-  4px 5px 2px  #988E8A, 5px 5px 7px  #7A726E,  5.5px 5px 1px #7A726E, 11px 7px 8px #7A726E;
-  color:transparent;
+color:transparent;
   background: none;
+  color: transparent;
+  letter-spacing: .01em;
+  text-shadow: 0.7px 0.9px 1px hsl(210, 8%, 90%),0.9px 1px 1px hsl(210, 8%, 89%),
+  1.3px 1.3px 1px hsl(210, 8%, 87%), 1.45px 1.6px 1px hsl(210, 8%, 86%),
+  1.7px 1.9px 1px hsl(210, 8%, 85%),1.85px 2.1px 1px hsl(210, 8%, 83%),
+  1.95px 2.3px 1px hsl(210, 8%, 80%),1.95px 2.9px 1px hsl(210, 8%, 80%),
+  2.1px 2.9px 1px hsl(210, 8%, 79%),   2.3px 3px 1px hsl(210, 8%, 78%),
+  7px 7px 9px hsl(210, 8%, 72%),  5px 6px 23px hsl(210, 8%, 72%), -1.5px 0px 14px
+  rgb(246, 252, 255, 1),
+  -1.5px 0px 34px rgb(246, 252, 255, 1),-1.5px -1px 14px rgb(246, 252, 255, 0.4);
+  -webkit-text-stroke: 1.3px  #f6f7f8;
+  color:#dfe3e6;
 }
 
 /* bottom header */
@@ -120,7 +160,6 @@ h3.information {
   font-size: 60px;
   text-align: center;
   color: transparent;
-  background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
   letter-spacing: .2em;
   text-shadow:-1px 1px 1px #F4EAE5,  -2px 1px 3px #fff, -2px 2px 2px #fdfaf9,
   -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 1px 2px 1px  #988E8A,
@@ -136,89 +175,22 @@ h3.information {
 
 /* skill category titles */
 h2.skilltitle{
-  font-size: 3.3vw;
-  padding-top: 40px;
+  font-size: 70.9016994375px;
+  padding-top: 0px;
   text-align: left;
-  line-height: 0.9;
-  font-family: 'Montserrat', sans-serif;
+  line-height: 1;
+  letter-spacing: .05em;
+  font-family: "Segoe UI",sans-serif;
   opacity: 1;
   margin: 2px;
-  font-weight: 500;
+  font-weight: 400;
   border-radius: 5vw;
-  color: transparent;
-  background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
-  letter-spacing: .1em;
-  text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 1px #fdfaf9,
-  -3px 0px 1px #fdfaf9, -2px 0px 1px #fdfaf9, -3px -1px 3px #fdfaf9,
-  0px 1px 1px  #988E8A, 0px 2px 1px  #988E8A,
-  0.5px 2.5px 1px  #988E8A, 1.4px 2px 1px  #988E8A,
-  2.7px 3px 1px  #988E8A, 3px 3px 3px  #988E8A,  3.3px 3px 1px #7A726E,
-  4px 3px 8px #7A726E;
-  color:transparent;
+  color: hsl(210, 8%, 92%);
+  text-shadow: 4px 1.6px 10px hsl(210, 8%, 60%)	,-1px -3px 10px hsl(210, 8%, 100%);
+  -webkit-text-stroke: 0.8px  #f6f7f8;
   background: none;
-  margin-bottom: -60px;
-  margin-left: 7vw;
-}
-
-/* skills title neumorphism border */
-.neu-about{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%;
-  margin-bottom: 0%;
-  margin-left: 35%;
-  margin-right: 41%;
-  width: 26.5%;
-  height: 0%;
-  border-radius: 1.6vw;
-  position: relative;
-  opacity: 1;
-  border: 0.45vw solid #eeded7;
-  box-shadow: -3px -3px 7px #ffffffb0, 3px 3px 5px rgba(94, 104, 121, 0.412);
-}
-
-/* skills title neumorphism border */
-.neu-about:after{
-  content: '';
-  position: absolute;
-  height: 98%;
-  width: 98%;
-  background-color: transparent;
-  border-radius: 1.6vw;
-  box-shadow: inset -3px -3px 7px rgba(94, 104, 121, 0.412),
-  inset 3px 3px 5px rgba(94, 104, 121, 0.471);
-  opacity: 1;
-}
-
-/* skills title neumorphism border */
-.neu-about-skill{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%;
-  margin-bottom: 0%;
-  margin-left: 38%;
-  margin-right: 41%;
-  width: 21.3%;
-  height: 0%;
-  border-radius: 1.6vw;
-  position: relative;
-  opacity: 1;
-  border: 0.45vw solid #eeded7;
-  box-shadow: -3px -3px 7px #ffffffb0, 3px 3px 5px rgba(94, 104, 121, 0.412);
-}
-
-/* skills title neumorphism border */
-.neu-about-skill:after{
-  content: '';
-  position: absolute;
-  height: 98%;
-  width: 98%;
-  background-color: transparent;
-  border-radius: 1.6vw;
-  box-shadow: inset -3px -3px 7px rgba(94, 104, 121, 0.412), inset 3px 3px 5px rgba(94, 104, 121, 0.471);
-  opacity: 1;
+  margin-bottom: 0px;
+  margin-left: 6vw;
 }
 
 /* the skills lists */
@@ -227,12 +199,12 @@ p.skills{
   font-weight: 400;
   font-size: 1.8vw;
   letter-spacing: 1.3;
-  background: linear-gradient(95deg, rgb(0, 120, 254), #0700EF);
+  background:  hsl(0, 0%, 36%);
+  opacity: 0.9;
+  text-shadow: 2px 3px 14px rgb(91, 91, 91,0.8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  opacity: 0.85;
-  text-shadow: 0px 2px 3px rgba(255,255,255,0.4);
 }
 
 .row{
@@ -265,14 +237,15 @@ p.skills{
   flex-direction:  row;
   flex-wrap: wrap;
   padding-top: 1%;
-  width:  100%;
+  width:  95%;
   height: 100%;
+  margin-left: 5%;
 }
 
 .column-about{
   display: flex;
   flex-direction:  column;
-  flex: .5;
+  flex: .45;
   align-items: center;
   border-spacing: 5px;
   margin: 10px;
@@ -280,7 +253,7 @@ p.skills{
 
 .one-column-about, {
   margin-bottom: 0px;
-  margin-left: -20px;
+  margin-left: 20px;
   margin-right: -20px;
   text-align: center;
 }
@@ -292,28 +265,26 @@ p.skills{
   text-align: center;
 }
 
-
 /* about paragraph */
 p.about{
   letter-spacing: 1.5;
   line-height: 1.5;
-  font-size: 1.0vw;
+  font-size: 20px;
   padding-top: 3%;
   padding-left: 14%;
   padding-right: 5%;
   padding-bottom: 3%;
-  /* background: #0700EF; */
-  background: linear-gradient(95deg, rgb(0, 120, 254), #0700EF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background:  hsl(0, 0%, 36%);
+  opacity: 0.9;
+  text-shadow: 2px 3px 14px rgb(91, 91, 91,0.8);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
   text-align: left;
   font-family:'Raleway', sans-serif;
   font-weight: bold;
-  width: 75%;
+  width: 450px;
   height:100%;
-  opacity: 0.85;
   margin-bottom:10vh;
-  text-shadow: 0px 2px 3px rgba(255,255,255,0.4);
 }
 
 /*not actually section skills this section is about stuff */
@@ -325,20 +296,42 @@ section.skills{
 
 /* this is skills */
 h2.skills{
-  padding-bottom: -15%;
   font-size: 2.1vw;
+  padding-top: 0px;
   text-align: center;
-  color: transparent;
-  background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
-  letter-spacing: .1em;
-  text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 1px #fdfaf9, -3px 0px 1px #fdfaf9, -2px 0px 1px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 0px 2px 1px  #988E8A,
-  0.5px 2.5px 1px  #988E8A, 1.4px 2px 1px  #988E8A,
-  1.5px 3px 1px  #988E8A, 1.6px 3px 3px  #988E8A,  1.7px 3px 1px #7A726E, 2px 2px 6px #7A726E;
-  color:transparent;
-  background: none;
+  padding-bottom: -15%;
+  line-height: 2;
+  letter-spacing: .05em;
+  font-family: "Segoe UI",sans-serif;
   opacity: 1;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  margin: 2px;
+  font-weight: 800;
+  border-radius: 5vw;
+  color:#dfe3e6;
+  text-shadow: 3px 1.6px 4px hsl(210, 8%, 60%)	,-1px -3px 10px hsl(210, 8%, 100%);
+ background: none;
+}
+
+#prog.skills {
+  color:#e95a4f;
+  text-shadow: 1px 0px 15px  rgb(222,69, 69,0.7)
+  , 2px 1.6px 4px hsl(210, 8%, 62%)	,
+  -1px -2px 4px hsl(210, 8%, 100%);
+}
+
+#ed.skills {
+  color: #ff8060;
+  text-shadow: 1px 0px 15px rgb(255, 103, 94,0.75)
+  , 2px 1px 4.5px hsl(210, 8%, 46%)	,
+  -1px -2px 4px hsl(210, 8%, 100%);
+
+}
+
+#pg.skills {
+  color:rgb(74,121,255);
+  text-shadow: 1px 0px 15px  rgb(74,121,255)
+  , 2px 1.6px 4px hsl(210, 8%, 62%)	,
+  -1px -2px 4px hsl(210, 8%, 100%);
 }
 
 /*footer css */
@@ -356,14 +349,14 @@ footer{
   padding-bottom: 1%;
   padding-left: 1%;
   padding-right: 1%;
-  margin-left:3%;
-  margin-right: 3%;
+  margin-left:8vw;
+  margin-right: 8vw;
   margin-top: 10%;
   border-radius: 12px;
   align-items: center;
   background: none;
   margin-bottom:1%;
-  box-shadow:  5px 5px 10px #c1b4ae,
+  box-shadow:  5px 5px 10px hsl(210, 8%, 65%),
   -5px -5px 10px #ffffff;
 }
 
@@ -384,7 +377,7 @@ footer{
 /* general messages section */
 .chat {
   padding-top: 20%;
-  margin-bottom: -5%;
+  margin-bottom: -3%;
   width: 102vw;
   display: flex;
   flex-direction: column;
@@ -404,10 +397,11 @@ footer{
 .message {
   border-radius: 29px;
   padding: 8px 15px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   margin-right: 1px;
   display: inline-block;
+  background: hsl(225, 100%, 55%);
 }
 
 /* gray messages  */
@@ -417,14 +411,21 @@ footer{
 
 /* gray messages  */
 .yours .message {
+  letter-spacing: .05em;
+  font-family: "Segoe UI",sans-serif;
+  opacity: 0.95;
+  font-weight: 400;
+  color:  hsl(0, 0%, 36%);
+  text-shadow: 2px 3px 14px rgb(91, 91, 91,0.4);
+  padding-left: 4%;
+  -webkit-text-stroke: 0.8px   rgb(91, 91, 91);
   margin-right: 25%;
   width: 250px;
-  background-color: #EEE;
   position: relative;
-  border: 8px solid #eeded7;
-  background: linear-gradient(145deg, #EEE, #EEE);
-  box-shadow:  5px 5px 10px #c8bab5,
-  -5px -5px 10px #faf5f3;
+  background: #d6dadd;
+  /* #f0f4f7; */
+  box-shadow:  -4px -4px 20px rgb(255, 255, 255,1), 0px 8px 25px hsl(210, 8%, 55%);
+
 }
 
 /* gray messages  */
@@ -433,25 +434,13 @@ footer{
   position: absolute;
   z-index: 0;
   bottom: 0;
-  left: -7px;
-  height: 20px;
-  width: 20px;
-  background: #EEE;
+  left: -11px;
+  height: 25px;
+  width: 25px;
   border-bottom-right-radius: 15px;
-}
-
-/* gray messages  */
-.yours .message.last:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  bottom: 0;
-  left: -7px;
-  width: 7px;
-  height: 20px;
-  background:#eeded7;
-  border-right: 11px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 5px;
+  background: radial-gradient(85% 190% at top left, transparent 50%, #d6dadd 51% );
+  transform: rotate(2deg);
 }
 
 /* blue messages  */
@@ -460,58 +449,51 @@ footer{
 }
 
 /* blue messages  */
-.mine .message {
-  color: white;
-  margin-left: 18%;
-  background: rgb(0, 120, 254);
-  position: relative;
-  border: 8px solid #eeded7;
-  background: linear-gradient(145deg, rgb(0, 120, 254), #0700EF);
-  box-shadow:  5px 5px 10px #c8bab5,
-  -5px -5px 10px #f5e9e6;
-}
-/* blue messages  */
-.mine .message.last:before {
-  content: "";
-  position: absolute;
-  z-index: 0;
-  bottom: 0;
-  right: -4px;
-  height: 20px;
-  width: 20px;
-  background: #0700EF;
-  border-bottom-left-radius: 15px;
-}
-/* blue messages  */
 .mine .message.last:after {
   content: "";
   position: absolute;
   z-index: 1;
   bottom: 0;
-  right: -7px;
-  width: 7px;
-  height: 20px;
-  background: #eeded7 ;
-  border-bottom-left-radius: 10px;
+  right: -8px;
+  height: 27px;
+  width: 20px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 5px;
+  background:radial-gradient(85% 190% at top right, transparent 50%,
+  hsl(225, 100%, 55%) 51% );
+  transform: rotate(2deg);
 }
 
-/* blue message link list */
+/* blue messages  */
+.mine .message {
+  letter-spacing: .05em;
+  font-family: "Segoe UI",sans-serif;
+  opacity: 1;
+  font-weight: 400;
+  color: #dee2e6;
+  -webkit-text-stroke: 0.8px   #dee2e6;
+  text-shadow: -1px 2px 8px rgb(255,255,255,0.25);
+  margin-left: 18%;
+  position: relative;
+  box-shadow:  6px 4px 22px rgb(55, 106, 255,0.9),
+  -5px -5px 9px rgb(255,255,255,1);
+}
+/* blue message link list outer class */
 .f-three-column{
   list-style-type: none;
   display: block;
-  margin-left: vw;
-  margin-top: -1vh;
-  margin-bottom: -1vh;
+  margin-top: -2.1vh;
+  margin-bottom: -2vh;
   font-size: 16px;
   line-height: 0.9;
   width: 145px;
-  margin-left: -5vh;
+  margin-left: -4vh;
 }
 
 /* footer col links */
 .last ul li  a {
-  color: #fff;
-  background-image: linear-gradient(currentColor, currentColor);
+  color: #dee2e6;
+  -webkit-text-stroke: 0.8px   #dee2e6;
   background-position: 7% 95%;
   background-repeat: no-repeat;
   background-size: 0% 5px;
@@ -525,13 +507,13 @@ footer{
   align-items: center;
   margin-top: 10%;
   margin-bottom: 4%;
-  margin-left: 15%;
+  margin-left: 12%;
   margin-right: 4%;
-  width: 70%;
+  width: 77%;
   height: 110%;
   border-radius: 6vw;
-  box-shadow: inset 7px 7px 14px #c8bab5,
-  inset -7px -7px 14px #faf5f3;
+  box-shadow: inset 7px 7px 16px hsl(210, 8%, 65%),
+  inset -7px -7px 14px hsl(220, 16%, 100%);
   position: relative;
   opacity: 1;
 }
@@ -539,8 +521,8 @@ footer{
 /* skills list inset neumorphism */
 .neu-skill-list {
   background: none ;
-  box-shadow: inset 5px 5px 10px #c1b4ae,
-  inset -5px -5px 10px #faf5f3;
+  box-shadow: inset 5px 5px 10px hsl(210, 8%, 65%),
+  inset -5px -5px 10px hsl(220, 16%, 100%);
   border-radius: 0.7vw;
   height: 100%;
   width: 100%;
@@ -560,9 +542,9 @@ footer{
 
 /* skills body  neumorphism */
 .neu-skill-body{
-  background: #eeded7 ;
-  box-shadow: inset 7px 7px 14px #c1b4ae,
-  inset -7px -7px 14px #faf5f3;
+  background: none;
+  box-shadow: inset 7px 7px 14px hsl(210, 8%, 65%),
+  inset -7px -7px 14px hsl(220, 16%, 99%);
   width: 88%;
   height: 100%;
   border-radius: 3vw;
@@ -576,7 +558,6 @@ footer{
 }
 
 @media screen and (max-width: 1100px){
-
   /*intro text*/
   .egg{
     font-size: 110px;
@@ -587,46 +568,27 @@ footer{
 
   /* about paragraph */
   p.about{
-    letter-spacing: 1.5;
-    line-height: 1.5;
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 9%;
-    padding-left: 14%;
-    padding-right: 5%;
-    padding-bottom: 3%;
-    background: linear-gradient(95deg, rgb(0, 120, 254), #0700EF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: left;
     font-family:'Raleway', sans-serif;
-    font-weight: bold;
-    width: 75%;
-    height:100%;
     opacity: 1;
     margin-bottom:0vh;
+      width: 360px;
   }
 
   /* skill category titles */
   h2.skilltitle{
-    font-size: 55px;
-    padding-top: 9%;
+    font-size: 70px;
+    padding-top: 0%;
     text-align: left;
-    line-height: 0.9;
-    font-family: 'Montserrat', sans-serif;
-    opacity: 1;
-    margin: 2px;
-    font-weight: 500;
     border-radius: 5vw;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: -90px;
+    margin-bottom: -30px;
     margin-left: 14%;
   }
-
 }
 
 /*mobile state*/
-@media screen and (max-width: 1010px){
+@media screen and (max-width: 1010px) and (min-width: 850px){
   /*intro text*/
   .egg{
     font-size: 150px;
@@ -636,7 +598,7 @@ footer{
   }
 
   .f-three-column{
-    font-size: 30px;
+    font-size: 26px;
     margin-left: 0.5vw;
   }
 
@@ -644,11 +606,6 @@ footer{
   h3.information {
     font-size: 10vw;
     margin-bottom: -6vh;
-    text-shadow:-1px 1px 1px #F4EAE5,  -2px 1px 3px #fff, -2px 2px 2px #fdfaf9,
-    -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 1px 2px 1px  #988E8A,
-    0px 3px 1px  #988E8A, 1px 4px 1px  #988E8A,
-    2px 3px 2px  #988E8A, 3px 3px 7px  #7A726E,  3.5px 3px 1px #7A726E,
-    3.2px 4px 8px #7A726E;
     letter-spacing: 0.1em;
   }
 
@@ -660,15 +617,10 @@ footer{
   .mine .message.last{
     width: 350px;
   }
+
   /*navigation*/
   nav ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 19px;
-    padding-top: 0%;
-    overflow: hidden;
     display:inline;
-    float: right;
   }
 
   img.title{
@@ -679,39 +631,20 @@ footer{
   nav li a {
     text-align: right;
     padding: 3px 16px;
-    text-decoration: none;
     font-size: 70px;
     background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 5px;
-    transition: background-size .3s;
-    color: transparent;
-    background: linear-gradient(to right,#00a2ff 0%, #0700EF 60%);
-    letter-spacing: .1em;
-    text-shadow:-1px 1px 1px #F4EAE5, -3px -1px 2px #fdfaf9, -3px 0px 2px #fdfaf9, -2px 0px 1px #fdfaf9, -3px -1px 3px #fdfaf9, 0px 1px 1px  #988E8A, 0px 2px 1px  #988E8A,
-    0.5px 2.5px 1px  #988E8A, 1.4px 2px 1px  #988E8A,
-    2.7px 3px 1px  #988E8A, 3px 3px 3px  #988E8A,  3.3px 3px 6px #7A726E, 4px 3px 8px #7A726E;
-    color:transparent;
-    background: none;
-
-  }
+    }
 
   nav li a:hover, a:focus {
-    color: transparent;
-    text-shadow:-2px 1px 2px #0700EF, -2px 0px 1px #8782ff, -2px 0px 1px #8782ff, 0px 1px 1px #050099, 0px 2px 1px  #050099,
-    0.5px 2.5px 1px  #050099, 1.4px 2px 1px  #050099,
-    2.7px 3px 1px  #050099, 3px 3px 3px  #050099,  3.3px 3px 1px #7A726E, 4px 3px 8px #7A726E;
     text-align: right;
-    color: transparent;
     padding: 4px 16px;
-    text-decoration: none;
     font-size: 70px;
     background-size: 100% 5px;
   }
 
   .chat {
     padding-top: 20%;
-    margin-bottom: -5%;
+  margin-bottom: -3%;
     width: 102vw;
     display: flex;
     flex-direction: column;
@@ -721,66 +654,21 @@ footer{
   }
 
   img.in-modal{
-    height: 800px;
-    width: 80vw;
-    display: block;
+    height: 600px;
+    width: 600px;
     margin-bottom: -8vh;
-    align-content: left;
-    margin-left: 7%;
-    display: block;
-    overflow: hidden;
-    object-fit: cover;
+    margin-left: 15%;
+    margin-right: 17%;
     margin-top: 13vh;
-    border: 10px solid #eeded7;
-    -webkit-border-radius:63px 63px 63px 63px/
-    108px 108px 72px 72px;
-    /* fails in Safari, but overwrites in Chrome */
-    border-radius:50% 50% 50% 40%/15% 60% 40% 90%;
-    box-shadow:  5px 5px 10px #ababab,
-    -5px -5px 10px #ffffff;
-  }
-
-  /* skills title neumorphism border */
-  .neu-about-skill{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-    margin-bottom: 0%;
-    margin-left: 38%;
-    margin-right: 41%;
-    width: 21.3%;
-    height: 0%;
-    border-radius: 1.6vw;
-    position: relative;
-    opacity: 1;
-    border: 0.45vw solid #eeded7;
-    box-shadow: -3px -3px 7px #faf5f3, 3px 3px 5px rgba(94, 104, 121, 0.412);
-  }
-
-  /* skills title neumorphism border */
-  .neu-about-skill:after{
-    content: '';
-    position: absolute;
-    height: 98%;
-    width: 98%;
-    background-color: transparent;
-    border-radius: 1.6vw;
-    box-shadow: inset -3px -3px 7px rgba(94, 104, 121, 0.412), inset 3px 3px 5px rgba(94, 104, 121, 0.471);
-    opacity: 1;
   }
 
   /* the skills lists */
   p.skills{
     font-weight: 400;
     letter-spacing: 1.3;
-    background: linear-gradient(95deg, rgb(0, 120, 254), #0700EF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-weight: bold;
     opacity: 0.85;
-    text-shadow: 0px 2px 3px rgba(255,255,255,0.4);
-    font-size: 2.8vw;
+    font-size: 3.9vw;
   }
 
   /*not actually section skills this section is about stuff */
@@ -792,44 +680,7 @@ footer{
 
   /* this is skills */
   h2.skills{
-    padding-bottom: -15%;
-    font-size: 4vw;
-    text-align: center;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: 1;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-  }
-
-  /* skills title neumorphism border */
-  .neu-about-skill{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-    margin-bottom: 0%;
-    margin-left: 38%;
-    margin-right: 41%;
-    width: 21.3%;
-    height: 0%;
-    border-radius: 1.6vw;
-    position: relative;
-    opacity: 1;
-    border: 0.45vw solid #eeded7;
-    box-shadow: -3px -3px 7px #ffffffb0, 3px 3px 5px rgba(94, 104, 121, 0.412);
-  }
-
-  /* skills title neumorphism border */
-  .neu-about-skill:after{
-    content: '';
-    position: absolute;
-    height: 98%;
-    width: 98%;
-    background-color: transparent;
-    border-radius: 1.6vw;
-    box-shadow: inset -3px -3px 7px rgba(94, 104, 121, 0.412), inset 3px 3px 5px rgba(94, 104, 121, 0.471);
-    opacity: 1;
+    font-size: 6.0vw;
   }
 
   /* about flex box */
@@ -838,8 +689,9 @@ footer{
     flex-direction:  column;
     flex-wrap: wrap;
     padding-top: 1%;
-    width:  100%;
+    width:  95%;
     height: 100%;
+    margin-left: 0%;
   }
   /* about flex box */
   .column-about{
@@ -869,40 +721,22 @@ footer{
 
   /* skill category titles */
   h2.skilltitle{
-    font-size: 85px;
-    padding-top: 0px;
+    font-size: 65px;
+    margin-top: -50px;
     text-align: center;
-    line-height: 0.9;
-    font-family: 'Montserrat', sans-serif;
-    opacity: 1;
-    margin: 2px;
-    font-weight: 500;
     border-radius: 5vw;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: -60px;
-    margin-left: 6vw;
+    margin-bottom: -10px;
+    margin-left: 9vw;
   }
 
   /* about paragraph */
   p.about{
-    letter-spacing: 1.5;
-    line-height: 1.5;
     font-size: 24px;
     padding-top: 3%;
-    padding-left: 15%;
-    padding-right: 5%;
-    padding-bottom: 3%;
-    background: linear-gradient(95deg, rgb(0, 120, 254), #0700EF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: left;
-    font-family:'Raleway', sans-serif;
-    font-weight: bold;
-    width: 75%;
-    height:100%;
-    opacity: 1;
+    padding-left: 12%;
+
     margin-bottom:6vh;
+      width: 83%;
   }
 
   /* skill flex box */
@@ -916,12 +750,6 @@ footer{
   }
   /* skill flex box */
   .column{
-    display: flex;
-    flex-direction:  column;
-    flex: .5;
-    align-items: center;
-    border-spacing: 5px;
-    margin: 10px;
     margin-left: 40px;
     margin-right: 30px;
     margin-bottom: 9vh;
@@ -939,19 +767,10 @@ footer{
 
   /* section hover*/
   .skill-background {
-    padding-bottom: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
     margin-left:9%;
     margin-right: 3%;
     margin-top: 5%;
-    border-radius: 12px;
-    align-items: center;
     width: 80%;
-    background: #eeded7 ;
-    margin-bottom:1%;
-    box-shadow:  5px 5px 10px #c1b4ae,
-    -5px -5px 10px #ffffff
   }
 
   /* skills title neumorphism border */
@@ -971,18 +790,352 @@ footer{
     line-height: 0;
     border-top: 30px dotted #000;
   }
+}
 
-  /* skills list inset neumorphism */
-  .neu-skill-list {
-    background: #eeded7;
-    box-shadow: inset 11px 11px 22px #cabdb7,
-    inset -11px -11px 22px #fffff7;
-    box-shadow: inset 10px 10px 20px #aba09b,
-    inset -10px -10px 20px #ffffff;
-    border-radius: 3vw;
-    height: 100%;
-    width: 102%;
-    padding-bottom: 1vh;
-  }
+@media screen and (max-width: 850px) and (min-width: 600px){
+/*intro text*/
+.egg{
+  font-size: 150px;
+  word-wrap: break-word;
+  width:80%;
+  margin-left: -2vw;
+}
 
+.f-three-column{
+  font-size: 26px;
+  margin-left: 0.5vw;
+}
+
+/* bottom header */
+h3.information {
+  font-size: 10vw;
+  margin-bottom: -6vh;
+  letter-spacing: 0.1em;
+}
+
+body {
+  font-size: 38px;
+}
+
+/* blue messages  */
+.mine .message.last{
+  width: 350px;
+}
+
+/*navigation*/
+nav ul {
+  display:inline;
+}
+
+img.title{
+  padding-top: 44px;
+  width: 80px;
+}
+
+nav li a {
+  text-align: right;
+  padding: 3px 16px;
+  font-size: 70px;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 5px;
+}
+
+nav li a:hover, a:focus {
+  text-align: right;
+  padding: 4px 16px;
+  font-size: 70px;
+  background-size: 100% 5px;
+}
+
+.chat {
+  padding-top: 20%;
+  margin-bottom: -3%;
+  width: 102vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2vw;
+  margin-top: 0vh;
+  margin-left: -10.9vw;
+}
+
+img.in-modal{
+  height: 450px;
+  width: 450px;
+  margin-bottom: -8vh;
+  align-content: left;
+  margin-left: 4%;
+  margin-top: 13vh;
+}
+
+/* the skills lists */
+p.skills{
+  font-weight: 400;
+  letter-spacing: 1.3;
+  font-weight: bold;
+  opacity: 0.85;
+  font-size: 3.8vw;
+}
+
+/*not actually section skills this section is about stuff */
+section.skills{
+  padding-top: 20%;
+  padding-left:13%;
+  padding-right: 13%;
+}
+
+/* this is skills */
+h2.skills{
+  font-size: 5.5vw;
+}
+
+/* about flex box */
+.row-about{
+  display: flex;
+  flex-direction:  column;
+  flex-wrap: wrap;
+  padding-top: 1%;
+  width:  95%;
+  height: 100%;
+  margin-left: 0%;
+}
+
+/* skill category titles */
+h2.skilltitle{
+  font-size: 65px;
+  padding-top: 0px;
+  text-align: center;
+  border-radius: 5vw;
+  margin-bottom: -20px;
+  margin-left: 8vw;
+  margin-top: -50px;
+}
+
+/* about paragraph */
+p.about{
+  font-size: 24px;
+  padding-top: 3%;
+  padding-left: 12%;
+
+  margin-bottom:9vh;
+  width: 83%;
+}
+
+/* skill flex box */
+.row{
+  display: flex;
+  flex-direction:  column;
+  flex-wrap: wrap;
+  padding-top: 1%;
+  width:  98.5%;
+  height: 100%;
+}
+/* skill flex box */
+.column{
+  display: flex;
+  flex-direction:  column;
+  flex: .5;
+  align-items: center;
+  border-spacing: 5px;
+  margin: 10px;
+  margin-left: 40px;
+  margin-right: 30px;
+  margin-bottom: 9vh;
+  margin-top: 9vh;
+}
+
+/* skill flex box */
+.one-column, .two-column, .three-column{
+  margin-bottom: 0px;
+  margin-left: -20px;
+  margin-right: -20px;
+  text-align: center;
+  height: 10%;
+}
+
+/* section hover*/
+.skill-background {
+  margin-left:9%;
+  margin-right: 3%;
+  margin-top: 5%;
+  align-items: center;
+  width: 80%;
+}
+}
+
+@media screen and (max-width: 600px) {
+/*intro text*/
+.egg{
+  font-size: 150px;
+  word-wrap: break-word;
+  width:80%;
+  margin-left: -2vw;
+}
+
+.f-three-column{
+  font-size: 26px;
+  margin-left: 0.5vw;
+}
+
+/* bottom header */
+h3.information {
+  font-size: 10vw;
+  margin-bottom: -6vh;
+  letter-spacing: 0.1em;
+}
+
+body {
+  font-size: 38px;
+}
+
+/* blue messages  */
+.mine .message.last{
+  width: 350px;
+}
+
+/*navigation*/
+nav ul {
+  display:inline;
+}
+
+img.title{
+  padding-top: 44px;
+  width: 80px;
+}
+
+nav li a {
+  text-align: right;
+  padding: 3px 16px;
+  font-size: 70px;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 5px;
+}
+
+nav li a:hover, a:focus {
+  text-align: right;
+  padding: 4px 16px;
+  font-size: 70px;
+  background-size: 100% 5px;
+}
+
+.chat {
+  padding-top: 20%;
+  margin-bottom: -3%;
+  width: 102vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2vw;
+  margin-top: 0vh;
+  margin-left: -10.9vw;
+}
+
+img.in-modal{
+  height: 320px;
+  width: 320px;
+  margin-bottom: -8vh;
+  margin-top: 13vh;
+  margin-left: 6%;
+}
+
+/* the skills lists */
+p.skills{
+  font-weight: 400;
+  letter-spacing: 1.3;
+  font-weight: bold;
+  opacity: 0.85;
+  font-size: 3.8vw;
+}
+
+/*not actually section skills this section is about stuff */
+section.skills{
+  padding-top: 20%;
+  padding-left:13%;
+  padding-right: 13%;
+}
+
+/* this is skills */
+h2.skills{
+  font-size: 5.5vw;
+}
+
+/* about flex box */
+.row-about{
+  display: flex;
+  flex-direction:  column;
+  flex-wrap: wrap;
+  padding-top: 1%;
+  width:  95%;
+  height: 100%;
+  margin-left: -1%;
+}
+/* about flex box */
+.column-about{
+  display: flex;
+  flex-direction:  column;
+  flex: 1;
+  align-items: center;
+  border-spacing: 5px;
+  margin: 0px;
+}
+
+/* skill category titles */
+h2.skilltitle{
+  font-size: 65px;
+  padding-top: 0px;
+  text-align: center;
+  border-radius: 5vw;
+  margin-bottom: -10px;
+  margin-top: -40px;
+}
+
+/* about paragraph */
+p.about{
+  font-size: 24px;
+  padding-top: 3%;
+  padding-left: 15%;
+  margin-bottom:6vh;
+    width: 83%;
+}
+
+/* skill flex box */
+.row{
+  display: flex;
+  flex-direction:  column;
+  flex-wrap: wrap;
+  padding-top: 1%;
+  width:  98.5%;
+  height: 100%;
+}
+
+/* skill flex box */
+.column{
+  display: flex;
+  flex-direction:  column;
+  flex: .5;
+  align-items: center;
+  border-spacing: 5px;
+  margin: 10px;
+  margin-left: 40px;
+  margin-right: 30px;
+  margin-bottom: 9vh;
+  margin-top: 9vh;
+}
+
+/* skill flex box */
+.one-column, .two-column, .three-column{
+  margin-bottom: 0px;
+  margin-left: -20px;
+  margin-right: -20px;
+  text-align: center;
+  height: 10%;
+}
+
+/* section hover*/
+.skill-background {
+  margin-left:9%;
+  margin-right: 3%;
+  margin-top: 5%;
+  width: 80%;
+}
 }
