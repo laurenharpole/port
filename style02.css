@@ -907,7 +907,7 @@ h3.information {
   font-size: 16px;
   line-height: 0.9;
   width: 145px;
-  margin-left: -4vh;
+  margin-left: -2vh;
 }
 
 /* footer col links */
@@ -958,23 +958,19 @@ h3.information {
     transition: 2.4s ease;
   }
 
-  /* blue message link list outer class */
   .f-three-column{
-    list-style-type: none;
-    display: block;
-    margin-top: -2.1vh;
-    margin-bottom: -2vh;
     font-size: 26px;
-    line-height: 0.9;
-    width: 145px;
-    margin-left: -4vh;
+  margin-left: -3.5vw;
   }
 
   body {
     font-size: 38px;
-    padding-top: 40px;
   }
 
+  /* blue messages  */
+  .mine .message.last{
+    width: 230px;
+  }
   img.in-modal{
     width: 75vw;
     height:auto;
@@ -1047,16 +1043,10 @@ h3.information {
     -2px -2px 7px  #f6fcff;
   }
 
-  /* blue messages  */
-  .mine .message.last{
-    width: 230px;
-  }
-
   img.title{
     padding-top: 42px;
     width: 80px;
   }
-
 
   .chat {
     padding-top: 20%;
