@@ -44,11 +44,11 @@ img.in-modal{
   margin-bottom: 5%;
   align-content: left;
   margin-left: 5%;
-  float:center;
+  float:right;
   display: block;
   overflow: hidden;
   object-fit: cover;
-  margin-top: 20vh;
+  margin-top: 0vh;
   border: 5px solid transparent;
   border-radius: 24px;
   background:
@@ -149,35 +149,31 @@ color:transparent;
   -webkit-text-stroke: 1.3px  #f6f7f8;
   color:#dfe3e6;
 }
-/* text-shadow: 0.7px 0.9px 1px hsl(210, 8%, 90%),0.9px 1px 1px hsl(210, 8%, 89%),
-1.3px 1.3px 1px hsl(210, 8%, 87%), 1.45px 1.6px 1px hsl(210, 8%, 86%),
-1.7px 1.9px 1px hsl(210, 8%, 85%),1.85px 2.1px 1px hsl(210, 8%, 83%),
-1.95px 2.3px 1px hsl(210, 8%, 80%),1.95px 2.9px 1px hsl(210, 8%, 80%),
-2.1px 2.9px 1px hsl(210, 8%, 79%),   2.3px 3px 1px hsl(210, 8%, 78%),
-11px 6px 9px hsl(210, 8%, 70%),  7px 6px 22px hsl(210, 8%, 70%), -1.5px 0px 14px
-rgb(246, 252, 255, 1),
--1.5px 0px 34px rgb(246, 252, 255, 1),-1.5px -1px 14px rgb(246, 252, 255, 0.4)
-,0px -1px 18px hsl(220, 16%, 100%);; */
 
 /* skill category titles */
 h2.skilltitle{
-  font-size: 70.9016994375px;
-  padding-top: 0px;
+  font-size: 50.9016994375px;
+  padding-top: 90px;
   text-align: left;
   line-height: 1;
   letter-spacing: .05em;
   font-family: "Segoe UI",sans-serif;
   opacity: 1;
   margin: 2px;
-  font-weight: 800;
+  width: 100%;
+  font-weight: 400;
   border-radius: 5vw;
-  color: hsl(210, 8%, 89%);
+  /* color: hsl(210, 8%, 89%);
   text-shadow: 7px 5px 13px hsl(210, 8%, 66%)	,-1px -6px 10px hsl(210, 8%, 95%),
   -4px -8px 24px hsl(210, 8%, 94%);
-  -webkit-text-stroke: 1.5px  #f6f7f8;
+  -webkit-text-stroke: 1.5px  #f6f7f8; */
+  color:rgb(74,121,255);
+  text-shadow: 1px 0px 15px  rgb(74,121,255)
+  , 2px 1.6px 4px hsl(210, 8%, 62%)	,
+  -1px -2px 4px hsl(210, 8%, 100%);
   background: none;
   margin-bottom: 0px;
-  margin-left: 6vw;
+  margin-left: 14%;
 }
 
 /* the skills lists */
@@ -256,7 +252,7 @@ p.skills{
 p.about{
   letter-spacing: 1.5;
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 17px;
   padding-top: 3%;
   padding-left: 14%;
   padding-right: 5%;
@@ -558,7 +554,7 @@ footer{
 
   /* about paragraph */
   p.about{
-    font-size: 18px;
+    font-size: 17px;
     padding-top: 9%;
     font-family:'Raleway', sans-serif;
     opacity: 1;
@@ -568,8 +564,8 @@ footer{
 
   /* skill category titles */
   h2.skilltitle{
-    font-size: 70px;
-    padding-top: 0%;
+    font-size: 50px;
+    padding-top: 15%;
     text-align: left;
     border-radius: 5vw;
     margin-bottom: -40px;
@@ -704,12 +700,12 @@ footer{
 
   /* skill category titles */
   h2.skilltitle{
-    font-size: 125px;
+    font-size: 110px;
     margin-top: -40px;
     text-align: center;
     border-radius: 5vw;
     margin-bottom: -10px;
-    margin-left: 9vw;
+    margin-left: 5%;
   }
 
   /* about paragraph */
@@ -878,13 +874,14 @@ h2.skills{
 
 /* skill category titles */
 h2.skilltitle{
-  font-size: 65px;
+  font-size: 75px;
   padding-top: 0px;
   text-align: center;
   border-radius: 5vw;
   margin-bottom: -20px;
-  margin-left: 8vw;
-  margin-top: -40px;
+  margin-left: 14%;
+  margin-top: 60px;
+  width: 80%;
 }
 
 /* about paragraph */
@@ -1050,12 +1047,14 @@ h2.skills{
 
 /* skill category titles */
 h2.skilltitle{
-  font-size: 65px;
+  font-size: 75px;
   padding-top: 0px;
   text-align: center;
   border-radius: 5vw;
-  margin-bottom: -10px;
-  margin-top: -40px;
+  margin-bottom: -20px;
+  margin-left: 14%;
+  margin-top: 60px;
+  width: 80%;
 }
 
 /* about paragraph */

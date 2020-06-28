@@ -384,14 +384,29 @@
     <p class="stamp"> Information, <span id="info"> </span></p>
     <script>
     var d = new Date();
-    if(d.getMinutes() == 0){
-      document.getElementById("info").innerHTML =  d.getHours()+ ":" + 0 + 0;
+    if(d.getHours() > 12){
+      if(d.getMinutes() < 10){
+        document.getElementById("info").innerHTML = (d.getHours()-12)+ ":" + 0 + d.getMinutes() + " PM";
+      }
+      else{
+        document.getElementById("info").innerHTML =  + (d.getHours()-12)+ ":" + d.getMinutes() + " PM";
+      }
     }
-    else if(d.getMinutes() < 10){
-      document.getElementById("info").innerHTML = d.getHours()+ ":" + 0 + d.getMinutes();
+    else if(d.getHours() == 0){
+      if(d.getMinutes() < 10){
+        document.getElementById("info").innerHTML = 12+ ":" + 0 + d.getMinutes() + " AM";
+      }
+      else{
+        document.getElementById("info").innerHTML =  + 12+ ":" + d.getMinutes() + " AM";
+      }
     }
-    else{
-      document.getElementById("info").innerHTML =  + d.getHours()+ ":" + d.getMinutes();
+    else {
+      if(d.getMinutes() < 10){
+        document.getElementById("info").innerHTML = d.getHours()+ ":" + 0 + d.getMinutes()+ " AM";
+      }
+      else{
+        document.getElementById("info").innerHTML =  + d.getHours()+ ":" + d.getMinutes()+ " AM";
+      }
     }
     </script>
     <div class="mine messages">

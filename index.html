@@ -42,7 +42,7 @@
       </div>
       <div class='column-about'>
         <div class='two-column-about'>
-          <h2 class="skilltitle"><br></br><span> Let me  introduce <br>myself</span></h2>
+          <h2 class="skilltitle"><span> Let me introduce<br> myself</span></h2>
           <p class="about">Hi, I'm Lauren Harpole, a Computer Science major with an emphasis on design, studying at Cornell University. I am an avid photographer, and hope to incorporate my skills in aesthetics and composition into software design. In addition, I am developing proficiency in Japanese and have studied French for seven years.</br>
             I hope to pursue opportunities in software engineering and graphic design so as to gain experience and knowledge. Ultimately, my goal is to work in-between graphic designers and programmers in order to steer design in a human direction such that technology is elegant, effective, and user-friendly. </p>
           </div>
@@ -110,14 +110,29 @@
     <p class="stamp"> Information, <span id="info"> </span></p>
     <script>
     var d = new Date();
-    if(d.getMinutes() == 0){
-      document.getElementById("info").innerHTML =  d.getHours()+ ":" + 0 + 0;
+    if(d.getHours() > 12){
+      if(d.getMinutes() < 10){
+        document.getElementById("info").innerHTML = (d.getHours()-12)+ ":" + 0 + d.getMinutes() + " PM";
+      }
+      else{
+        document.getElementById("info").innerHTML =  + (d.getHours()-12)+ ":" + d.getMinutes() + " PM";
+      }
     }
-    else if(d.getMinutes() < 10){
-      document.getElementById("info").innerHTML = d.getHours()+ ":" + 0 + d.getMinutes();
+    else if(d.getHours() == 0){
+      if(d.getMinutes() < 10){
+        document.getElementById("info").innerHTML = 12+ ":" + 0 + d.getMinutes() + " AM";
+      }
+      else{
+        document.getElementById("info").innerHTML =  + 12+ ":" + d.getMinutes() + " AM";
+      }
     }
-    else{
-      document.getElementById("info").innerHTML =  + d.getHours()+ ":" + d.getMinutes();
+    else {
+      if(d.getMinutes() < 10){
+        document.getElementById("info").innerHTML = d.getHours()+ ":" + 0 + d.getMinutes()+ " AM";
+      }
+      else{
+        document.getElementById("info").innerHTML =  + d.getHours()+ ":" + d.getMinutes()+ " AM";
+      }
     }
     </script>
     <div class="mine messages">
