@@ -10,7 +10,7 @@ nav ul {
   list-style-type: none;
   margin: 0px;
   padding: 19px;
-  padding-top: 0%;
+  margin-top: 56px;
   overflow: hidden;
   display: flex;
   float: right;
@@ -30,7 +30,7 @@ p.stamp{
 img.title{
   display: flex;
   float: left;
-  margin-top: -16px;
+  margin-top: 59px;
   margin-left: 69px;
   width: 30px;
    filter: drop-shadow(7px 4px 14px  rgb(74,121,255,0.6))
@@ -1329,16 +1329,15 @@ top image header */
     list-style-type: none;
     margin: 0px;
     padding: 19px;
-    padding-top: 0%;
     overflow: hidden;
     display:inline;
     float: right;
-    padding-top: 75px;
+    padding-top: 149px;
     margin-bottom: 15vh;
   }
 
   img.title{
-    margin-top: 63px;
+      padding-top: 118px;
     width: 80px;
   }
 }
