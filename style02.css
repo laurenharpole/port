@@ -1095,7 +1095,7 @@ p.launch{
     padding-right: 20vw;
     padding-top: 25px;
     padding-bottom: 25px;
-    border-radius:  33px;
+    /* border-radius:  33px; */
   }
 
   p.launch {
