@@ -1088,13 +1088,15 @@ p.launch{
 
   /* launch the site button */
   .launch a {
-
-    margin-left: 18px;
+    width: 100%;
+    margin-left: 60px;
     font-size: 0.8em;
+    padding-left: 190px;
+    padding-right: 190px;
   }
 
   p.launch {
-    display: inline;
+    display: block;
     flex-wrap: wrap;
   }
 
