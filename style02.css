@@ -1089,10 +1089,12 @@ p.launch{
   /* launch the site button */
   .launch a {
     width: 100%;
-    margin-left: 60px;
-    font-size: 0.8em;
-    padding-left: 190px;
-    padding-right: 190px;
+    margin-left: 6%;
+    font-size: 3.5vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   p.launch {
@@ -1242,6 +1244,7 @@ top image header */
 
   h2.data {
     font-size: 105px;
+    margin-top: -10px;
     margin-bottom: -40px;
   }
 
@@ -1269,7 +1272,7 @@ top image header */
   }
 
   img.photo-modal{
-    width: 30vw;
+    width: 35vw;
     border-radius: 18px;
     margin-bottom: 0%;
     overflow: hidden;
