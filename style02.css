@@ -561,7 +561,7 @@ pointer events are only those currently visible*/
   position: relative;
   margin: 10% auto;
   padding: 0px 20px 13px 20px;
-  border-radius:  48px;
+  border-radius:  54px;
   background: linear-gradient(315deg, #e0e4e7
 , #f0f4f7);
   overflow: scroll;
@@ -1089,12 +1089,14 @@ p.launch{
   /* launch the site button */
   .launch a {
     width: 100%;
-    margin-left: 6%;
+    margin-left: 3.5%;
     font-size: 3.5vw;
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding-left: 22vw;
+    padding-right: 22vw;
     padding-top: 25px;
     padding-bottom: 25px;
+    box-shadow:  6px 6px 24px hsl(215, 9%, 70%),
+                -6px -6px 13px rgb(255,255,255,0.7);
     /* border-radius:  33px; */
   }
 
@@ -1245,7 +1247,7 @@ top image header */
 
   h2.data {
     font-size: 80px;
-    margin-top: -5px;
+    margin-top: 40px;
     margin-bottom: -40px;
   }
 
