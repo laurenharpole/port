@@ -561,7 +561,7 @@ pointer events are only those currently visible*/
   position: relative;
   margin: 10% auto;
   padding: 0px 20px 13px 20px;
-  border-radius:  18px;
+  border-radius:  48px;
   background: linear-gradient(315deg, #e0e4e7
 , #f0f4f7);
   overflow: scroll;
@@ -1095,6 +1095,7 @@ p.launch{
     padding-right: 20vw;
     padding-top: 25px;
     padding-bottom: 25px;
+    border-radius:  33px;
   }
 
   p.launch {
@@ -1243,7 +1244,7 @@ top image header */
   }
 
   h2.data {
-    font-size: 105px;
+    font-size: 80px;
     margin-top: -10px;
     margin-bottom: -40px;
   }
