@@ -172,10 +172,10 @@ p.close2{
 img.photo-modal{
   width: 30vw;
   border-radius: 18px;
-  border: .05em solid white;
+  border: .05em  rgb(255,255,255,0.8);
   overflow: hidden;
   box-shadow:  9px 9px 18px hsl(220, 16%, 62%),
-  -9px -9px 18px rgb(255,255,255,0.6);
+  -9px -9px 24px rgb(255,255,255,0.8);
 }
 
 /* img.in-modal{
@@ -1103,6 +1103,8 @@ p.launch{
   p.launch {
     display: block;
     flex-wrap: wrap;
+    margin-top: 69px;
+    margin-bottom:0px;
   }
 
   p.close2 a{
@@ -1114,11 +1116,11 @@ p.launch{
   text-align: right;
   }
 
-  h4 {
-    font-size: 1em;
+  /* h4 {
+    font-size: 2vw;
     width: 420px;
-    margin-bottom: 72px;
-  }
+    margin-bottom: 52px;
+  } */
 
 
   nav li a {
@@ -1235,7 +1237,7 @@ top image header */
 
   p.data {
     margin-left: 4%;
-    font-size: 30px;
+    font-size: 25px;
       margin-bottom: 80px;
   }
 
@@ -1245,9 +1247,15 @@ top image header */
     font-size: 20px;
   }
 
+  h4 {
+    font-size: 3vw;
+    width: 45%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
   h2.data {
-    font-size: 80px;
-    margin-top: 40px;
+    font-size: 66px;
+    margin-top: 45px;
     margin-bottom: -40px;
   }
 
@@ -1274,12 +1282,12 @@ top image header */
     padding-bottom: 9%;
   }
 
-  img.photo-modal{
-    width: 35vw;
+  /* img.photo-modal{
+    width: 95vw;
     border-radius: 18px;
     margin-bottom: 0%;
     overflow: hidden;
-  }
+  } */
 
   /*navigation*/
   nav ul {
