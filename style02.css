@@ -903,7 +903,7 @@ p.launch{
 
 /* launch the site button */
 .launch-top a {
-  margin-left: 44.5vw;
+  /* margin-left: 44.5vw; */
   font-weight: lighter;
   /* padding-top: 10px;
   padding-bottom: 7px;
@@ -913,7 +913,7 @@ p.launch{
   font-size: 5.4em;
   /* text-transform: uppercase; */
   font-family: 'Helvetica', sans-serif;
-
+  display: inline-block;
   text-decoration: none;
   /* border-radius: 14px; */
   /* border: 2px solid rgb(250, 251, 251,0.45); */
@@ -939,6 +939,7 @@ p.launch{
 p.launch-top {
   margin-top: -50px;
   margin-bottom: -60px;
+  text-align: center;
 }
 
 .row{
@@ -1289,7 +1290,7 @@ top image header */
   }
 
   .launch-top  a{
-    margin-left: 36.3vw;
+    /* margin-left: 36.3vw; */
 
   }
 
