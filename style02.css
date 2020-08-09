@@ -197,7 +197,7 @@ img.in-modal-top{
   overflow: hidden;
   object-fit: cover;
   width: 95vw;
-  height:40vh;
+  height:320px;
   margin-left: -4%;
   margin-top:-2%;
   z-index: 0;
@@ -980,7 +980,7 @@ img.close {
 /*
 top image header */
   img.in-modal-top{
-    height: 23vh;
+    /* height: 23vh; */
     width: 97vw;
     align-content: center;
     margin-left: -4vw;
@@ -1064,8 +1064,8 @@ top image header */
 
 /* close button on top*/
   p.launch-top {
-    margin-top: -220px;
-    margin-bottom: 180px;
+    margin-top: -360px;
+    margin-bottom: 270px;
   }
 
   /* type labels */
