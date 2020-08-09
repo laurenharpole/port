@@ -171,7 +171,6 @@ h2.skilltitle{
   text-shadow: 1px 0px 15px  rgb(74,121,255)
   , 2px 1.6px 4px hsl(210, 8%, 62%)	,
   -1px -2px 4px hsl(210, 8%, 100%);
-
   font-family: 'Helvetica', sans-serif;
   font-stretch:extra-expanded;
   transform: scale(1.1, 1);
@@ -735,7 +734,7 @@ footer{
   /* skill category titles */
   h2.skilltitle{
     font-size: 40px;
-    margin-top: -20px;
+    margin-top: 0px;
     text-align: center;
     margin-bottom: -10px;
     margin-left: 2%;
