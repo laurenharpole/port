@@ -646,11 +646,10 @@ p.data {
   -ms-transform: scale(1.1, 1); /* IE 9+ */
   -o-transform: scale(1.1, 1); /* Opera */
   letter-spacing: 0.5px;
-  background:  hsl(0, 0%, 36%);
+  color:  hsl(0, 0%, 36%);
   text-shadow: 2px 3px 14px rgb(91, 91, 91,0.8);
   opacity: 0.9;
   line-height: 1.4;
-  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   margin-left: 8.6vw;
   margin-top: 30px;
