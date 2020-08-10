@@ -22,12 +22,6 @@ p.stamp{
   text-align: center;
   margin-left: 9vw;
   opacity: 0.7;
-  font-stretch:extra-expanded;
-  transform: scale(1.1, 1);
-  -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
-  -moz-transform: scale(1.1, 1); /* Firefox */
-  -ms-transform: scale(1.1, 1); /* IE 9+ */
-  -o-transform: scale(1.1, 1); /* Opera */
 }
 
 img.title{
@@ -48,7 +42,7 @@ img.in-modal{
   width: 400px;
   display: block;
   margin-bottom: 5%;
-  align-content: left;
+  align-content: center;
   margin-left: 5%;
   float:right;
   display: block;
@@ -85,7 +79,7 @@ nav li a {
   2px 2.3px 1px hsl(210, 8%, 79%),2.9px 2.9px 1px
   hsl(210, 8%, 77%),  3.3px 3px 0.5px hsl(210, 8%, 75%),
   6px 4px 14px hsl(210, 8%, 61%),0px -1px 18px hsl(220, 16%, 100%);
-  -webkit-text-stroke: 2px  rgb(246, 247, 248, 1);
+  -webkit-text-stroke: 1.5px  rgb(246, 247, 248, 1);
   background-position: 9% 95%;
   background-repeat: no-repeat;
   background-size: 0% 5px;
@@ -158,7 +152,7 @@ nav li a:hover, a:focus {
 
 /* skill category titles */
 h2.skilltitle{
-  font-size: 2.1vw;
+  font-size: 22px;
   padding-top: 90px;
   text-align: left;
   margin: 2px;
@@ -178,48 +172,20 @@ h2.skilltitle{
   -moz-transform: scale(1.1, 1); /* Firefox */
   -ms-transform: scale(1.1, 1); /* IE 9+ */
   -o-transform: scale(1.1, 1); /* Opera */
-  /* color: hsl(210, 8%, 89%);
-  text-shadow: 7px 5px 13px hsl(210, 8%, 66%)	,-1px -6px 10px hsl(210, 8%, 95%),
-  -4px -8px 24px hsl(210, 8%, 94%);
-  -webkit-text-stroke: 1.5px  #f6f7f8; */
-  /* text-shadow: 0.7px 0.9px 1px hsl(210, 8%, 90%),0.9px 1px 1px hsl(210, 8%, 89%),
-  1.3px 1.3px 1px hsl(210, 8%, 87%), 1.45px 1.6px 1px hsl(210, 8%, 86%),
-  1.7px 1.9px 1px hsl(210, 8%, 85%),1.85px 2.1px 1px hsl(210, 8%, 83%),
-  1.95px 2.3px 1px hsl(210, 8%, 80%),1.95px 2.9px 1px hsl(210, 8%, 80%),
-  2.1px 2.9px 1px hsl(210, 8%, 79%),   2.3px 3px 1px hsl(210, 8%, 78%),
-  5px 5px 8px hsl(210, 8%, 70%),  4px 5px 10px hsl(210, 8%, 70%), -1.5px 0px 10px
-  rgb(246, 252, 255, 1),
-  -1.5px 0px 34px rgb(246, 252, 255, 1),-1.5px -1px 14px rgb(246, 252, 255, 0.4);
-  -webkit-text-stroke: 0.9px  #f6f7f8;
-  color:#e2e6e9;
-  font-family: 'Helvetica', sans-serif;
-  font-stretch:extra-expanded; */
-  /* color:  hsl(0, 0%, 39%); */
-  /* text-shadow: 2px 2px 11px rgb(91, 91, 91,0.7); */
-  /* text-shadow: 1px 0px 15px  #4a79ff
-  , 2px 1.6px 4px hsl(210, 8%, 62%)	,
-  -1px -2px 4px hsl(210, 8%, 100%); */
-  /* background: none; */
   margin-bottom: -10px;
-  margin-left: 15%;
+  margin-left: 19%;
 }
 
 /* the skills lists */
 p.skills{
   font-family: 'Helvetica', sans-serif;
-  font-stretch:extra-expanded;
-  transform: scale(1.1, 1);
-  -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
-  -moz-transform: scale(1.1, 1); /* Firefox */
-  -ms-transform: scale(1.1, 1); /* IE 9+ */
-  -o-transform: scale(1.1, 1); /* Opera */
   font-size: 18px;
   letter-spacing: 1.3;
   color:  hsl(0, 0%, 36%);
   opacity: 0.9;
   text-shadow: 2px 3px 14px rgb(91, 91, 91,0.8);
   -webkit-background-clip: text;
-  font-weight: 400;
+  font-weight: 480;
 }
 
 .row{
@@ -290,19 +256,12 @@ p.about{
   padding-left: 14%;
   padding-right: 5%;
   padding-bottom: 3%;
-  background: hsl(0, 0%, 36%);
+  color: hsl(0, 0%, 36%);
   opacity: 0.9;
   text-shadow: 2px 3px 14px rgb(91, 91, 91,0.8);
-  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   text-align: left;
   font-family: 'Helvetica', sans-serif;
-  font-stretch:extra-expanded;
-  transform: scale(1.1, 1);
-  -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
-  -moz-transform: scale(1.1, 1); /* Firefox */
-  -ms-transform: scale(1.1, 1); /* IE 9+ */
-  -o-transform: scale(1.1, 1); /* Opera */
   width: 450px;
   height:100%;
   margin-bottom:10vh;
@@ -317,7 +276,13 @@ section.skills{
 
 /* this is skills */
 h2.skills{
-  font-size: 2.1vw;
+  font-stretch:extra-expanded;
+  transform: scale(1.1, 1);
+  -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
+  -moz-transform: scale(1.1, 1); /* Firefox */
+  -ms-transform: scale(1.1, 1); /* IE 9+ */
+  -o-transform: scale(1.1, 1); /* Opera */
+  font-size: 22px;
   padding-top: 0px;
   text-align: center;
   padding-bottom: -15%;
@@ -418,10 +383,13 @@ footer{
 .message {
   border-radius: 29px;
   padding: 8px 15px;
+  font-size: 18px;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 1px;
   display: inline-block;
+  font-weight: normal;
+  font-family: "Segoe UI",sans-serif;
   background: hsl(225, 100%, 55%);
 }
 
@@ -433,13 +401,11 @@ footer{
 /* gray messages  */
 .yours .message {
   letter-spacing: .05em;
-  font-family: "Segoe UI",sans-serif;
   opacity: 0.95;
-  font-weight: 400;
   color:  hsl(0, 0%, 36%);
   text-shadow: 2px 3px 14px rgb(91, 91, 91,0.4);
   padding-left: 4%;
-  -webkit-text-stroke: 0.8px   rgb(91, 91, 91);
+  -webkit-text-stroke: 0.12px   rgb(91, 91, 91);
   margin-right: 25%;
   width: 250px;
   position: relative;
@@ -492,9 +458,7 @@ footer{
   letter-spacing: .05em;
   font-family: "Segoe UI",sans-serif;
   opacity: 1;
-  font-weight: 400;
   color: #dee2e6;
-  -webkit-text-stroke: 0.8px   #dee2e6;
   text-shadow: -1px 2px 8px rgb(255,255,255,0.25);
   margin-left: 18%;
   position: relative;
@@ -508,19 +472,20 @@ footer{
   display: block;
   margin-top: -2.1vh;
   margin-bottom: -2vh;
-  font-size: 16px;
   line-height: 0.9;
   width: 145px;
+  font-size: 18px;
   margin-left: -4vh;
 }
 
 /* footer col links */
 .last ul li  a {
   color: #dee2e6;
-  -webkit-text-stroke: 0.8px   #dee2e6;
+  font-size: 18px;
   background-position: 7% 95%;
   background-repeat: no-repeat;
   background-size: 0% 5px;
+  font-weight: normal;
   font-weight: 400;
   font-family: "Helvetica";
 }
@@ -601,16 +566,18 @@ footer{
 
   /* skill category titles */
   h2.skilltitle{
-    font-size: 2.1vw;
     padding-top: 15%;
     text-align: left;
     margin-bottom: -40px;
-    margin-left: 15%;
   }
 }
 
 /*mobile state*/
 @media screen and (max-width: 1010px) and (min-width: 850px){
+  .message {
+    font-size: 24px;
+  }
+
   /*intro text*/
   .egg{
     font-size: 190px;
@@ -620,8 +587,8 @@ footer{
   }
 
   .f-three-column{
-    font-size: 26px;
-  margin-left: -3.5vw;
+    font-size: 24px;
+    margin-left: -3.5vw;
   }
 
   body {
@@ -659,7 +626,7 @@ footer{
 
   .chat {
     padding-top: 20%;
-  margin-bottom: -3%;
+    margin-bottom: -3%;
     width: 102vw;
     display: flex;
     flex-direction: column;
@@ -672,8 +639,8 @@ footer{
     height: 600px;
     width: 600px;
     margin-bottom: -8vh;
-    margin-left: 15%;
-    margin-right: 17%;
+    margin-left: 19%;
+    margin-right: 14%;
     margin-top: 13vh;
   }
 
@@ -681,6 +648,11 @@ footer{
   p.skills{
     font-weight: 400;
     font-size: 3.8vw;
+  }
+
+  /* footer col links */
+  .last ul li  a {
+    font-size: 24px;
   }
 
   /*not actually section skills this section is about stuff */
@@ -692,7 +664,7 @@ footer{
 
   /* this is skills */
   h2.skills{
-    font-size: 6.0vw;
+        font-size: 40px;
   }
 
   /* about flex box */
@@ -734,7 +706,7 @@ footer{
   /* skill category titles */
   h2.skilltitle{
     font-size: 40px;
-    margin-top: 0px;
+    margin-top: 50px;
     text-align: center;
     margin-bottom: -10px;
     margin-left: 2%;
@@ -811,9 +783,17 @@ footer{
   margin-left: -2vw;
 }
 
+.last ul li  a {
+  font-size: 24px;
+}
+
 .f-three-column{
-  font-size: 26px;
+  font-size: 24px;
   margin-left: -3.5vw;
+}
+
+.message {
+  font-size: 24px;
 }
 
 body {
@@ -866,8 +846,8 @@ img.in-modal{
   height: 450px;
   width: 450px;
   margin-bottom: -8vh;
-  align-content: left;
-  margin-left: 4%;
+  align-content: center;
+  margin-left: 6%;
   margin-top: 13vh;
 }
 
@@ -887,7 +867,7 @@ section.skills{
 
 /* this is skills */
 h2.skills{
-  font-size: 5.5vw;
+    font-size: 30px;
 }
 
 /* about flex box */
@@ -972,8 +952,16 @@ p.about{
   margin-left: -2vw;
 }
 
+.last ul li  a {
+  font-size: 24px;
+}
+
+.message {
+  font-size: 24px;
+}
+
 .f-three-column{
-  font-size: 26px;
+  font-size: 24px;
   margin-left: -7vw;
 }
 
@@ -1028,7 +1016,7 @@ img.in-modal{
   width: 320px;
   margin-bottom: -8vh;
   margin-top: 13vh;
-  margin-left: 6%;
+  margin-left: 9%;
 }
 
 
@@ -1041,7 +1029,7 @@ section.skills{
 
 /* this is skills */
 h2.skills{
-  font-size: 5.5vw;
+    font-size: 24px;
 }
 
 /* about flex box */
