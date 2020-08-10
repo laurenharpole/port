@@ -560,7 +560,7 @@ h4 {
   -ms-transform: scale(1.1, 1); /* IE 9+ */
   -o-transform: scale(1.1, 1); /* Opera */
   color:rgb(74,121,255);
-  text-shadow: 1px 0px 15px  rgb(74,121,255)
+  text-shadow: 1px 0px 15px  rgb(74,121,255,0.6)
   , 2px 1.6px 4px hsl(210, 8%, 62%)	,
   -1px -2px 4px hsl(210, 8%, 100%);
   opacity: 0.9;
@@ -591,7 +591,7 @@ p.graphic-2 {
 h2.data {
   word-wrap: break-word;
   background:  hsl(0, 0%, 36%);
-  text-shadow: 2px 2px 11px rgb(91, 91, 91,0.7);
+  text-shadow: 2px 2px 11px rgb(91, 91, 91,0.5);
   opacity: 0.9;
   -webkit-text-stroke: 0.1px   hsl(0, 0%, 36%);
   -webkit-text-fill-color: transparent;
@@ -622,7 +622,7 @@ p.data {
   -o-transform: scale(1.1, 1); /* Opera */
   letter-spacing: 0.5px;
   color:  hsl(0, 0%, 36%);
-  text-shadow: 2px 3px 14px rgb(91, 91, 91,0.8);
+  text-shadow: 2px 3px 14px rgb(91, 91, 91,0.6);
   opacity: 0.9;
   line-height: 1.4;
   -webkit-background-clip: text;
@@ -647,11 +647,11 @@ p.data {
   text-transform: uppercase;
   font-family: 'Helvetica', sans-serif;
   font-stretch:extra-expanded;
-  transform: scale(1.1, 1);
-  -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
-  -moz-transform: scale(1.1, 1); /* Firefox */
-  -ms-transform: scale(1.1, 1); /* IE 9+ */
-  -o-transform: scale(1.1, 1); /* Opera */
+  transform: scale(1.05, 1);
+  -webkit-transform: scale(1.05, 1); /* Safari and Chrome */
+  -moz-transform: scale(1.05, 1); /* Firefox */
+  -ms-transform: scale(1.05, 1); /* IE 9+ */
+  -o-transform: scale(1.05, 1); /* Opera */
   text-decoration: none;
   border-radius: 14px;
   border: 2px solid rgb(250, 251, 251,0.5);
@@ -891,20 +891,20 @@ img.close {
 
   /* launch the site button */
   .launch a {
-    font-size: 22px;
+    font-size: 24px;
     padding-top: 25px;
     padding-bottom: 25px;
-    box-shadow:  6px 6px 24px hsl(215, 9%, 70%),
-                -6px -6px 13px rgb(255,255,255,0.7);
+    box-shadow:  6px 6px 24px hsl(215, 9%, 65%),
+                -6px -6px 13px rgb(255,255,255,0.85);
     display: inline-block;
     vertical-align: middle;
-    width: 75%;
+    width: 80%;
     margin-bottom:20px;
   }
 
   p.launch {
     margin-top: 19px;
-    margin-left: 8.5vw;
+    margin-left: 6.5vw;
   }
 
   p.close2 a{
@@ -1044,14 +1044,14 @@ top image header */
 
   /* type labels */
   h4 {
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 60px;
     margin-bottom: -30px;
     margin-left: 9vw;
   }
 
   h2.data {
-    font-size: 34px;
+    font-size: 36px;
     margin-top: 45px;
     margin-bottom: -40px;
     margin-left: 9vw;
