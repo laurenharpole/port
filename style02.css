@@ -99,9 +99,11 @@ nav li a:hover, a:focus {
   hsl(220, 16%, 80%),
   2px 2.3px 1px hsl(220, 16%, 79%),2.2px 2.9px 1px
   hsl(220, 16%, 77%),  2.3px 3px 0.5px hsl(220, 16%, 75%),
-  3px 4px 11px #3366ff,0px -3px 8px hsl(220, 16%, 100%)
+  3px 4px 21px #3366ff,0px -3px 8px hsl(220, 16%, 100%)
   ,0px -3px 12px hsl(220, 16%, 100%);
   text-align: center;
+  delay: 0.1s;
+  transition: 0.5s;
   padding: 4px 16px;
   text-decoration: none;
   background-size: 100% 5px;
@@ -922,6 +924,13 @@ p.launch-top {
   font-weight: normal;
   font-weight: 400;
   font-family: "Helvetica";
+}
+
+.last ul li  a:hover {
+  text-shadow: 1px 0px 27px  #dee2e6,
+  -1px -2px 4px hsl(210, 8%, 100%);
+   delay: 0.1s;
+   transition: 0.5s;
 }
 
 img.close {
