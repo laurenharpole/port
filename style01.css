@@ -471,13 +471,7 @@ footer{
 /* blue message link list outer class */
 .f-three-column{
   list-style-type: none;
-  display: block;
-  margin-top: 0vh;
-  margin-bottom: 0vh;
-  line-height: 1.5;
-  width: 115px;
-  font-size: 13px;
-  margin-left: -20px;
+  
 }
 
 /* footer col links */
