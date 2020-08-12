@@ -476,8 +476,8 @@ footer{
   margin-bottom: -2vh;
   line-height: 0.9;
   width: 145px;
-  font-size: 18px;
-  margin-left: -4vh;
+  font-size: 13px;
+  margin-left: -3vw;
 }
 
 /* footer col links */
@@ -983,6 +983,17 @@ body {
   width: 230px;
 }
 
+.chat {
+  padding-top: 20%;
+  margin-bottom: -3%;
+  width: 102vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2vw;
+  margin-top: 0vh;
+  margin-left: -10.9vw;
+}
+
 /*navigation*/
 nav ul {
   display:inline;
@@ -1007,17 +1018,6 @@ nav li a:hover, a:focus {
   padding: 4px 16px;
   font-size: 80px;
   background-size: 100% 5px;
-}
-
-.chat {
-  padding-top: 20%;
-  margin-bottom: -3%;
-  width: 102vw;
-  display: flex;
-  flex-direction: column;
-  border-radius: 2vw;
-  margin-top: 0vh;
-  margin-left: -10.9vw;
 }
 
 img.in-modal{

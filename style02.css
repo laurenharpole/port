@@ -1080,10 +1080,10 @@ top image header */
     -2px -2px 7px  #f6fcff;
   }
 
-  img.title{
+  /* img.title{
     padding-top: 42px;
     width: 80px;
-  }
+  } */
 
   .chat {
     padding-top: 20%;
@@ -1173,8 +1173,9 @@ top image header */
     margin-bottom: 15vh;
   }
 
+/* top logo  */
   img.title{
-      padding-top: 118px;
+    padding-top: 118px;
     width: 80px;
   }
 }
