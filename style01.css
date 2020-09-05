@@ -472,19 +472,21 @@ footer{
 .f-three-column{
   list-style-type: none;
   display: block;
-  margin-top: 0vh;
-  margin-bottom: 0vh;
-  line-height: 1.4;
-  width: 115px;
-  font-size: 13px;
-  margin-left: -20px;
+  margin-top: -2.1vh;
+  margin-bottom: -2vh;
+  line-height: 0.9;
+  width: 145px;
+  font-size: 18px;
+  margin-left: -4vh;
 }
 
 /* footer col links */
 .last ul li  a {
   color: #dee2e6;
   font-size: 18px;
-
+  background-position: 7% 95%;
+  background-repeat: no-repeat;
+  background-size: 0% 5px;
   font-weight: normal;
   font-weight: 400;
   font-family: "Helvetica";
@@ -631,16 +633,6 @@ footer{
     background-size: 100% 5px;
   }
 
-  .chat {
-    padding-top: 20%;
-    margin-bottom: -3%;
-    width: 102vw;
-    display: flex;
-    flex-direction: column;
-    border-radius: 2vw;
-    margin-top: 0vh;
-    margin-left: -10.9vw;
-  }
 
   img.in-modal{
     height: 600px;
@@ -838,17 +830,6 @@ nav li a:hover, a:focus {
   background-size: 100% 5px;
 }
 
-.chat {
-  padding-top: 20%;
-  margin-bottom: -3%;
-  width: 102vw;
-  display: flex;
-  flex-direction: column;
-  border-radius: 2vw;
-  margin-top: 0vh;
-  margin-left: -10.9vw;
-}
-
 img.in-modal{
   height: 450px;
   width: 450px;
@@ -969,7 +950,7 @@ p.about{
 
 .f-three-column{
   font-size: 24px;
-  margin-left: -7vw;
+   margin-left: -3.5vw;
 }
 
 body {
@@ -983,7 +964,7 @@ body {
 
 .chat {
   padding-top: 20%;
-  margin-bottom: -3%;
+  margin-bottom: -5%;
   width: 102vw;
   display: flex;
   flex-direction: column;
@@ -991,6 +972,7 @@ body {
   margin-top: 0vh;
   margin-left: -10.9vw;
 }
+
 
 /*navigation*/
 nav ul {

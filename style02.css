@@ -42,11 +42,11 @@ img.title{
 
  img.in-modal{
   height: auto;
-  width: 75vw;
+  width: 90%;
   display: block;
   margin-bottom: 2%;
   align-content: left;
-  margin-left: 8%;
+  margin: 0 auto;
   display: block;
   overflow: hidden;
   object-fit: cover;
@@ -111,14 +111,15 @@ nav li a:hover, a:focus {
 }
 
 .line{
-  width: 76vw;
-  font-size: 4px;
-  margin-left: 4vw;
-  background: #ebf0f7;
-  border: 1.3px  #f6f7f8;
-  box-shadow:  2px 2px 5px #8b8e92,
-  -2px -1px 5px #ffffff;
-  border-radius: 10vw;
+  margin-top: 30px;
+  width: 800px;
+  font-size: 2px;
+  margin-left: 55px;
+  background:  hsl(0, 0%, 36%);
+  /* #f0f4f7; */
+  box-shadow:  2px 3px 14px rgb(91, 91, 91,1);;
+  opacity: 0.3;
+  border-radius: 4vw;
 }
 
 /* The Modal (background) */
@@ -161,7 +162,7 @@ p.close2 a{
 p.close2{
     z-index:4000;
   text-align: right;
-  margin-top: 2%;
+  margin-top: 0%;
   padding: 20px;
   /* margin-left: 67vw; */
   margin-bottom: 10px;
@@ -185,14 +186,19 @@ img.in-modal-top{
   margin-left: 4%;
   overflow: hidden;
   object-fit: cover;
-  width: 95vw;
+  width: 900px;
   height:320px;
-  margin-left: -4%;
+  margin-left: 0%;
   margin-top:-2%;
   z-index: 0;
   border-radius: 1px 1px 1px 1px;
+    background:rgba(0,0,0,0.6);
+
 }
 
+.in-modal-top {
+  background:rgba(0,0,0,0.6);
+}
 #data.in-modal-top {
   box-shadow: inset 9.91px 9.91px 15px rgb(0,0,0,0.5),
   inset -9.91px -9.91px 15px hsla(0, 0%, 97%, 0.2);
@@ -246,7 +252,6 @@ img.in-grid-modal{
   display: block;
   overflow: hidden;
   object-fit: cover;
-  margin-bottom: 2%;
   border: 2px solid transparent;
   border-radius: 4px;
   background:
@@ -349,11 +354,11 @@ img.hover-in-grid-modal{
 
 /* for the sweeper video */
 .video-in-modal{
-  width: 72vw;
-  align-content: center;
-  margin-top: -20px;
-  margin-bottom: 20px;
-  margin-left: 4%;
+  width: 800px;
+  display: block;
+  margin-bottom: 2%;
+  margin-left: 40px;
+  margin: 0 auto;
   border: 4px solid transparent;
   border-radius: 7px;
   background:
@@ -364,8 +369,7 @@ img.hover-in-grid-modal{
   box-shadow:  10px 10px 20px #9da8b3 ,
   -10px -10px 20px #ffffff;
   overflow: hidden;
-  object-fit: cover;
-  transition: 2.4s ease;
+  object-fit: contain;
 }
 
 #sweeper.photo-modal{
@@ -533,10 +537,10 @@ pointer events are only those currently visible*/
 
 /* make contents of inside modal visible and scrollable */
 .modalDialog > div {
-  width: 90vw;
+  width: 900px;
   position: relative;
   margin: 0% auto;
-  padding: 0px 0px 3px 0px;
+  padding: 0px 0px 0px 0px;
   border-radius:  16px;
   background: linear-gradient(315deg, #e0e4e7
 , #f0f4f7);
@@ -546,7 +550,7 @@ pointer events are only those currently visible*/
 
 /* type labels */
 h4 {
-  margin-left: 8.8vw;
+  margin-left: 75px;
   font-weight: bold;
   margin-top: 52px;
   padding-bottom: 0px;
@@ -566,6 +570,7 @@ h4 {
   , 2px 1.6px 4px hsl(210, 8%, 62%)	,
   -1px -2px 4px hsl(210, 8%, 100%);
   opacity: 0.9;
+  width: 450px;
 }
 
 img.hover-in-grid-modal:hover{
@@ -576,28 +581,22 @@ img.hover-in-grid-modal:hover{
 }
 
 p.graphic-2 {
-  background-color: #90979e;
   font-family: 'Raleway', sans-serif;
-  color: transparent;
-  text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.6);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  margin-left: 3%;
+  color:  hsl(0, 0%, 36%);
+  text-shadow: 2px 2px 11px rgb(91, 91, 91,0.8);
   font-size: 18px;
   text-align: right;
-  font-weight: bold;
-  margin-right: 3%;
+  font-weight: normal;
+  margin-right: 43px;
+  opacity: 0.6;
 }
 
 h2.data {
   word-wrap: break-word;
-  background:  hsl(0, 0%, 36%);
-  text-shadow: 2px 2px 11px rgb(91, 91, 91,0.5);
+  color:  hsl(0, 0%, 36%);
+  text-shadow: 2px 2px 11px rgb(91, 91, 91,0.8);
   opacity: 0.9;
   -webkit-text-stroke: 0.1px   hsl(0, 0%, 36%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
   position:relative;
   text-transform: uppercase;
   font-family: 'Helvetica', sans-serif;
@@ -607,32 +606,29 @@ h2.data {
   -moz-transform: scale(1.1, 1); /* Firefox */
   -ms-transform: scale(1.1, 1); /* IE 9+ */
   -o-transform: scale(1.1, 1); /* Opera */
-  margin-left: 8.8vw;
+  margin-left: 75px;
   font-weight: 700;
   font-size: 34px;
   text-align: left;
+    width: 450px;
   margin-bottom: -10px;
 }
 
 p.data {
   font-family: 'Helvetica', sans-serif;
   font-stretch:extra-expanded;
-  transform: scale(1.1, 1);
-  -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
-  -moz-transform: scale(1.1, 1); /* Firefox */
-  -ms-transform: scale(1.1, 1); /* IE 9+ */
-  -o-transform: scale(1.1, 1); /* Opera */
-  letter-spacing: 0.5px;
+  letter-spacing: 1.5;
   color:  hsl(0, 0%, 36%);
   text-shadow: 2px 3px 14px rgb(91, 91, 91,0.6);
   opacity: 0.9;
   line-height: 1.4;
   -webkit-background-clip: text;
-  margin-left: 8.6vw;
+  margin-left: 55px;
   margin-top: 30px;
-  margin-right: 3%;
-  margin-bottom: 48px;
+  margin-right: -5vw;
+  margin-bottom: 10px;
   font-size: 16px;
+  max-width: 900px;
   width: 80%;
   font-weight:500;
 }
@@ -655,6 +651,7 @@ p.data {
   -ms-transform: scale(1.05, 1); /* IE 9+ */
   -o-transform: scale(1.05, 1); /* Opera */
   text-decoration: none;
+  display: inline-block;
   border-radius: 14px;
   border: 2px solid rgb(250, 251, 251,0.5);
   background-color: #e0e4e7;
@@ -671,6 +668,7 @@ p.data {
   font-weight: bold;
   padding-top: 14px;
   padding-bottom: 14px;
+    display: inline-block;
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
@@ -715,10 +713,10 @@ p.data {
 p.launch{
   text-align: center;
   margin-right: -20px;
-  display: inline;
+  display: inline-block;
   margin-left: 50px;
+  box-shadow: none;
 }
-
 
 /* launch the site button */
 .launch-top a {
@@ -728,16 +726,15 @@ p.launch{
   line-height: 0.7;
 }
 
-img.launch-top {
-  height: 50px;
-}
 
 .launch-top a:hover {
   opacity: 0.5;
+  transition: 1s;
+  transform: translate(0px, 50px);
 }
 
 p.launch-top {
-  margin-top: -300px;
+  margin-top: -280px;
   margin-bottom: 240px;
   text-align: center;
 }
@@ -942,6 +939,42 @@ img.close {
 /*mobile state*/
 @media screen and (max-width: 1010px){
 
+  p.graphic-2 {
+    font-family: 'Raleway', sans-serif;
+    color:  hsl(0, 0%, 36%);
+    text-shadow: 2px 2px 11px rgb(91, 91, 91,0.8);
+    font-size: 18px;
+    text-align: right;
+    font-weight: normal;
+    margin-right: 55px;
+    opacity: 0.6;
+  }
+
+  .line{
+    width: auto;
+    font-size: 2px;
+    margin-left: 35px;
+    margin-right: 35px;
+    background:  hsl(0, 0%, 36%);
+    /* #f0f4f7; */
+    box-shadow:  2px 3px 14px rgb(91, 91, 91,1);;
+    opacity: 0.3;
+    border-radius: 4vw;
+  }
+
+  /* make contents of inside modal visible and scrollable */
+  .modalDialog > div {
+    width: 90%;
+    position: relative;
+    margin: 0% auto;
+    padding: 0px 0px 0px 0px;
+    border-radius:  16px;
+    background: linear-gradient(315deg, #e0e4e7
+  , #f0f4f7);
+    overflow: scroll;
+    visibility: visible;
+  }
+
   /* bottom contact size */
   .message {
     font-size: 24px;
@@ -959,15 +992,18 @@ img.close {
 
   /* launch the site button */
   .launch a {
-    font-size: 24px;
+    font-size: 22px;
     padding-top: 25px;
     padding-bottom: 25px;
     box-shadow:  6px 6px 24px hsl(215, 9%, 65%),
                 -6px -6px 13px rgb(255,255,255,0.9);
-    display: inline-block;
-    vertical-align: middle;
-    width: 80%;
-    margin-bottom:20px;
+                display: block;
+                vertical-align: middle;
+                padding-left: 0%;
+                padding-right: 0%;
+                margin-bottom:20px;
+                margin-left: 0vw;
+                margin-right: 8vw;
   }
 
   /* launch the site button */
@@ -977,15 +1013,18 @@ img.close {
     padding-bottom: 25px;
     box-shadow:  6px 6px 24px hsl(215, 9%, 65%),
                 -6px -6px 13px rgb(255,255,255,0.9);
-    display: inline-block;
+    display: block;
     vertical-align: middle;
-    width: 80%;
-    margin-bottom:20px;
+
   }
 
   p.launch {
     margin-top: 19px;
-    margin-left: 6.5vw;
+    margin-left: 7vw;
+    margin-right: 0vw;
+              display: block;
+                vertical-align: middle;
+                justify-content: center;
   }
 
   p.close2 a{
@@ -1013,9 +1052,9 @@ img.close {
 
   /* for the sweeper video */
   .video-in-modal{
-    width: 72vw;
-    align-content: center;
-  margin-top: -100px;
+    width: 78vw;
+    margin: 0 auto;
+    margin-top: 100px;
     margin-bottom: 20px;
   }
 
@@ -1036,9 +1075,9 @@ img.close {
 top image header */
   img.in-modal-top{
     /* height: 23vh; */
-    width: 97vw;
+    width: 90vw;
     align-content: center;
-    margin-left: -4vw;
+    margin-left: 0vw;
     /* margin-top: -100px; */
     /* margin-bottom: -220px; */
   }
@@ -1111,16 +1150,17 @@ top image header */
 
 /* info blurbs */
   p.data {
-    margin-left: 9vw;
+    margin-left: 6%;
     font-size: 22px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     margin-top: 60px;
+    width: 80%;
   }
 
 /* close button on top*/
   p.launch-top {
-    margin-top: -360px;
-    margin-bottom: 270px;
+    margin-top: -340px;
+    margin-bottom: 240px;
   }
 
   /* type labels */
@@ -1128,14 +1168,16 @@ top image header */
     font-size: 24px;
     margin-top: 60px;
     margin-bottom: -30px;
-    margin-left: 9vw;
+    margin-left: 10%;
+    width: 80%;
   }
 
   h2.data {
     font-size: 36px;
     margin-top: 45px;
     margin-bottom: -40px;
-    margin-left: 9vw;
+    margin-left: 10%;
+    width: 80%;
   }
 
 
