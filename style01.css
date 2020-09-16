@@ -186,6 +186,31 @@ p.skills{
   font-weight: 500;
 }
 
+
+/* the skills lists */
+p.skills a {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
+  color:  hsl(0, 0%, 36%);
+  opacity: 0.9;
+  text-shadow: 2px 3px 14px rgb(91, 91, 91,0.8);
+  -webkit-background-clip: text;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* the skills lists */
+p.skills a:hover {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
+  color:  hsl(0, 0%, 36%);
+  opacity: 0.9;
+  text-shadow: 2px 3px 14px hsl(0, 0%, 36%),
+  0px 0px 6px hsl(0, 0%, 30%),0px 0px 3px hsl(0, 0%, 30%);
+  -webkit-background-clip: text;
+  font-weight: 500;
+}
+
 .row{
   display: flex;
   flex-direction:  row;
