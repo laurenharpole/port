@@ -16,10 +16,7 @@ nav ul {
   float: right;
   margin-bottom: 15vh;
 }
-.clustrmaps{
-  visibility: hidden;
-  margin-bottom: -190px;
-}
+
 /* time stamp and info header */
 p.stamp{
   color:  hsl(0, 0%, 36%);
