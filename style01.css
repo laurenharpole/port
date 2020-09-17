@@ -127,6 +127,7 @@ nav li a:hover, a:focus {
 
 .clustrmaps{
   visibility: hidden;
+  margin-bottom: -190px;
 }
 /* big header blue words */
 .egg{
