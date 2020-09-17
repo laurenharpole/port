@@ -7,15 +7,17 @@ body {
 
 /*navigation*/
 nav ul {
-  list-style-type: none;
   margin: 0px;
   padding: 19px;
   margin-top: 56px;
   overflow: hidden;
   display: flex;
+  list-style-type: none;
   float: right;
   margin-bottom: 15vh;
 }
+
+
 
 /* time stamp and info header */
 p.stamp{
@@ -42,7 +44,7 @@ img.title{
 
  img.in-modal{
   height: auto;
-  width: 90%;
+  width: 780px;
   display: block;
   margin-bottom: 2%;
   margin: 0 auto;
@@ -71,21 +73,21 @@ nav li a {
   color: transparent;
   letter-spacing: .05em;
   font-weight: bold;
-  color:  hsl(206, 3%, 91%);
-  text-shadow: 0.3px 1px 1px hsl(220, 16%, 85%),
-  1.9px 0.5px 1px hsl(220, 16%, 88%),
-  1px 1.3px 1px hsl(220, 16%, 85%), 1.3px 1.7px 1px
-  hsl(220, 16%, 84%),
-  1.5px 1.9px 1px hsl(210, 8%, 82%),1.95px 2.1px 1px
-  hsl(210, 8%, 80%),
-  2px 2.3px 1px hsl(210, 8%, 79%),2.9px 2.9px 1px
-  hsl(210, 8%, 77%),  3.3px 3px 0.5px hsl(210, 8%, 75%),
-  6px 4px 14px hsl(210, 8%, 61%),0px -1px 18px hsl(220, 16%, 100%);
-  -webkit-text-stroke: 1.5px  rgb(246, 247, 248, 1);
+  text-shadow: 0.7px 0.9px 1px hsl(210, 8%, 90%),0.9px 1px 1px hsl(210, 8%, 89%),
+  1.3px 1.3px 1px hsl(210, 8%, 87%), 1.45px 1.6px 1px hsl(210, 8%, 86%),
+  1.7px 1.9px 1px hsl(210, 8%, 85%),1.85px 2.1px 1px hsl(210, 8%, 83%),
+  1.95px 2.3px 1px hsl(210, 8%, 80%),1.95px 2.9px 1px hsl(210, 8%, 80%),
+  2.1px 2.9px 1px hsl(210, 8%, 79%),   1.3px 1.5px 3px hsl(210, 8%, 73%),
+  4px 4px 9px hsl(210, 8%, 60%),  -1.5px 0px 8px
+  rgb(246, 252, 255, 1),
+  -1.5px 0px 34px rgb(246, 252, 255, 0.6),0.5px -1px 14px rgb(246, 252, 255, 0.4)
+  ;
+  -webkit-text-stroke: 0.7px  rgb(246, 247, 248, 1);
   background-position: 9% 95%;
   background-repeat: no-repeat;
   background-size: 0% 5px;
   transition: background-size .3s;
+
 }
 
 nav li a:hover, a:focus {
@@ -106,6 +108,15 @@ nav li a:hover, a:focus {
   text-decoration: none;
   background-size: 100% 5px;
   font-family: 'Helvetica';
+}
+
+.nav-dot  {
+  color:rgb(74,121,255);
+  text-shadow: 1px 0px 15px  rgb(74,121,255,0.6)
+  , 2px 1.6px 4px hsl(210, 8%, 62%)	,
+  -1px -2px 4px hsl(210, 8%, 100%);
+  font-size: 30px;
+  margin-right: -11px;
 }
 
 .line{
@@ -209,7 +220,7 @@ img.not-modal-top{
 
 /* mostly for gifs and book images in graphics */
 img.in-grid-modal{
-  width: 37.5vw;
+  width: 380px;
   align-content: center;
   display: block;
   overflow: hidden;
@@ -226,7 +237,7 @@ img.in-grid-modal{
 }
 
 img.in-grid-modal-right{
-  width: 36.5vw;
+  width: 373px;
   align-content: center;
   transition: 0.4s ease;
   display: block;
@@ -980,6 +991,21 @@ img.close {
     padding: 3px 16px;
     font-size: 100px;
     background-position: 0% 100%;
+    text-align: right;
+    padding: 3px 16px;
+    font-size: 100px;
+    background-position: 0% 100%;
+    color:  hsl(206, 3%, 91%);
+    text-shadow: 0.3px 1px 1px hsl(220, 16%, 85%),
+    1.9px 0.5px 1px hsl(220, 16%, 88%),
+    1px 1.3px 1px hsl(220, 16%, 85%), 1.3px 1.7px 1px
+    hsl(220, 16%, 84%),
+    1.5px 1.9px 1px hsl(210, 8%, 82%),1.95px 2.1px 1px
+    hsl(210, 8%, 80%),
+    2px 2.3px 1px hsl(210, 8%, 79%),2.9px 2.9px 1px
+    hsl(210, 8%, 77%),  3.3px 3px 0.5px hsl(210, 8%, 75%),
+    6px 4px 14px hsl(210, 8%, 61%),0px -1px 18px hsl(220, 16%, 100%);
+    -webkit-text-stroke: 1.5px  rgb(246, 247, 248, 1);
     }
 
   nav li a:hover, a:focus {
@@ -987,8 +1013,31 @@ img.close {
     padding: 4px 16px;
     font-size: 100px;
     background-size: 100% 5px;
+    text-align: right;
+    padding: 4px 16px;
+    font-size: 100px;
+    background-size: 100% 5px;
+    color: #dfe3e6;
+    text-shadow: 0.3px 1px 1px hsl(220, 16%, 85%),
+    1.9px 0.5px 1px hsl(220, 16%, 88%),
+    1px 1.3px 1px hsl(220, 16%, 85%), 1.3px 1.7px 1px
+    hsl(220, 16%, 84%),
+    1.5px 1.9px 1px hsl(220, 16%, 82%),1.95px 2.1px 1px
+    hsl(220, 16%, 80%),
+    2px 2.3px 1px hsl(220, 16%, 79%),2.2px 2.9px 1px
+    hsl(220, 16%, 77%),  2.3px 3px 0.5px hsl(220, 16%, 75%),
+    3px 4px 14px #3366ff,0px -1px 8px hsl(220, 16%, 100%)
+    ,0px -1px 12px hsl(220, 16%, 100%);
   }
 
+  .nav-dot  {
+    color:rgb(74,121,255);
+    text-shadow: 1px 0px 15px  rgb(74,121,255,0.6)
+    , 2px 1.6px 4px hsl(210, 8%, 62%)	,
+    -1px -2px 4px hsl(210, 8%, 100%);
+    font-size: 60px;
+    margin-right: -9px;
+  }
   /* for the sweeper video */
   .video-in-modal{
     width: 78vw;
@@ -1154,6 +1203,9 @@ top image header */
     margin-bottom: 15vh;
   }
 
+  img.in-modal{
+    width: 580px;
+  }
 /* top logo  */
   img.title{
     padding-top: 118px;
