@@ -22,6 +22,7 @@ p.stamp{
   text-align: center;
   margin-left: 9vw;
   opacity: 0.7;
+  font-family: "Segoe UI",sans-serif;
 }
 
 img.title{
@@ -177,7 +178,7 @@ h2.skilltitle{
 
 /* the skills lists */
 p.skills{
-  font-family: 'Helvetica', sans-serif;
+  font-family: "Segoe UI",sans-serif;
   font-size: 18px;
   color:  hsl(0, 0%, 36%);
   opacity: 0.9;
@@ -189,8 +190,7 @@ p.skills{
 
 /* the skills lists */
 p.skills a {
-  font-family: 'Helvetica', sans-serif;
-  font-size: 18px;
+  font-family: "Segoe UI",sans-serif;
   color:  hsl(0, 0%, 36%);
   opacity: 0.9;
   text-shadow: 2px 3px 14px rgb(91, 91, 91,0.8);
@@ -201,8 +201,7 @@ p.skills a {
 
 /* the skills lists */
 p.skills a:hover {
-  font-family: 'Helvetica', sans-serif;
-  font-size: 18px;
+  font-family: "Segoe UI",sans-serif;
   color:  hsl(0, 0%, 36%);
   opacity: 0.9;
   text-shadow: 2px 3px 14px hsl(0, 0%, 36%),
@@ -283,7 +282,7 @@ p.about{
   text-shadow: 2px 3px 14px rgb(91, 91, 91,0.8);
   -webkit-background-clip: text;
   text-align: left;
-  font-family: 'Helvetica', sans-serif;
+  font-family: "Segoe UI",sans-serif;
   width: 450px;
   height:100%;
   margin-bottom:10vh;
@@ -584,7 +583,7 @@ footer{
   p.about{
     font-size: 18px;
     padding-top: 9%;
-    font-family:'Raleway', sans-serif;
+    font-family: "Segoe UI",sans-serif;
     margin-bottom:0vh;
       width: 360px;
   }
