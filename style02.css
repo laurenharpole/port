@@ -18,7 +18,7 @@ nav ul {
 }
 .clustrmaps{
   visibility: hidden;
-
+  margin-bottom: -190px;
 }
 /* time stamp and info header */
 p.stamp{
