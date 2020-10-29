@@ -152,44 +152,8 @@ img.photo-modal{
   overflow: hidden;
   box-shadow:  9px 9px 18px hsl(220, 16%, 62%),
   -9px -9px 24px rgb(255,255,255,0.8);
-  z-index: -1;
-  filter:brightness(75%);
 }
 
-.label {
-  color: transparent;
-  text-decoration: none;
-  letter-spacing: .05em;
-  font-weight: thin;
-  -webkit-text-stroke: 0.7px  rgb(246, 247, 248, 1);
-
-
- position: absolute; top: 2px; left: 2px;
-/* font-family: "Segoe UI",sans-serif; */
-}
-
-p {
-  font-size: 22px;
-  color: transparent;
-  text-decoration: none;
-  letter-spacing: .05em;
-  font-weight: thin;
-  text-shadow:
-  0px 0px 0px hsl(210, 8%, 85%), 0.79px 0.79px 0px hsl(210, 8%, 81%),
-   0.7px 0.8px 1px hsl(210, 8%, 70%),0.8px 0.7px 1px hsl(210, 8%, 70%),
-   0.8px 0.8px 1px hsl(210, 8%, 70%),
-  /* 1.2px 0.6px 0px hsl(210, 8%, 78%), 1.4px 0.9px 0px hsl(210, 8%, 76%), */
-  /* 0.55px 1.05px 0px hsl(210, 8%, 85%),0.6px 1.1px 0px hsl(210, 8%, 83%), */
-  /* 0.9px 1.13px 0px hsl(210, 8%, 80%),0.9px 1.17px 0px hsl(210, 8%, 80%), */
-  4px 4px 5px rgb(40, 43, 46,0.5),  -0.5px 0px 0px rgb(246, 252, 255, 0)
-  /* -1.5px 0px 0px rgb(246, 252, 255, 0.6),0.5px -1px 0px rgb(246, 252, 255, 0.4) */
-  ;
-  /* -webkit-text-stroke: 0.7px  rgb(246, 247, 248, 1); */
-
-}
-p.thumbnail {
-  font-size: 22px;
-}
 img.in-modal-top{
   align-content: center;
   margin-left: 4%;
@@ -202,6 +166,7 @@ img.in-modal-top{
   z-index: 0;
   border-radius: 1px 1px 1px 1px;
     background:rgba(0,0,0,0.6);
+
 }
 
 .in-modal-top {
@@ -389,7 +354,6 @@ img.hover-in-grid-modal{
   margin-top: -10px;
   overflow: hidden;
   object-fit: cover;
-  z-index: -1;
 }
 
 #home.photo-modal{
@@ -473,24 +437,6 @@ img.hover-in-grid-modal{
   overflow: hidden;
   object-fit: cover;
 }
-/*
-display labels on image */
-.thumbnail {
-    position: relative;
-    display: inline-block;
-}
-
-/* work title labels */
-.label {
-    position: absolute;
-    bottom: 0; left: 20px;
-    color: white;
-
-    text-align: left;
-    margin-top: -10px;
-    font-weight: bold;
-    font-size: 30px;
-}
 
 @keyframes wiggle {
   0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -506,7 +452,7 @@ display labels on image */
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-.thumbnail:hover {
+img.photo-modal:hover {
   animation: wiggle 0.9s;
   transition: 0.2s;
   animation-iteration-count: 5;
