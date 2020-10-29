@@ -161,7 +161,7 @@ img.photo-modal{
   text-decoration: none;
   letter-spacing: .05em;
   font-weight: thin;
-  -webkit-text-stroke: 0.7px  rgb(246, 247, 248, 1);
+  -webkit-text-stroke: 0.5px  rgb(246, 247, 248, 1);
 
 
  position: absolute; top: 2px; left: 2px;
