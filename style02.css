@@ -5,6 +5,10 @@ body {
   font-size: 23px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*navigation*/
 nav ul {
   margin: 0px;
@@ -168,6 +172,7 @@ img.photo-modal{
 /* font-family: "Segoe UI",sans-serif; */
 }
 
+
 p {
   font-size: 38px;
   color: transparent;
@@ -185,7 +190,7 @@ p {
   /* -1.5px 0px 0px rgb(246, 252, 255, 0.6),0.5px -1px 0px rgb(246, 252, 255, 0.4) */
   ;
   /* -webkit-text-stroke: 0.7px  rgb(246, 247, 248, 1); */
-
+  margin-top: 23px;
 }
 p.thumbnail {
   font-size: 22px;
@@ -253,6 +258,9 @@ img.not-modal-top{
   -2px -2px 7px  #f6fcff;
 }
 
+p.stamp{
+  font-size: 22px;
+}
 /* mostly for gifs and book images in graphics */
 img.in-grid-modal{
   width: 380px;
@@ -927,6 +935,22 @@ p.launch-top {
   margin-left: -4vh;
 }
 
+.message  a {
+  color: #dee2e6;
+  font-size: 18px;
+  background-position: 7% 95%;
+  background-repeat: no-repeat;
+  background-size: 0% 5px;
+  font-weight: normal;
+  font-weight: 400;
+  font-family: "Helvetica";
+}
+
+.message   a:hover {
+  text-shadow: 1px 0px 27px  #dee2e6,
+  -1px -2px 4px hsl(210, 8%, 100%);
+   transition: 0.5s;
+}
 /* footer col links */
 .last ul li  a {
   color: #dee2e6;
@@ -1203,11 +1227,12 @@ top image header */
   p{
     font-size: 4vw;
     word-wrap:break-word;
-    margin-left: -10px;
+    margin-left: -7px;
+    margin-top: 20px;
   }
 /* close button on top*/
   p.launch-top {
-    margin-top: -300px;
+    margin-top: -310px;
     margin-bottom: 240px;
     margin-left: 15px;
   }
@@ -1264,6 +1289,9 @@ top image header */
     margin-bottom: 15vh;
   }
 
+.message  a {
+  font-size: 24px;
+}
   img.in-modal{
     width: 67.5vw;
   }

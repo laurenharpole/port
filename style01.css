@@ -506,6 +506,22 @@ footer{
   margin-left: -4vh;
 }
 
+.message  a {
+  color: #dee2e6;
+  font-size: 18px;
+  background-position: 7% 95%;
+  background-repeat: no-repeat;
+  background-size: 0% 5px;
+  font-weight: normal;
+  font-weight: 400;
+  font-family: "Helvetica";
+}
+
+.message   a:hover {
+  text-shadow: 1px 0px 27px  #dee2e6,
+  -1px -2px 4px hsl(210, 8%, 100%);
+   transition: 0.5s;
+}
 /* footer col links */
 .last ul li  a {
   color: #dee2e6;
@@ -519,6 +535,23 @@ footer{
 }
 
 .last ul li  a:hover {
+  text-shadow: 1px 0px 27px  #dee2e6,
+  -1px -2px 4px hsl(210, 8%, 100%);
+   transition: 0.5s;
+}
+
+.message  a {
+  color: #dee2e6;
+  font-size: 18px;
+  background-position: 7% 95%;
+  background-repeat: no-repeat;
+  background-size: 0% 5px;
+  font-weight: normal;
+  font-weight: 400;
+  font-family: "Helvetica";
+}
+
+.message   a:hover {
   text-shadow: 1px 0px 27px  #dee2e6,
   -1px -2px 4px hsl(210, 8%, 100%);
    transition: 0.5s;
@@ -609,9 +642,6 @@ footer{
 
 /*mobile state*/
 @media screen and (max-width: 1010px) and (min-width: 850px){
-  .message {
-    font-size: 24px;
-  }
 
   /*intro text*/
   .egg{
@@ -723,6 +753,13 @@ footer{
   .last ul li  a {
     font-size: 24px;
   }
+
+  .message  a {
+
+    font-size: 24px;
+
+  }
+
 
   /*not actually section skills this section is about stuff */
   section.skills{
@@ -873,9 +910,7 @@ footer{
   margin-left: -3.5vw;
 }
 
-.message {
-  font-size: 24px;
-}
+
 
 body {
   font-size: 38px;
@@ -1022,7 +1057,13 @@ p.about{
   margin-bottom: 9vh;
   margin-top: 9vh;
 }
+.message  {
+  font-size: 24px;
+}
 
+.message  a {
+  font-size: 24px;
+}
 /* skill flex box */
 .one-column, .two-column, .three-column{
   margin-bottom: 0px;
@@ -1246,6 +1287,10 @@ p.about{
   margin-right: -20px;
   text-align: center;
   height: 10%;
+}
+
+.message  a {
+  font-size: 24px;
 }
 
 /* section hover*/
