@@ -1201,7 +1201,8 @@ top image header */
   }
 
   p{
-    font-size: 20px;
+    font-size: 4vw;
+    word-wrap:break-word;
     margin-left: -10px;
   }
 /* close button on top*/
