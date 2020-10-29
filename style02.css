@@ -164,24 +164,24 @@ img.photo-modal{
   -webkit-text-stroke: 0.5px  rgb(246, 247, 248, 1);
 
 
- position: absolute; top: 2px; left: 2px;
+ position: absolute; top: 0px; left: 2px;
 /* font-family: "Segoe UI",sans-serif; */
 }
 
 p {
-  font-size: 22px;
+  font-size: 38px;
   color: transparent;
   text-decoration: none;
   letter-spacing: .05em;
   font-weight: thin;
   text-shadow:
-  0px 0px 0px hsl(210, 8%, 85%), 0.79px 0.79px 0px hsl(210, 8%, 81%),
+  0px 0px 0px hsl(210, 8%, 90%), 0.79px 0.79px 0px hsl(210, 8%, 81%),
    0.7px 0.8px 1px hsl(210, 8%, 70%),0.8px 0.7px 1px hsl(210, 8%, 70%),
    0.8px 0.8px 1px hsl(210, 8%, 70%),
   /* 1.2px 0.6px 0px hsl(210, 8%, 78%), 1.4px 0.9px 0px hsl(210, 8%, 76%), */
   /* 0.55px 1.05px 0px hsl(210, 8%, 85%),0.6px 1.1px 0px hsl(210, 8%, 83%), */
   /* 0.9px 1.13px 0px hsl(210, 8%, 80%),0.9px 1.17px 0px hsl(210, 8%, 80%), */
-  4px 4px 5px rgb(40, 43, 46,0.5),  -0.5px 0px 0px rgb(246, 252, 255, 0)
+  4px 4px 16px rgb(40, 43, 46,0.7),  -0.5px 0px 0px rgb(246, 252, 255, 0)
   /* -1.5px 0px 0px rgb(246, 252, 255, 0.6),0.5px -1px 0px rgb(246, 252, 255, 0.4) */
   ;
   /* -webkit-text-stroke: 0.7px  rgb(246, 247, 248, 1); */
@@ -764,9 +764,10 @@ p.launch{
 }
 
 p.launch-top {
-  margin-top: -280px;
+  margin-top: -350px;
   margin-bottom: 240px;
   text-align: center;
+
 }
 
 .row{
@@ -1200,13 +1201,14 @@ top image header */
   }
 
   p{
-    font-size: 18px;
-    margin-left: -20px;
+    font-size: 20px;
+    margin-left: -10px;
   }
 /* close button on top*/
   p.launch-top {
     margin-top: -300px;
     margin-bottom: 240px;
+    margin-left: 15px;
   }
 
   /* type labels */
