@@ -31,6 +31,7 @@ img.title{
   margin-top: -16px;
   margin-left: 69px;
   width: 30px;
+  opacity: 0.9;
    filter: drop-shadow(7px 4px 14px  rgb(74,121,255,0.6))
    drop-shadow(2px 1.6px 3px hsl(210, 8%, 45%))
    drop-shadow(-2px -4px 3px hsl(210, 8%, 100%))
@@ -66,53 +67,40 @@ nav li a {
   text-align: center;
   padding: 4px 16px;
   text-decoration: none;
-  font-size: 44px;
-  color: transparent;
-  letter-spacing: .05em;
-  font-weight: bold;
-  text-shadow: 0.7px 0.9px 1px hsl(210, 8%, 90%),0.9px 1px 1px hsl(210, 8%, 89%),
-  1.3px 1.3px 1px hsl(210, 8%, 87%), 1.45px 1.6px 1px hsl(210, 8%, 86%),
-  1.7px 1.9px 1px hsl(210, 8%, 85%),1.85px 2.1px 1px hsl(210, 8%, 83%),
-  1.95px 2.3px 1px hsl(210, 8%, 80%),1.95px 2.9px 1px hsl(210, 8%, 80%),
-  2.1px 2.9px 1px hsl(210, 8%, 79%),   1.3px 1.5px 3px hsl(210, 8%, 73%),
-  4px 4px 9px hsl(210, 8%, 60%),  -1.5px 0px 8px
-  rgb(246, 252, 255, 1),
-  -1.5px 0px 34px rgb(246, 252, 255, 0.6),0.5px -1px 14px rgb(246, 252, 255, 0.4)
-  ;
-  -webkit-text-stroke: 0.7px  rgb(246, 247, 248, 1);
-  background-position: 9% 95%;
-  background-repeat: no-repeat;
-  background-size: 0% 5px;
-  transition: background-size .3s;
+  font-size: 27px;
+  font-weight:800;
+  text-transform: uppercase;
+  line-height: 1.5;
+  color:rgb(74,121,255);
+  text-shadow: 7px 4px 14px  rgb(74,121,255,0.6),
+  2px 1.6px 5px hsl(210, 8%, 45%),
+  -4px -3px 6px hsl(210, 8%, 100%),
+  -4px -3px 6px hsl(210, 8%, 100%);
+  font-family: 'Helvetica', sans-serif;
+  font-stretch:extra-expanded;
+  transform: scale(1.1, 1);
+  -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
+  -moz-transform: scale(1.1, 1); /* Firefox */
+  -ms-transform: scale(1.1, 1); /* IE 9+ */
+  -o-transform: scale(1.1, 1); /* Opera */
 }
 
 nav li a:hover, a:focus {
-  color: #dfe3e6;
-  text-shadow: 0.3px 1px 1px hsl(220, 16%, 85%),
-  1.9px 0.5px 1px hsl(220, 16%, 88%),
-  1px 1.3px 1px hsl(220, 16%, 85%), 1.3px 1.7px 1px
-  hsl(220, 16%, 84%),
-  1.5px 1.9px 1px hsl(220, 16%, 82%),1.95px 2.1px 1px
-  hsl(220, 16%, 80%),
-  2px 2.3px 1px hsl(220, 16%, 79%),2.2px 2.9px 1px
-  hsl(220, 16%, 77%),  2.3px 3px 0.5px hsl(220, 16%, 75%),
-  3px 4px 14px #3366ff,0px -1px 8px hsl(220, 16%, 100%)
-  ,0px -1px 12px hsl(220, 16%, 100%);
-  text-align: center;
-  transition: 0.5s;
-  padding: 4px 16px;
-  text-decoration: none;
-  background-size: 100% 5px;
-  font-family: 'Helvetica';
+  text-shadow: 7px 4px 14px  rgb(74,121,255,0.5),
+  7px 0px 14px  rgb(74,121,255,0.7),
+  2px 1.6px 5px hsl(210, 8%, 45%),
+  -4px -3px 6px hsl(210, 8%, 100%),
+  -4px -3px 6px hsl(210, 8%, 100%);
 }
 
 .nav-dot  {
   color:rgb(74,121,255);
-  text-shadow: 1px 0px 15px  rgb(74,121,255,0.6)
-  , 2px 1.6px 4px hsl(210, 8%, 62%)	,
-  -1px -2px 4px hsl(210, 8%, 100%);
-  font-size: 30px;
-  margin-right: -9px;
+  text-shadow: 7px 4px 14px  rgb(74,121,255,0.6),
+  2px 1.6px 5px hsl(210, 8%, 45%),
+  -4px -3px 6px hsl(210, 8%, 100%),
+  -4px -3px 6px hsl(210, 8%, 100%);
+  font-size: 22px;
+  margin-right: -11px;
 }
 .parallax {
   background-attachment: fixed;
@@ -690,19 +678,12 @@ footer{
   nav li a {
     text-align: right;
     padding: 3px 16px;
-    font-size: 100px;
-    background-position: 0% 100%;
-    color:  hsl(206, 3%, 91%);
-    text-shadow: 0.3px 1px 1px hsl(220, 16%, 85%),
-    1.9px 0.5px 1px hsl(220, 16%, 88%),
-    1px 1.3px 1px hsl(220, 16%, 85%), 1.3px 1.7px 1px
-    hsl(220, 16%, 84%),
-    1.5px 1.9px 1px hsl(210, 8%, 82%),1.95px 2.1px 1px
-    hsl(210, 8%, 80%),
-    2px 2.3px 1px hsl(210, 8%, 79%),2.9px 2.9px 1px
-    hsl(210, 8%, 77%),  3.3px 3px 0.5px hsl(210, 8%, 75%),
-    6px 4px 14px hsl(210, 8%, 61%),0px -1px 18px hsl(220, 16%, 100%);
-    -webkit-text-stroke: 1.5px  rgb(246, 247, 248, 1);
+    font-size: 60px;
+    color:rgb(74,121,255);
+    text-shadow: 7px 4px 14px  rgb(74,121,255,0.6),
+    2px 1.6px 5px hsl(210, 8%, 45%),
+    -4px -3px 8px hsl(210, 8%, 100%),
+    -4px -3px 8px hsl(210, 8%, 100%);
     }
 
     .nav-dot  {
@@ -711,26 +692,16 @@ footer{
       , 2px 1.6px 4px hsl(210, 8%, 62%)	,
       -1px -2px 4px hsl(210, 8%, 100%);
       padding-bottom: 10px;
-      font-size: 60px;
+      font-size: 40px;
       margin-right: -5px;
     }
 
   nav li a:hover, a:focus {
-    text-align: right;
-    padding: 4px 16px;
-    font-size: 100px;
-    background-size: 100% 5px;
-    color: #dfe3e6;
-    text-shadow: 0.3px 1px 1px hsl(220, 16%, 85%),
-    1.9px 0.5px 1px hsl(220, 16%, 88%),
-    1px 1.3px 1px hsl(220, 16%, 85%), 1.3px 1.7px 1px
-    hsl(220, 16%, 84%),
-    1.5px 1.9px 1px hsl(220, 16%, 82%),1.95px 2.1px 1px
-    hsl(220, 16%, 80%),
-    2px 2.3px 1px hsl(220, 16%, 79%),2.2px 2.9px 1px
-    hsl(220, 16%, 77%),  2.3px 3px 0.5px hsl(220, 16%, 75%),
-    3px 4px 14px #3366ff,0px -1px 8px hsl(220, 16%, 100%)
-    ,0px -1px 12px hsl(220, 16%, 100%);
+    text-shadow: 7px 4px 14px  rgb(74,121,255,0.5),
+    7px 0px 14px  rgb(74,121,255,0.7),
+    2px 1.6px 5px hsl(210, 8%, 45%),
+    -4px -3px 6px hsl(210, 8%, 100%),
+    -4px -3px 6px hsl(210, 8%, 100%);
   }
 
 
