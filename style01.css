@@ -65,7 +65,7 @@ img.in-modal{
   padding-right: 10%;
   padding-left: 10%;
   letter-spacing: .01em;
-  word-wrap: normal;
+  word-wrap:break-word;
   text-shadow: 0.7px 0.9px 1px hsl(210, 8%, 90%),0.9px 1px 1px hsl(210, 8%, 89%),
   1.3px 1.3px 1px hsl(210, 8%, 87%), 1.45px 1.6px 1px hsl(210, 8%, 86%),
   1.7px 1.9px 1px hsl(210, 8%, 85%),1.85px 2.1px 1px hsl(210, 8%, 83%),
