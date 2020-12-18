@@ -52,7 +52,7 @@ img.in-modal{
 
 .clustrmaps{
   visibility: hidden;
-  
+
 }
 
 /* big header blue words */
@@ -452,6 +452,7 @@ footer{
   .egg{
     padding-top: 220px;
     margin-bottom: -40px;
+    font-size: 70px;
   }
 
 
@@ -465,7 +466,7 @@ footer{
   img.in-modal{
     height: 400px;
     width: 400px;
-    margin-bottom: -11vh;
+      margin-bottom: -14vh;
     margin-left: 0%;
     margin-right: 24%;
     margin-top: 13vh;
@@ -568,6 +569,12 @@ body {
   font-size: 38px;
 }
 
+/*intro text*/
+.egg{
+  padding-top: 250px;
+  margin-bottom: -40px;
+  font-size: 70px;
+}
 
 img.in-modal{
   height: 450px;
@@ -692,6 +699,12 @@ h2.skilltitle{
   margin-left: 14%;
   margin-top: 100px;
   width: 80%;
+}
+
+/*intro text*/
+.egg{
+  margin-bottom: -40px;
+  font-size: 70px;
 }
 
 /* about paragraph */
