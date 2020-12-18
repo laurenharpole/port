@@ -1,0 +1,213 @@
+/* section hover*/
+.contact-background {
+  padding-top: .5%;
+  margin-left:5%;
+  margin-right: 2%;
+  border-radius: 11px;
+  align-items: center;
+  background: none;
+  margin-bottom:5%;
+  transition: 2.4s;
+}
+
+p.stamp{
+  color:  hsl(0, 0%, 36%);
+  text-shadow: 2px 5px 14px rgb(91, 91, 91,0.75);
+  text-align: center;
+  margin-left: 9vw;
+  opacity: 0.7;
+  font-size: 20px;
+  font-family: "Segoe UI",sans-serif;
+}
+
+/* general messages section */
+.chat {
+  padding-top: 20%;
+  margin-bottom: -3%;
+  width: 102vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2vw;
+  margin-top: 0vh;
+  margin-left: -10.9vw;
+}
+/* placement for messages sections */
+.messages {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 7%;
+}
+
+/* shaping of messages */
+.message {
+  border-radius: 29px;
+  padding: 8px 15px;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 1px;
+  display: inline-block;
+  font-weight: normal;
+  font-family: "Segoe UI",sans-serif;
+  background: hsl(225, 100%, 55%);
+}
+
+/* gray messages  */
+.yours {
+  align-items: flex-start;
+}
+
+/* gray messages  */
+.yours .message {
+  letter-spacing: .05em;
+  opacity: 0.95;
+  color:  hsl(0, 0%, 36%);
+  text-shadow: 2px 3px 14px rgb(91, 91, 91,0.4);
+  padding-left: 4%;
+  -webkit-text-stroke: 0.12px   rgb(91, 91, 91);
+  margin-right: 25%;
+  width: 250px;
+  position: relative;
+  background: #d6dadd;
+  /* #f0f4f7; */
+  box-shadow:  -6px -4px 29px rgb(255, 255, 255,1),
+  -4px -12px 15px rgb(255, 255, 255,0.4)
+  , 5px 8px 29px hsl(210, 8%, 50%);
+
+}
+
+/* gray messages  */
+.yours .message.last:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: -11px;
+  height: 25px;
+  width: 25px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 5px;
+  background: radial-gradient(85% 190% at top left, transparent 50%, #d6dadd 51% );
+  transform: rotate(2deg);
+}
+
+/* blue messages  */
+.mine {
+  align-items: flex-end;
+}
+
+/* blue messages  */
+.mine .message.last:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: -8px;
+  height: 27px;
+  width: 20px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 5px;
+  background:radial-gradient(85% 190% at top right, transparent 50%,
+  hsl(225, 100%, 55%) 51% );
+  transform: rotate(2deg);
+}
+
+/* blue messages  */
+.mine .message {
+  letter-spacing: .05em;
+  font-family: "Segoe UI",sans-serif;
+  opacity: 1;
+  color: #dee2e6;
+  text-shadow: -1px 2px 8px rgb(255,255,255,0.25);
+  margin-left: 18%;
+  position: relative;
+  box-shadow:  6px 4px 22px rgb(55, 106, 255,0.9),
+  -5px -5px 9px rgb(255,255,255,1);
+}
+
+/* blue message link list outer class */
+.f-three-column{
+  list-style-type: none;
+  display: block;
+  margin-top: -2.1vh;
+  margin-bottom: -2vh;
+  line-height: 0.9;
+  width: 145px;
+  font-size: 18px;
+  margin-left: -4vh;
+}
+
+.message  a {
+  color: #dee2e6;
+  font-size: 18px;
+  background-position: 7% 95%;
+  background-repeat: no-repeat;
+  background-size: 0% 5px;
+  font-weight: normal;
+  font-weight: 400;
+  font-family: "Helvetica";
+}
+
+.message   a:hover {
+  text-shadow: 1px 0px 27px  #dee2e6,
+  -1px -2px 4px hsl(210, 8%, 100%);
+   transition: 0.5s;
+}
+/* footer col links */
+.last ul li  a {
+  color: #dee2e6;
+  font-size: 18px;
+  background-position: 7% 95%;
+  background-repeat: no-repeat;
+  background-size: 0% 5px;
+  font-weight: normal;
+  font-weight: 400;
+  font-family: "Helvetica";
+}
+
+.last ul li  a:hover {
+  text-shadow: 1px 0px 27px  #dee2e6,
+  -1px -2px 4px hsl(210, 8%, 100%);
+   transition: 0.5s;
+}
+
+/*mobile state*/
+@media screen and (max-width: 1010px){
+
+  /* bottom contact size */
+  .message {
+    font-size: 18px;
+  }
+  /* bottom contact emoji size */
+  .f-three-column{
+    /* font-size: 24px; */
+    margin-left: -3vw;
+  }
+
+  /* footer col links */
+  /* .last ul li  a {
+    font-size: 18px;
+  } */
+  /* blue messages  */
+  .mine .message.last{
+    width: 200px;
+  }
+
+  p.stamp{
+    font-size: 22px;
+  }
+  .chat {
+    padding-top: 20%;
+    margin-bottom: -5%;
+    width: 102vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2vw;
+    margin-top: 0vh;
+    margin-left: -10.9vw;
+  }
+  /* .message  a {
+    font-size: 24px;
+  } */
+}

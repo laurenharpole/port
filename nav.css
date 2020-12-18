@@ -1,0 +1,110 @@
+/*navigation*/
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 19px;
+  padding-top: 0%;
+  overflow: hidden;
+  display: flex;
+  float: right;
+}
+
+
+img.title{
+  display: flex;
+  float: left;
+  margin-top: -16px;
+  margin-left: 69px;
+  width: 30px;
+  opacity: 0.9;
+   filter: drop-shadow(7px 4px 14px  rgb(74,121,255,0.6))
+   drop-shadow(2px 1.6px 3px hsl(210, 8%, 45%))
+   drop-shadow(-2px -4px 3px hsl(210, 8%, 100%))
+   drop-shadow(-4px -4px 4px hsl(210, 8%, 100%))
+   drop-shadow(-4px -4px 4px hsl(210, 8%, 100%));
+}
+
+nav li a {
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+  font-size: 27px;
+  font-weight:800;
+  text-transform: uppercase;
+  line-height: 1.5;
+  color:rgb(74,121,255);
+  text-shadow: 7px 4px 14px  rgb(74,121,255,0.6),
+  2px 1.6px 5px hsl(210, 8%, 45%),
+  -4px -3px 6px hsl(210, 8%, 100%),
+  -4px -3px 6px hsl(210, 8%, 100%);
+  font-family: 'Helvetica', sans-serif;
+  font-stretch:extra-expanded;
+  transform: scale(1.1, 1);
+  -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
+  -moz-transform: scale(1.1, 1); /* Firefox */
+  -ms-transform: scale(1.1, 1); /* IE 9+ */
+  -o-transform: scale(1.1, 1); /* Opera */
+}
+
+nav li a:hover, a:focus {
+  text-shadow: 7px 4px 14px  rgb(74,121,255,0.5),
+  7px 0px 14px  rgb(74,121,255,0.7),
+  2px 1.6px 5px hsl(210, 8%, 45%),
+  -4px -3px 6px hsl(210, 8%, 100%),
+  -4px -3px 6px hsl(210, 8%, 100%);
+}
+
+.nav-dot  {
+  color:rgb(74,121,255);
+  text-shadow: 7px 4px 14px  rgb(74,121,255,0.6),
+  2px 1.6px 5px hsl(210, 8%, 45%),
+  -4px -3px 6px hsl(210, 8%, 100%),
+  -4px -3px 6px hsl(210, 8%, 100%);
+  font-size: 22px;
+  margin-right: -11px;
+}
+/*mobile state*/
+@media screen and (max-width: 1010px) and (min-width: 750px){
+  img.title{
+    padding-top: 24px;
+    width: 60px;
+  }
+ nav li a {
+   font-size: 40px;
+ }
+
+ /*navigation*/
+ nav ul {
+   display:inline;
+ }
+
+}
+@media screen and (max-width: 750px) and (min-width: 600px){
+  /*navigation*/
+  nav ul {
+    display:inline;
+  }
+
+  img.title{
+    padding-top: 24px;
+    width: 60px;
+  }
+  nav li a {
+   font-size: 40px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  /*navigation*/
+  nav ul {
+    display:inline;
+  }
+
+  img.title{
+    padding-top: 24px;
+    width: 60px;
+  }
+
+}

@@ -5,39 +5,7 @@ body {
   font-size: 23px;
 }
 
-/*navigation*/
-nav ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 19px;
-  padding-top: 0%;
-  overflow: hidden;
-  display: flex;
-  float: right;
-}
 
-p.stamp{
-  color:  hsl(0, 0%, 36%);
-  text-shadow: 2px 5px 14px rgb(91, 91, 91,0.75);
-  text-align: center;
-  margin-left: 9vw;
-  opacity: 0.7;
-  font-family: "Segoe UI",sans-serif;
-}
-
-img.title{
-  display: flex;
-  float: left;
-  margin-top: -16px;
-  margin-left: 69px;
-  width: 30px;
-  opacity: 0.9;
-   filter: drop-shadow(7px 4px 14px  rgb(74,121,255,0.6))
-   drop-shadow(2px 1.6px 3px hsl(210, 8%, 45%))
-   drop-shadow(-2px -4px 3px hsl(210, 8%, 100%))
-   drop-shadow(-4px -4px 4px hsl(210, 8%, 100%))
-   drop-shadow(-4px -4px 4px hsl(210, 8%, 100%));
-}
 
 img.in-modal{
   height: 700px;
@@ -63,45 +31,7 @@ img.in-modal{
   -5px -5px 10px rgb(255,255,255,0.6);
 }
 
-nav li a {
-  text-align: center;
-  padding: 4px 16px;
-  text-decoration: none;
-  font-size: 27px;
-  font-weight:800;
-  text-transform: uppercase;
-  line-height: 1.5;
-  color:rgb(74,121,255);
-  text-shadow: 7px 4px 14px  rgb(74,121,255,0.6),
-  2px 1.6px 5px hsl(210, 8%, 45%),
-  -4px -3px 6px hsl(210, 8%, 100%),
-  -4px -3px 6px hsl(210, 8%, 100%);
-  font-family: 'Helvetica', sans-serif;
-  font-stretch:extra-expanded;
-  transform: scale(1.1, 1);
-  -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
-  -moz-transform: scale(1.1, 1); /* Firefox */
-  -ms-transform: scale(1.1, 1); /* IE 9+ */
-  -o-transform: scale(1.1, 1); /* Opera */
-}
 
-nav li a:hover, a:focus {
-  text-shadow: 7px 4px 14px  rgb(74,121,255,0.5),
-  7px 0px 14px  rgb(74,121,255,0.7),
-  2px 1.6px 5px hsl(210, 8%, 45%),
-  -4px -3px 6px hsl(210, 8%, 100%),
-  -4px -3px 6px hsl(210, 8%, 100%);
-}
-
-.nav-dot  {
-  color:rgb(74,121,255);
-  text-shadow: 7px 4px 14px  rgb(74,121,255,0.6),
-  2px 1.6px 5px hsl(210, 8%, 45%),
-  -4px -3px 6px hsl(210, 8%, 100%),
-  -4px -3px 6px hsl(210, 8%, 100%);
-  font-size: 22px;
-  margin-right: -11px;
-}
 .parallax {
   background-attachment: fixed;
   background-position: center;
@@ -122,20 +52,20 @@ nav li a:hover, a:focus {
 
 .clustrmaps{
   visibility: hidden;
+  
 }
+
 /* big header blue words */
 .egg{
-  font-size: 100px;
+  font-size: 90px;
   text-align: left;
   padding-left: 5%;
-  line-height: 107%;
-  padding-top: 420px;
+  line-height: 123%;
+  padding-top: 220px;
   padding-right: 10%;
   padding-left: 10%;
-  color:transparent;
-  background: none;
-  color: transparent;
   letter-spacing: .01em;
+  word-wrap: normal;
   text-shadow: 0.7px 0.9px 1px hsl(210, 8%, 90%),0.9px 1px 1px hsl(210, 8%, 89%),
   1.3px 1.3px 1px hsl(210, 8%, 87%), 1.45px 1.6px 1px hsl(210, 8%, 86%),
   1.7px 1.9px 1px hsl(210, 8%, 85%),1.85px 2.1px 1px hsl(210, 8%, 83%),
@@ -151,7 +81,7 @@ nav li a:hover, a:focus {
 
 /* skill category titles */
 h2.skilltitle{
-  font-size: 22px;
+  font-size: 20px;
   padding-top: 90px;
   text-align: left;
   margin: 2px;
@@ -159,7 +89,7 @@ h2.skilltitle{
   font-weight:800;
   text-transform: uppercase;
   line-height: 1.5;
-  color:rgb(74,121,255);
+  color:#4a79ff;
   text-shadow: 1px 0px 15px  rgb(74,121,255)
   , 2px 1.6px 4px hsl(210, 8%, 62%)	,
   -1px -2px 4px hsl(210, 8%, 100%);
@@ -174,10 +104,86 @@ h2.skilltitle{
   margin-left: 19%;
 }
 
+#po  {
+  /* background-image: linear-gradient(120deg, rgb(74,121,255,0.5) 0%, rgb(74,121,255,0.5) 100%); */
+  text-shadow: none;
+  border-radius: 2vw;
+  filter: drop-shadow(7px 4px 14px  rgb(74,121,255,0.7))
+  drop-shadow(2px 1.6px 3px hsl(210, 8%, 55%))
+  drop-shadow(-2px -4px 3px hsl(210, 8%, 100%))
+  drop-shadow(-4px -4px 4px hsl(210, 8%, 100%))
+  drop-shadow(-4px -4px 4px hsl(210, 8%, 100%));
+  color:rgb(74,121,255,1);
+  transform: rotate(910deg);
+  -webkit-transform: rotate(-90deg);
+     -moz-transform: rotate(-90deg);
+       -webkit-text-stroke: transparent;
+}
+#decoration1 {
+  border-bottom:3px solid rgb(255, 103, 94,1);
+  box-shadow:
+  0px 12px 11px -9px rgb(255, 103, 94,.25),
+  inset 0 -3px 3px -2px  rgb(255, 103, 94,.3);
+   padding: 10px;
+   &:hover {
+     background-size: 100% 88%;
+   }
+}
+
+#decoration4 {
+  /* border-bottom:3px solid rgb(255, 103, 94,1); */
+  text-shadow: 2px 3px 14px rgb(255, 103, 94,1);
+  color: rgb(255, 103, 94,1);
+  text-decoration: none;
+  font-size: 100px;
+  align-self: stretch;
+    font-weight: 800;
+    vertical-align: middle;
+  -webkit-text-stroke: 0.0px  #f6f7f8;
+  /* box-shadow:
+  0px 12px 11px -9px rgb(255, 103, 94,.25),
+  inset 0 -3px 3px -2px  rgb(255, 103, 94,.3); */
+   padding: 10px;
+   &:hover {
+     background-size: 100% 88%;
+   }
+}
+
+#decoration3 {
+      vertical-align:bottom;
+  /* border-bottom:3px solid rgb(255, 103, 94,1); */
+  text-shadow: 2px 3px 14px rgb(255, 103, 94,1);
+  color: rgb(255, 103, 94,1);
+  text-decoration: none;
+  font-size: 84px;
+  font-weight: 400;
+  -webkit-text-stroke: 0.0px  #f6f7f8;
+  /* box-shadow:
+  0px 12px 11px -9px rgb(255, 103, 94,.25),
+  inset 0 -3px 3px -2px  rgb(255, 103, 94,.3); */
+   padding: 10px;
+   &:hover {
+     background-size: 100% 88%;
+   }
+}
+
+#decoration0 {
+  border-bottom:3px solid rgb(255, 128, 96);
+  box-shadow:
+  0px 12px 11px -9px rgb(255, 128, 96,.25),
+  inset 0 -3px 3px -2px  rgb(255, 128, 96,.25);
+   padding: 10px;
+   &:hover {
+     background-size: 100% 88%;
+   }
+}
+
+
+
 /* the skills lists */
 p.skills{
   font-family: "Segoe UI",sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color:  hsl(0, 0%, 36%);
   opacity: 0.9;
   text-shadow: 2px 3px 14px rgb(91, 91, 91,0.8);
@@ -269,7 +275,7 @@ p.skills a:hover {
 /* about paragraph */
 p.about{
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   padding-top: 3%;
   padding-left: 14%;
@@ -301,7 +307,7 @@ h2.skills{
   -moz-transform: scale(1.1, 1); /* Firefox */
   -ms-transform: scale(1.1, 1); /* IE 9+ */
   -o-transform: scale(1.1, 1); /* Opera */
-  font-size: 22px;
+  font-size: 20px;
   padding-top: 0px;
   text-align: center;
   line-height: 2;
@@ -363,187 +369,6 @@ footer{
   -5px -5px 10px #ffffff;
 }
 
-/* section hover*/
-.contact-background {
-  padding-top: .5%;
-  margin-left:5%;
-  margin-right: 2%;
-  margin-top: 10%;
-  border-radius: 11px;
-  align-items: center;
-  background: none;
-  margin-bottom:5%;
-  transition: 2.4s;
-}
-
-/* general messages section */
-.chat {
-  padding-top: 20%;
-  margin-bottom: -3%;
-  width: 102vw;
-  display: flex;
-  flex-direction: column;
-  border-radius: 2vw;
-  margin-top: 0vh;
-  margin-left: -10.9vw;
-}
-/* placement for messages sections */
-.messages {
-  margin-top: 0px;
-  display: flex;
-  flex-direction: column;
-  margin-left: 7%;
-}
-
-/* shaping of messages */
-.message {
-  border-radius: 29px;
-  padding: 8px 15px;
-  font-size: 18px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 1px;
-  display: inline-block;
-  font-weight: normal;
-  font-family: "Segoe UI",sans-serif;
-  background: hsl(225, 100%, 55%);
-}
-
-/* gray messages  */
-.yours {
-  align-items: flex-start;
-}
-
-/* gray messages  */
-.yours .message {
-  letter-spacing: .05em;
-  opacity: 0.95;
-  color:  hsl(0, 0%, 36%);
-  text-shadow: 2px 3px 14px rgb(91, 91, 91,0.4);
-  padding-left: 4%;
-  -webkit-text-stroke: 0.12px   rgb(91, 91, 91);
-  margin-right: 25%;
-  width: 250px;
-  position: relative;
-  background: #d6dadd;
-  /* #f0f4f7; */
-  box-shadow:  -6px -4px 29px rgb(255, 255, 255,1),
-  -4px -12px 15px rgb(255, 255, 255,0.4)
-  , 5px 8px 29px hsl(210, 8%, 50%);
-
-}
-
-/* gray messages  */
-.yours .message.last:before {
-  content: "";
-  position: absolute;
-  z-index: 0;
-  bottom: 0;
-  left: -11px;
-  height: 25px;
-  width: 25px;
-  border-bottom-right-radius: 15px;
-  border-top-right-radius: 5px;
-  background: radial-gradient(85% 190% at top left, transparent 50%, #d6dadd 51% );
-  transform: rotate(2deg);
-}
-
-/* blue messages  */
-.mine {
-  align-items: flex-end;
-}
-
-/* blue messages  */
-.mine .message.last:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  bottom: 0;
-  right: -8px;
-  height: 27px;
-  width: 20px;
-  border-bottom-left-radius: 15px;
-  border-top-right-radius: 5px;
-  background:radial-gradient(85% 190% at top right, transparent 50%,
-  hsl(225, 100%, 55%) 51% );
-  transform: rotate(2deg);
-}
-
-/* blue messages  */
-.mine .message {
-  letter-spacing: .05em;
-  font-family: "Segoe UI",sans-serif;
-  opacity: 1;
-  color: #dee2e6;
-  text-shadow: -1px 2px 8px rgb(255,255,255,0.25);
-  margin-left: 18%;
-  position: relative;
-  box-shadow:  6px 4px 22px rgb(55, 106, 255,0.9),
-  -5px -5px 9px rgb(255,255,255,1);
-}
-
-/* blue message link list outer class */
-.f-three-column{
-  list-style-type: none;
-  display: block;
-  margin-top: -2.1vh;
-  margin-bottom: -2vh;
-  line-height: 0.9;
-  width: 145px;
-  font-size: 18px;
-  margin-left: -4vh;
-}
-
-.message  a {
-  color: #dee2e6;
-  font-size: 18px;
-  background-position: 7% 95%;
-  background-repeat: no-repeat;
-  background-size: 0% 5px;
-  font-weight: normal;
-  font-weight: 400;
-  font-family: "Helvetica";
-}
-
-.message   a:hover {
-  text-shadow: 1px 0px 27px  #dee2e6,
-  -1px -2px 4px hsl(210, 8%, 100%);
-   transition: 0.5s;
-}
-/* footer col links */
-.last ul li  a {
-  color: #dee2e6;
-  font-size: 18px;
-  background-position: 7% 95%;
-  background-repeat: no-repeat;
-  background-size: 0% 5px;
-  font-weight: normal;
-  font-weight: 400;
-  font-family: "Helvetica";
-}
-
-.last ul li  a:hover {
-  text-shadow: 1px 0px 27px  #dee2e6,
-  -1px -2px 4px hsl(210, 8%, 100%);
-   transition: 0.5s;
-}
-
-.message  a {
-  color: #dee2e6;
-  font-size: 18px;
-  background-position: 7% 95%;
-  background-repeat: no-repeat;
-  background-size: 0% 5px;
-  font-weight: normal;
-  font-weight: 400;
-  font-family: "Helvetica";
-}
-
-.message   a:hover {
-  text-shadow: 1px 0px 27px  #dee2e6,
-  -1px -2px 4px hsl(210, 8%, 100%);
-   transition: 0.5s;
-}
 /* skills title neumorphism border */
 .neu-skill{
   display: flex;
@@ -602,18 +427,10 @@ footer{
 }
 
 @media screen and (max-width: 1100px){
-  /*intro text*/
-  .egg{
-    font-size: 110px;
-    word-wrap: break-word;
-    width:80%;
-    margin-left: -2vw;
-    letter-spacing: .01em;
-  }
 
   /* about paragraph */
   p.about{
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 9%;
     font-family: "Segoe UI",sans-serif;
     margin-bottom:0vh;
@@ -629,106 +446,29 @@ footer{
 }
 
 /*mobile state*/
-@media screen and (max-width: 1010px) and (min-width: 850px){
+@media screen and (max-width: 1010px) and (min-width: 750px){
 
   /*intro text*/
   .egg{
-    font-size: 190px;
-    word-wrap: break-word;
-    width:80%;
-    margin-left: -2vw;
-    letter-spacing: .01em;
-    text-shadow: 0.7px 0.9px 1px hsl(210, 8%, 90%),0.9px 1px 1px hsl(210, 8%, 89%),
-    1.3px 1.3px 1px hsl(210, 8%, 87%), 1.45px 1.6px 1px hsl(210, 8%, 86%),
-    1.7px 1.9px 1px hsl(210, 8%, 85%),1.85px 2.1px 1px hsl(210, 8%, 83%),
-    1.95px 2.3px 1px hsl(210, 8%, 80%),1.95px 2.9px 1px hsl(210, 8%, 80%),
-    2.1px 2.9px 1px hsl(210, 8%, 79%),   2.3px 3px 1px hsl(210, 8%, 78%),
-    9px 7px 12px hsl(210, 8%, 70%),  5px 6px 26px hsl(210, 8%, 70%), -1.5px 0px 14px
-    rgb(246, 252, 255, 1),
-    -1.5px 0px 34px rgb(246, 252, 255, 1),-1.5px -1px 14px rgb(246, 252, 255, 0.4)
-    ,0px -1px 14px hsl(220, 16%, 100%),0px -1px 15px hsl(220, 16%, 100%);;
-    -webkit-text-stroke: 1.3px  #f6f7f8;
-    color:#dfe3e6;
+    padding-top: 220px;
+    margin-bottom: -40px;
   }
 
-  .f-three-column{
-    font-size: 24px;
-    margin-left: -3.5vw;
-  }
 
   body {
     font-size: 38px;
   }
 
-  /* blue messages  */
-  .mine .message.last{
-    width: 230px;
-  }
 
-  /*navigation*/
-  nav ul {
-    display:inline;
-  }
-
-  img.title{
-    padding-top: 44px;
-    width: 80px;
-  }
-
-  nav li a {
-    text-align: right;
-    padding: 3px 16px;
-    font-size: 60px;
-    color:rgb(74,121,255);
-    text-shadow: 7px 4px 14px  rgb(74,121,255,0.6),
-    2px 1.6px 5px hsl(210, 8%, 45%),
-    -4px -3px 8px hsl(210, 8%, 100%),
-    -4px -3px 8px hsl(210, 8%, 100%);
-    }
-
-    .nav-dot  {
-      color:rgb(74,121,255);
-      text-shadow: 1px 0px 15px  rgb(74,121,255,0.6)
-      , 2px 1.6px 4px hsl(210, 8%, 62%)	,
-      -1px -2px 4px hsl(210, 8%, 100%);
-      padding-bottom: 10px;
-      font-size: 40px;
-      margin-right: -5px;
-    }
-
-  nav li a:hover, a:focus {
-    text-shadow: 7px 4px 14px  rgb(74,121,255,0.5),
-    7px 0px 14px  rgb(74,121,255,0.7),
-    2px 1.6px 5px hsl(210, 8%, 45%),
-    -4px -3px 6px hsl(210, 8%, 100%),
-    -4px -3px 6px hsl(210, 8%, 100%);
-  }
 
 
   img.in-modal{
-    height: 600px;
-    width: 600px;
-    margin-bottom: -8vh;
-    margin-left: 19%;
-    margin-right: 14%;
+    height: 400px;
+    width: 400px;
+    margin-bottom: -11vh;
+    margin-left: 0%;
+    margin-right: 24%;
     margin-top: 13vh;
-  }
-
-  /* the skills lists */
-  p.skills{
-    font-weight: 400;
-    font-size: 3.8vw;
-  }
-
-  /* footer col links */
-  .last ul li  a {
-    font-size: 24px;
-  }
-
-  .message  a {
-
-    font-size: 24px;
-
   }
 
 
@@ -739,10 +479,6 @@ footer{
     padding-right: 13%;
   }
 
-  /* this is skills */
-  h2.skills{
-        font-size: 40px;
-  }
 
   /* about flex box */
   .row-about{
@@ -782,7 +518,6 @@ footer{
 
   /* skill category titles */
   h2.skilltitle{
-    font-size: 40px;
     margin-top: 50px;
     text-align: center;
     margin-bottom: -10px;
@@ -791,45 +526,14 @@ footer{
 
   /* about paragraph */
   p.about{
-    font-size: 24px;
     padding-top: 3%;
     padding-left: 12%;
     margin-bottom:6vh;
     width: 83%;
   }
 
-  /* skill flex box */
-  .row{
-    display: flex;
-    flex-direction:  column;
-    flex-wrap: wrap;
-    padding-top: 1%;
-    width:  98.5%;
-    height: 100%;
-  }
-  /* skill flex box */
-  .column{
-    margin-left: 40px;
-    margin-right: 30px;
-    margin-bottom: 9vh;
-    margin-top: 9vh;
-  }
-
-  /* skill flex box */
-  .one-column, .two-column, .three-column{
-    margin-bottom: 0px;
-    margin-left: -20px;
-    margin-right: -20px;
-    text-align: center;
-    height: 10%;
-  }
-
-  /* section hover*/
-  .skill-background {
-    margin-left:9%;
-    margin-right: 3%;
-    margin-top: 5%;
-    width: 80%;
+  h2.skills{
+    font-size: 16px;
   }
 
   /* skills title neumorphism border */
@@ -851,102 +555,19 @@ footer{
   }
 }
 
-@media screen and (max-width: 850px) and (min-width: 600px){
-/*intro text*/
-.egg{
-  font-size: 190px;
-  word-wrap: break-word;
-  width:80%;
-  margin-left: -2vw;
-  letter-spacing: .01em;
-  text-shadow: 0.7px 0.9px 1px hsl(210, 8%, 90%),0.9px 1px 1px hsl(210, 8%, 89%),
-  1.3px 1.3px 1px hsl(210, 8%, 87%), 1.45px 1.6px 1px hsl(210, 8%, 86%),
-  1.7px 1.9px 1px hsl(210, 8%, 85%),1.85px 2.1px 1px hsl(210, 8%, 83%),
-  1.95px 2.3px 1px hsl(210, 8%, 80%),1.95px 2.9px 1px hsl(210, 8%, 80%),
-  2.1px 2.9px 1px hsl(210, 8%, 79%),   2.3px 3px 1px hsl(210, 8%, 78%),
-  9px 7px 12px hsl(210, 8%, 70%),  5px 6px 26px hsl(210, 8%, 70%), -1.5px 0px 14px
-  rgb(246, 252, 255, 1),
-  -1.5px 0px 34px rgb(246, 252, 255, 1),-1.5px -1px 14px rgb(246, 252, 255, 0.4)
-  ,0px -1px 14px hsl(220, 16%, 100%),0px -1px 15px hsl(220, 16%, 100%);;
-  -webkit-text-stroke: 1.3px  #f6f7f8;
-  color:#dfe3e6;
-}
+@media screen and (max-width: 750px) and (min-width: 600px){
 
-.last ul li  a {
-  font-size: 24px;
+/* section hover*/
+.skill-background {
+    margin: 0 auto;
+    width: 400px;
 }
-
-.f-three-column{
-  font-size: 24px;
-  margin-left: -3.5vw;
-}
-
 
 
 body {
   font-size: 38px;
 }
 
-/* blue messages  */
-.mine .message.last{
-  width: 230px;
-}
-
-/*navigation*/
-nav ul {
-  display:inline;
-}
-
-img.title{
-  padding-top: 44px;
-  width: 80px;
-}
-
-nav li a {
-  text-align: right;
-  padding: 3px 16px;
-  font-size: 100px;
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 5px;
-  color:  hsl(206, 3%, 91%);
-  text-shadow: 0.3px 1px 1px hsl(220, 16%, 85%),
-  1.9px 0.5px 1px hsl(220, 16%, 88%),
-  1px 1.3px 1px hsl(220, 16%, 85%), 1.3px 1.7px 1px
-  hsl(220, 16%, 84%),
-  1.5px 1.9px 1px hsl(210, 8%, 82%),1.95px 2.1px 1px
-  hsl(210, 8%, 80%),
-  2px 2.3px 1px hsl(210, 8%, 79%),2.9px 2.9px 1px
-  hsl(210, 8%, 77%),  3.3px 3px 0.5px hsl(210, 8%, 75%),
-  6px 4px 14px hsl(210, 8%, 61%),0px -1px 18px hsl(220, 16%, 100%);
-  -webkit-text-stroke: 1.5px  rgb(246, 247, 248, 1);
-}
-
-.nav-dot  {
-  color:rgb(74,121,255);
-  text-shadow: 1px 0px 15px  rgb(74,121,255,0.6)
-  , 2px 1.6px 4px hsl(210, 8%, 62%)	,
-  -1px -2px 4px hsl(210, 8%, 100%);
-  padding-bottom: 10px;
-  font-size: 60px;
-  margin-right: -5px;
-}
-nav li a:hover, a:focus {
-  text-align: right;
-  padding: 4px 16px;
-  font-size: 100px;
-  background-size: 100% 5px;
-  color: #dfe3e6;
-  text-shadow: 0.3px 1px 1px hsl(220, 16%, 85%),
-  1.9px 0.5px 1px hsl(220, 16%, 88%),
-  1px 1.3px 1px hsl(220, 16%, 85%), 1.3px 1.7px 1px
-  hsl(220, 16%, 84%),
-  1.5px 1.9px 1px hsl(220, 16%, 82%),1.95px 2.1px 1px
-  hsl(220, 16%, 80%),2px 2.3px 1px hsl(220, 16%, 79%),2.2px 2.9px 1px
-  hsl(220, 16%, 77%),  2.3px 3px 0.5px hsl(220, 16%, 75%),
-  3px 4px 14px #3366ff,0px -1px 8px hsl(220, 16%, 100%)
-  ,0px -1px 12px hsl(220, 16%, 100%);
-}
 
 img.in-modal{
   height: 450px;
@@ -957,22 +578,11 @@ img.in-modal{
   margin-top: 13vh;
 }
 
-/* the skills lists */
-p.skills{
-  font-weight: 400;
-  font-size: 3.8vw;
-}
-
 /*not actually section skills this section is about stuff */
 section.skills{
   padding-top: 20%;
   padding-left:13%;
   padding-right: 13%;
-}
-
-/* this is skills */
-h2.skills{
-    font-size: 30px;
 }
 
 /* about flex box */
@@ -988,7 +598,6 @@ h2.skills{
 
 /* skill category titles */
 h2.skilltitle{
-  font-size: 40px;
   padding-top: 0px;
   text-align: center;
   margin-bottom: -20px;
@@ -999,7 +608,6 @@ h2.skilltitle{
 
 /* about paragraph */
 p.about{
-  font-size: 24px;
   padding-top: 3%;
   padding-left: 12%;
   margin-bottom:9vh;
@@ -1028,148 +636,22 @@ p.about{
   margin-bottom: 9vh;
   margin-top: 9vh;
 }
-.message  {
-  font-size: 24px;
-}
 
-.message  a {
-  font-size: 24px;
-}
-/* skill flex box */
-.one-column, .two-column, .three-column{
-  margin-bottom: 0px;
-  margin-left: -20px;
-  margin-right: -20px;
-  text-align: center;
-  height: 10%;
-}
 
-/* section hover*/
-.skill-background {
-  margin-left:9%;
-  margin-right: 3%;
-  margin-top: 5%;
-  align-items: center;
-  width: 80%;
-}
 }
 
 @media screen and (max-width: 600px) {
-/*intro text*/
-.egg{
-  font-size: 190px;
-  word-wrap: break-word;
-  width:80%;
-  margin-left: -2vw;
-  letter-spacing: .01em;
-  text-shadow: 0.7px 0.9px 1px hsl(210, 8%, 90%),0.9px 1px 1px hsl(210, 8%, 89%),
-  1.3px 1.3px 1px hsl(210, 8%, 87%), 1.45px 1.6px 1px hsl(210, 8%, 86%),
-  1.7px 1.9px 1px hsl(210, 8%, 85%),1.85px 2.1px 1px hsl(210, 8%, 83%),
-  1.95px 2.3px 1px hsl(210, 8%, 80%),1.95px 2.9px 1px hsl(210, 8%, 80%),
-  2.1px 2.9px 1px hsl(210, 8%, 79%),   2.3px 3px 1px hsl(210, 8%, 78%),
-  9px 7px 12px hsl(210, 8%, 70%),  5px 6px 26px hsl(210, 8%, 70%), -1.5px 0px 14px
-  rgb(246, 252, 255, 1),
-  -1.5px 0px 34px rgb(246, 252, 255, 1),-1.5px -1px 14px rgb(246, 252, 255, 0.4)
-  ,0px -1px 14px hsl(220, 16%, 100%),0px -1px 15px hsl(220, 16%, 100%);;
-  -webkit-text-stroke: 1.3px  #f6f7f8;
-  color:#dfe3e6;
-}
-
-.last ul li  a {
-  font-size: 24px;
-}
-
-.message {
-  font-size: 24px;
-}
-
-.f-three-column{
-  font-size: 24px;
-   margin-left: -3.5vw;
-}
 
 body {
   font-size: 38px;
 }
 
-/* blue messages  */
-.mine .message.last{
-  width: 230px;
-}
-
-.chat {
-  padding-top: 20%;
-  margin-bottom: -5%;
-  width: 102vw;
-  display: flex;
-  flex-direction: column;
-  border-radius: 2vw;
-  margin-top: 0vh;
-  margin-left: -10.9vw;
-}
 
 
-/*navigation*/
-nav ul {
-  display:inline;
-}
-
-img.title{
-  padding-top: 44px;
-  width: 80px;
-}
-
-nav li a {
-  text-align: right;
-  padding: 3px 16px;
-  font-size: 80px;
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 5px;
-  color:  hsl(206, 3%, 91%);
-  text-shadow: 0.3px 1px 1px hsl(220, 16%, 85%),
-  1.9px 0.5px 1px hsl(220, 16%, 88%),
-  1px 1.3px 1px hsl(220, 16%, 85%), 1.3px 1.7px 1px
-  hsl(220, 16%, 84%),
-  1.5px 1.9px 1px hsl(210, 8%, 82%),1.95px 2.1px 1px
-  hsl(210, 8%, 80%),
-  2px 2.3px 1px hsl(210, 8%, 79%),2.9px 2.9px 1px
-  hsl(210, 8%, 77%),  3.3px 3px 0.5px hsl(210, 8%, 75%),
-  6px 4px 14px hsl(210, 8%, 61%),0px -1px 18px hsl(220, 16%, 100%);
-  -webkit-text-stroke: 1.5px  rgb(246, 247, 248, 1);
-}
-
-.nav-dot  {
-  color:rgb(74,121,255);
-  text-shadow: 1px 0px 15px  rgb(74,121,255,0.6)
-  , 2px 1.6px 4px hsl(210, 8%, 62%)	,
-  -1px -2px 4px hsl(210, 8%, 100%);
-  padding-bottom: 10px;
-  font-size: 60px;
-  margin-right: -5px;
-}
-
-nav li a:hover, a:focus {
-  text-align: right;
-  padding: 4px 16px;
-  font-size: 80px;
-  background-size: 100% 5px;
-  color: #dfe3e6;
-  text-shadow: 0.3px 1px 1px hsl(220, 16%, 85%),
-  1.9px 0.5px 1px hsl(220, 16%, 88%),
-  1px 1.3px 1px hsl(220, 16%, 85%), 1.3px 1.7px 1px
-  hsl(220, 16%, 84%),
-  1.5px 1.9px 1px hsl(220, 16%, 82%),1.95px 2.1px 1px
-  hsl(220, 16%, 80%),2px 2.3px 1px hsl(220, 16%, 79%),2.2px 2.9px 1px
-  hsl(220, 16%, 77%),  2.3px 3px 0.5px hsl(220, 16%, 75%),
-  3px 4px 14px #3366ff,0px -1px 8px hsl(220, 16%, 100%)
-  ,0px -1px 12px hsl(220, 16%, 100%);
-}
 
 img.in-modal{
   height: 320px;
   width: 320px;
-  margin-bottom: -8vh;
   margin-top: 13vh;
   margin-left: 9%;
 }
@@ -1180,11 +662,6 @@ section.skills{
   padding-top: 20%;
   padding-left:13%;
   padding-right: 13%;
-}
-
-/* this is skills */
-h2.skills{
-    font-size: 24px;
 }
 
 /* about flex box */
@@ -1209,7 +686,6 @@ h2.skills{
 
 /* skill category titles */
 h2.skilltitle{
-  font-size: 40px;
   padding-top: 0px;
   text-align: center;
   margin-bottom: -20px;
@@ -1220,7 +696,6 @@ h2.skilltitle{
 
 /* about paragraph */
 p.about{
-  font-size: 18px;
   padding-top: 3%;
   padding-left: 15%;
   margin-bottom:6vh;
@@ -1233,7 +708,7 @@ p.about{
   flex-direction:  column;
   flex-wrap: wrap;
   padding-top: 1%;
-  width:  98.5%;
+  /* width:  98.5%; */
   height: 100%;
 }
 
@@ -1260,15 +735,4 @@ p.about{
   height: 10%;
 }
 
-.message  a {
-  font-size: 24px;
-}
-
-/* section hover*/
-.skill-background {
-  margin-left:9%;
-  margin-right: 3%;
-  margin-top: 5%;
-  width: 80%;
-}
 }
