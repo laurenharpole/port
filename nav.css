@@ -100,13 +100,26 @@ nav li a:hover, a:focus {
   /*navigation*/
   nav ul {
     display:inline;
+    margin-top: -10px;
+    margin-right: -21px;
   }
   nav li a {
    font-size: 28px;
+   padding: 4px 16px;
   }
   img.title{
-    padding: 4px 36px;
+    padding: 0px 12px;
     width: 30px;
+  }
+
+  .nav-dot  {
+    color:rgb(74,121,255);
+    text-shadow: 7px 4px 14px  rgb(74,121,255,0.6),
+    2px 1.6px 5px hsl(210, 8%, 45%),
+    -4px -3px 6px hsl(210, 8%, 100%),
+    -4px -3px 6px hsl(210, 8%, 100%);
+    font-size: 22px;
+    margin-right: -5px;
   }
 
 }
