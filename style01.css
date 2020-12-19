@@ -655,11 +655,11 @@ body {
 
 
 img.in-modal{
-  height: 320px;
-  width: 320px;
+  height: 300px;
+  width: 300px;
   margin-top: 13vh;
   margin-bottom: -40px;
-  margin-left: 9%;
+  margin-left: 0%;
 }
 
 
