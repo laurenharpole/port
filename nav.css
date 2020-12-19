@@ -67,10 +67,10 @@ nav li a:hover, a:focus {
 @media screen and (max-width: 1010px) and (min-width: 750px){
   img.title{
     padding: 0px 36px;
-    width: 60px;
+    width: 30px;
   }
  nav li a {
-   font-size: 40px;
+   font-size: 32px;
  }
 
  /*navigation*/
@@ -87,10 +87,10 @@ nav li a:hover, a:focus {
 
   img.title{
   padding: 0px 36px;
-    width: 60px;
+    width: 30px;
   }
   nav li a {
-   font-size: 40px;
+   font-size: 28px;
   }
 
 }
@@ -102,11 +102,11 @@ nav li a:hover, a:focus {
     display:inline;
   }
   nav li a {
-   font-size: 40px;
+   font-size: 28px;
   }
   img.title{
     padding: 4px 36px;
-    width: 60px;
+    width: 30px;
   }
 
 }

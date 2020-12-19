@@ -501,8 +501,7 @@ display labels on image */
   right: 0;
   bottom: 0;
   left: 0;
-  -webkit-backdrop-filter: blur(5px);
-  background-color: rgba(92, 150, 173, 0.195);
+  background-color: rgba(74, 121, 255, 0.83);
   z-index: 99999;
   opacity:0;
   -webkit-transition: opacity 400ms ease-in;
@@ -522,6 +521,7 @@ pointer events are only those currently visible*/
 
 /* make contents of inside modal visible and scrollable */
 .modalDialog > div {
+
   width: 900px;
   position: relative;
   margin: 0% auto;
@@ -757,6 +757,7 @@ img.close {
 /*mobile state*/
 @media screen and (max-width: 1010px){
 
+
   p.graphic-2 {
     font-family: "Segoe UI",sans-serif;
     color:  hsl(0, 0%, 36%);
@@ -764,7 +765,7 @@ img.close {
     font-size: 18px;
     text-align: right;
     font-weight: normal;
-    margin-right: 55px;
+    margin-right: 30px;
     opacity: 0.6;
   }
 
@@ -772,17 +773,19 @@ img.close {
   .line{
     width: auto;
     font-size: 2px;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
     background:  hsl(0, 0%, 36%);
     /* #f0f4f7; */
     box-shadow:  2px 3px 14px rgb(91, 91, 91,1);;
     opacity: 0.3;
     border-radius: 4vw;
+    margin-bottom: -40px;
   }
 
   /* make contents of inside modal visible and scrollable */
   .modalDialog > div {
+
     width: 90%;
     position: relative;
     margin: 0% auto;
@@ -797,7 +800,7 @@ img.close {
 
   /* launch the site button */
   .launch a {
-    font-size: 22px;
+    font-size: 16px;
     padding-top: 25px;
     padding-bottom: 25px;
     box-shadow:  6px 6px 24px hsl(215, 9%, 65%),
@@ -813,7 +816,7 @@ img.close {
 
   /* launch the site button */
   #close.launch a {
-    font-size: 22px;
+    font-size: 16px;
     padding-top: 25px;
     padding-bottom: 25px;
     box-shadow:  6px 6px 24px hsl(215, 9%, 65%),
@@ -851,11 +854,13 @@ top image header */
     width: 90vw;
     align-content: center;
     margin-left: 0vw;
+
+    height:270px;
   }
 
   /* mostly for gifs and book images in graphics */
   img.in-grid-modal{
-    width: 67.5vw;
+    width: 77.5vw;
     align-content: center;
     display: block;
     overflow: hidden;
@@ -873,7 +878,7 @@ top image header */
   }
 
   img.in-grid-modal-right{
-    width: 67.5vw;
+    width: 77.5vw;
     align-content: center;
     transition: 0.4s ease;
     display: block;
@@ -906,29 +911,29 @@ top image header */
 /* info blurbs */
   p.data {
     margin-left: 6%;
-    font-size: 22px;
-    margin-bottom: 50px;
+    font-size: 16px;
+    margin-bottom: 40px;
     margin-top: 60px;
     width: 80%;
   }
 
   p{
-    font-size: 3vw;
+    font-size: 16px;
     word-wrap:break-word;
     margin-left: -7px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight:400;
   }
 /* close button on top*/
   p.launch-top {
-    margin-top: -310px;
-    margin-bottom: 240px;
+    margin-top: -260px;
+    margin-bottom: 200px;
     margin-left: 15px;
   }
 
   /* type labels */
   h4 {
-    font-size: 24px;
+    font-size: 15px;
     margin-top: 60px;
     margin-bottom: -30px;
     margin-left: 10%;
@@ -936,7 +941,7 @@ top image header */
   }
 
   h2.data {
-    font-size: 36px;
+    font-size: 34px;
     margin-top: 45px;
     margin-bottom: -40px;
     margin-left: 10%;
@@ -944,11 +949,13 @@ top image header */
   }
 
 
+
   #grid.row{
     display: flex;
     flex-direction:  row;
     flex-wrap: wrap;
     justify-content: center;
+
   }
 
   #grid.row:first-child {
@@ -968,11 +975,147 @@ top image header */
 
 
   img.in-modal{
-    width: 67.5vw;
+    width: 77.5vw;
   }
 
   img.case-in-modal{
     width: 76.5vw;
   }
 
+}
+
+@media screen and (max-width: 600px){
+  #case.photo-modal{
+    width: 180px;
+    border-radius: 18px;
+    margin: 1px;
+    margin-bottom: 15%;
+    height: 180px;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+/* sweeper and cheme car */
+  #sweeper.photo-modal{
+    width: 180px;
+    border-radius: 18px;
+    margin: 1px;
+    margin-bottom: 15%;
+    height: 140px;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  #home.photo-modal{
+    width: 180px;
+    border-radius: 18px;
+    margin: 1px;
+    height: 280px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  #graphic.photo-modal{
+    width: 180px;
+    border-radius: 18px;
+    margin-top: -45px;
+    margin: 1px;
+    height: 190px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-bottom: 15%;
+  }
+
+  #vis.photo-modal{
+    width: 180px;
+    border-radius: 18px;
+    margin: 1px;
+    height: 140px;
+    margin-bottom: 15%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  #cord.photo-modal{
+    width: 180px;
+    border-radius: 18px;
+    margin: 1px;
+    height: 150px;
+    margin-bottom: 0%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  #base.photo-modal{
+    width: 180px;
+    border-radius: 18px;
+    margin: 1px;
+    height: 200px;
+    margin-bottom: 15%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  #ktbyte.photo-modal{
+    width: 180px;
+    border-radius: 18px;
+    margin: 1px;
+    height:120px;
+    margin-bottom: 15%;
+    opacity: 0.9;
+    overflow: hidden;
+    object-fit: cover;
+    background-color: #f9484a;
+    background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
+  }
+
+  #data.photo-modal{
+    width: 180px;
+    border-radius: 18px;
+    margin: 1px;
+    margin-bottom: 15%;
+    height: 130px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  /* #cheme.photo-modal{
+    width: 180px;
+    border-radius: 18px;
+    margin-bottom: 0px;
+    height: 170px;
+    overflow: hidden;
+    object-fit: cover;
+  } */
+
+  #game.photo-modal{
+    width: 180px;
+    border-radius: 18px;
+    margin-bottom: 15%;
+    height: 140px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  #time.photo-modal{
+    width: 180px;
+    border-radius: 18px;
+    margin-bottom: 0px;
+    height: 140px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+
+  .column{
+    display: flex;
+    flex-direction:  column;
+    height: auto;
+    align-content: center;
+    justify-content: start;
+    flex: 50px;
+  }
 }
