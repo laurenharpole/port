@@ -988,7 +988,7 @@ top image header */
 
 @media screen and (max-width: 600px){
   #case.photo-modal{
-    width: 170px;
+    width: 165px;
     border-radius: 18px;
     margin: 1px;
     margin-bottom: 15%;
@@ -1000,7 +1000,7 @@ top image header */
 
 /* sweeper and cheme car */
   #sweeper.photo-modal{
-    width: 170px;
+    width: 165px;
     border-radius: 18px;
     margin: 1px;
     margin-bottom: 15%;
@@ -1011,7 +1011,7 @@ top image header */
   }
 
   #home.photo-modal{
-    width: 170px;
+    width: 165px;
     border-radius: 18px;
     margin: 1px;
     height: 280px;
@@ -1021,7 +1021,7 @@ top image header */
   }
 
   #graphic.photo-modal{
-    width: 170px;
+    width: 165px;
     border-radius: 18px;
     margin-top: -45px;
     margin: 1px;
@@ -1032,7 +1032,7 @@ top image header */
   }
 
   #vis.photo-modal{
-    width: 170px;
+    width: 165px;
     border-radius: 18px;
     margin: 1px;
     height: 140px;
@@ -1042,7 +1042,7 @@ top image header */
   }
 
   #cord.photo-modal{
-    width: 170px;
+    width: 165px;
     border-radius: 18px;
     margin: 1px;
     height: 150px;
@@ -1052,7 +1052,7 @@ top image header */
   }
 
   #base.photo-modal{
-    width: 170px;
+    width: 165px;
     border-radius: 18px;
     margin: 1px;
     height: 200px;
@@ -1062,7 +1062,7 @@ top image header */
   }
 
   #ktbyte.photo-modal{
-    width: 170px;
+    width: 165px;
     border-radius: 18px;
     margin: 1px;
     height:120px;
@@ -1075,7 +1075,7 @@ top image header */
   }
 
   #data.photo-modal{
-    width: 170px;
+    width: 165px;
     border-radius: 18px;
     margin: 1px;
     margin-bottom: 15%;
@@ -1085,7 +1085,7 @@ top image header */
   }
 
   /* #cheme.photo-modal{
-    width: 170px;
+    width: 165px;
     border-radius: 18px;
     margin-bottom: 0px;
     height: 170px;
@@ -1094,7 +1094,7 @@ top image header */
   } */
 
   #game.photo-modal{
-    width: 170px;
+    width: 165px;
     border-radius: 18px;
     margin-bottom: 15%;
     height: 140px;
@@ -1103,7 +1103,7 @@ top image header */
   }
 
   #time.photo-modal{
-    width: 170px;
+    width: 165px;
     border-radius: 18px;
     margin-bottom: 0px;
     height: 140px;
