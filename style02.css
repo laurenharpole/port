@@ -13,6 +13,7 @@ body {
 .portfolio {
   padding-top: 180px;
 }
+
  img.in-modal{
   height: auto;
   width: 780px;
@@ -36,16 +37,27 @@ body {
   -10px -10px 20px rgb(255,255,255,0.5);
 }
 
+.in-row{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  /* margin-top: 4%; */
+}
+
+.in-col{
+   width: 350px;
+}
+
 img.case-in-modal{
  height: auto;
- width: 790px;
+ width: 900px;
  display: block;
  margin: 0 auto;
  display: block;
  overflow: hidden;
  object-fit: cover;
  margin-bottom: -10px;
- -webkit-border-radius:63px 63px 63px 63px/
+ /* -webkit-border-radius:63px 63px 63px 63px/
  108px 108px 72px 72px;
  border: 2px solid transparent;
  border-radius: 7px;
@@ -53,9 +65,18 @@ img.case-in-modal{
  linear-gradient(to bottom, transparent, transparent),
  linear-gradient(320deg, #D1D9E6, #fff);
  background-clip: padding-box, border-box;
- background-origin: padding-box, border-box;
- box-shadow:  10px 10px 20px #9da8b3 ,
- -10px -10px 20px rgb(255,255,255,0.5);
+ background-origin: padding-box, border-box;*/
+  box-shadow:  inset -10px 10px 30px rgb(156, 167, 179,0.7) ,
+ inset 10px -10px 30px rgb(156, 167, 179,0.7);
+}
+
+/* iphone gifs */
+img.case-in-modal-gif{
+ height: auto;
+ width: 290px;
+ display: block;
+ margin: 0 auto;
+ margin-bottom: 20px;
 }
 
 .line{
@@ -521,7 +542,6 @@ pointer events are only those currently visible*/
 
 /* make contents of inside modal visible and scrollable */
 .modalDialog > div {
-
   width: 900px;
   position: relative;
   margin: 0% auto;
@@ -531,6 +551,30 @@ pointer events are only those currently visible*/
 , #f0f4f7);
   overflow: scroll;
   visibility: visible;
+}
+
+h4.base-info {
+  margin-left: 75px;
+  font-weight: bold;
+  margin-top: 32px;
+  padding-bottom: 0px;
+  margin-bottom: -15px;
+  text-align: left;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Helvetica', sans-serif;
+  font-stretch:extra-expanded;
+  transform: scale(1.1, 1);
+  -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
+  -moz-transform: scale(1.1, 1); /* Firefox */
+  -ms-transform: scale(1.1, 1); /* IE 9+ */
+  -o-transform: scale(1.1, 1); /* Opera */
+  color:rgb(74,121,255);
+  text-shadow: 1px 0px 15px  rgb(74,121,255,0.6)
+  , 2px 1.6px 4px hsl(210, 8%, 62%)	,
+  -1px -2px 4px hsl(210, 8%, 100%);
+  opacity: 0.9;
+  /* width: 450px; */
 }
 
 /* type labels */
@@ -557,6 +601,9 @@ h4 {
   opacity: 0.9;
   width: 450px;
 }
+
+
+
 
 img.hover-in-grid-modal:hover{
   transform: scale(2.2);
@@ -615,6 +662,22 @@ p.data {
   max-width: 900px;
   width: 80%;
   font-weight:500;
+}
+
+p.data-info {
+  font-family: "Segoe UI",sans-serif;
+  font-stretch:extra-expanded;
+  color:  hsl(0, 0%, 36%);
+  text-shadow: 2px 3px 14px rgb(91, 91, 91,0.6);
+  opacity: 0.9;
+  line-height: 1.4;
+  -webkit-background-clip: text;
+  font-size: 16px;
+  font-weight:500;
+  margin-left: 52px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  width: 80%;
 }
 
 /* launch the site button */
@@ -757,6 +820,25 @@ img.close {
 /*mobile state*/
 @media screen and (max-width: 1010px){
 
+  .in-row{
+    flex-direction: column;
+    margin-top: 4%;
+    width: 95%;
+    margin-left: 1%;
+  }
+
+  .in-col{
+    width: 100%;
+  }
+
+  /* iphone gifs */
+  img.case-in-modal-gif{
+   height: auto;
+   width: 290px;
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 20px;
+  }
 
   p.graphic-2 {
     font-family: "Segoe UI",sans-serif;
@@ -768,6 +850,7 @@ img.close {
     margin-right: 30px;
     opacity: 0.6;
   }
+
   .row {
     margin-bottom: 20px;
   }
@@ -787,7 +870,6 @@ img.close {
 
   /* make contents of inside modal visible and scrollable */
   .modalDialog > div {
-
     width: 90%;
     position: relative;
     margin: 0% auto;
@@ -831,12 +913,10 @@ img.close {
     margin-top: 19px;
     margin-left: 7vw;
     margin-right: 0vw;
-              display: block;
-                vertical-align: middle;
-                justify-content: center;
+    display: block;
+    vertical-align: middle;
+    justify-content: center;
   }
-
-
 
   /* for the sweeper video */
   .video-in-modal{
@@ -850,13 +930,11 @@ img.close {
     font-size: 38px;
   }
 
-/*
-top image header */
+/* top image header */
   img.in-modal-top{
     width: 90vw;
     align-content: center;
     margin-left: 0vw;
-
     height:270px;
   }
 
@@ -919,6 +997,19 @@ top image header */
     width: 80%;
   }
 
+  p.data-info {
+    margin-left: 6%;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+
+  h4.base-info {
+    font-size: 15px;
+    margin-left: 10%;
+    width: 80%;
+  }
+
   p{
     font-size: 16px;
     word-wrap:break-word;
@@ -950,14 +1041,11 @@ top image header */
     width: 80%;
   }
 
-
-
   #grid.row{
     display: flex;
     flex-direction:  row;
     flex-wrap: wrap;
     justify-content: center;
-
   }
 
   #grid.row:first-child {
@@ -975,13 +1063,12 @@ top image header */
     padding-bottom: 9%;
   }
 
-
   img.in-modal{
     width: 77.5vw;
   }
 
   img.case-in-modal{
-    width: 76.5vw;
+    width: 100%;
   }
 
 }
@@ -1110,7 +1197,6 @@ top image header */
     overflow: hidden;
     object-fit: cover;
   }
-
 
   .column{
     display: flex;

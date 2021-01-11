@@ -172,7 +172,7 @@ h2.skilltitle{
   box-shadow:
   0px 12px 11px -9px rgb(255, 128, 96,.25),
   inset 0 -3px 3px -2px  rgb(255, 128, 96,.25);
-   padding: 10px;
+   padding: 1px;
    &:hover {
      background-size: 100% 88%;
    }
@@ -704,15 +704,13 @@ h2.skilltitle{
 .egg{
   margin-bottom: -40px;
   font-size: 45px;
-  text-shadow: 0.7px 0.9px 1px hsl(210, 8%, 90%),0.9px 1px 1px hsl(210, 8%, 89%),
-  1.3px 1.3px 1px hsl(210, 8%, 87%), 1.45px 1.6px 1px hsl(210, 8%, 86%),
-  1.7px 1.9px 1px hsl(210, 8%, 85%),1.85px 2.1px 1px hsl(210, 8%, 83%),
-  1.95px 2.3px 1px hsl(210, 8%, 80%),1.95px 2.9px 1px hsl(210, 8%, 80%),
-  2.1px 2.9px 1px hsl(210, 8%, 79%),   2.3px 2px 1px hsl(210, 8%, 78%),
-  9px 7px 12px hsl(210, 8%, 70%),  3px 2.5px 8px hsl(210, 8%, 70%), -1.5px 0px 14px
-  rgb(246, 252, 255, 1),
-  -1.5px 0px 34px rgb(246, 252, 255, 0.6),0.5px -1px 14px rgb(246, 252, 255, 0.4)
-  ;
+  /* color:  #5c5c5c;
+  opacity: 0.9; */
+  -webkit-text-stroke: 0px  #f6f7f8;
+  color:#5c5c5c;
+  font-weight: 500;
+  text-shadow: 2px 3px 14px rgb(91, 91, 91,0.8);
+
 }
 
 /* about paragraph */
