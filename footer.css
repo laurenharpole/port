@@ -31,6 +31,7 @@ p.stamp{
   margin-top: 0vh;
   margin-left: -10.9vw;
 }
+
 /* placement for messages sections */
 .messages {
   margin-top: 0px;
@@ -137,7 +138,7 @@ p.stamp{
   margin-left: -4vh;
 }
 
-.message  a {
+.message  .last a {
   color: #dee2e6;
   font-size: 18px;
   background-position: 7% 95%;
@@ -154,7 +155,7 @@ p.stamp{
    transition: 0.5s;
 }
 /* footer col links */
-.last ul li  a {
+.last ul .last li  .last a {
   color: #dee2e6;
   font-size: 18px;
   background-position: 7% 95%;
@@ -165,7 +166,7 @@ p.stamp{
   font-family: "Helvetica";
 }
 
-.last ul li  a:hover {
+.last ul .last li  a:hover {
   text-shadow: 1px 0px 27px  #dee2e6,
   -1px -2px 4px hsl(210, 8%, 100%);
    transition: 0.5s;
@@ -180,14 +181,9 @@ p.stamp{
   }
   /* bottom contact emoji size */
   .f-three-column{
-    /* font-size: 24px; */
     margin-left: -3vw;
   }
 
-  /* footer col links */
-  /* .last ul li  a {
-    font-size: 18px;
-  } */
   /* blue messages  */
   .mine .message.last{
     width: 160px;
@@ -196,6 +192,7 @@ p.stamp{
   p.stamp{
     font-size: 22px;
   }
+
   .chat {
     padding-top: 20%;
     margin-bottom: -5%;
@@ -206,7 +203,4 @@ p.stamp{
     margin-top: 0vh;
     margin-left: -10.9vw;
   }
-  /* .message  a {
-    font-size: 24px;
-  } */
 }

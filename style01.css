@@ -5,8 +5,6 @@ body {
   font-size: 23px;
 }
 
-
-
 img.in-modal{
   height: 700px;
   width: 400px;
@@ -31,7 +29,6 @@ img.in-modal{
   -5px -5px 10px rgb(255,255,255,0.6);
 }
 
-
 .parallax {
   background-attachment: fixed;
   background-position: center;
@@ -52,9 +49,7 @@ img.in-modal{
 
 .clustrmaps{
   visibility: hidden;
-
 }
-
 /* big header blue words */
 .egg{
   font-size: 90px;
@@ -78,7 +73,6 @@ img.in-modal{
   -webkit-text-stroke: 0.8px  #f6f7f8;
   color:#dfe3e6;
 }
-
 /* skill category titles */
 h2.skilltitle{
   font-size: 20px;
@@ -105,20 +99,20 @@ h2.skilltitle{
 }
 
 #po  {
-  /* background-image: linear-gradient(120deg, rgb(74,121,255,0.5) 0%, rgb(74,121,255,0.5) 100%); */
   text-shadow: none;
   border-radius: 2vw;
   filter: drop-shadow(7px 4px 14px  rgb(74,121,255,0.7))
-  drop-shadow(2px 1.6px 3px hsl(210, 8%, 55%))
-  drop-shadow(-2px -4px 3px hsl(210, 8%, 100%))
-  drop-shadow(-4px -4px 4px hsl(210, 8%, 100%))
-  drop-shadow(-4px -4px 4px hsl(210, 8%, 100%));
+  drop-shadow(2px 1.6px 2px hsl(210, 8%, 55%))
+  drop-shadow(-2px -4px 2px hsl(210, 8%, 100%))
+  drop-shadow(-4px -4px 2px hsl(210, 8%, 100%))
+  drop-shadow(-4px -4px 2px hsl(210, 8%, 100%));
   color:rgb(74,121,255,1);
   transform: rotate(910deg);
   -webkit-transform: rotate(-90deg);
-     -moz-transform: rotate(-90deg);
-       -webkit-text-stroke: transparent;
+  -moz-transform: rotate(-90deg);
+  -webkit-text-stroke: transparent;
 }
+
 #decoration1 {
   border-bottom:3px solid rgb(255, 103, 94,1);
   box-shadow:
@@ -131,18 +125,13 @@ h2.skilltitle{
 }
 
 #decoration4 {
-  /* border-bottom:3px solid rgb(255, 103, 94,1); */
   text-shadow: 2px 3px 14px rgb(255, 103, 94,1);
   color: rgb(255, 103, 94,1);
   text-decoration: none;
-  /* font-size: 100px; */
   align-self: stretch;
     font-weight: 800;
     vertical-align: middle;
   -webkit-text-stroke: 0.0px  #f6f7f8;
-  /* box-shadow:
-  0px 12px 11px -9px rgb(255, 103, 94,.25),
-  inset 0 -3px 3px -2px  rgb(255, 103, 94,.3); */
    padding: 10px;
    &:hover {
      background-size: 100% 88%;
@@ -150,17 +139,12 @@ h2.skilltitle{
 }
 
 #decoration3 {
-      vertical-align:bottom;
-  /* border-bottom:3px solid rgb(255, 103, 94,1); */
+  vertical-align:bottom;
   text-shadow: 2px 3px 14px rgb(255, 103, 94,1);
   color: rgb(255, 103, 94,1);
   text-decoration: none;
-  /* font-size: 84px; */
   font-weight: 400;
   -webkit-text-stroke: 0.0px  #f6f7f8;
-  /* box-shadow:
-  0px 12px 11px -9px rgb(255, 103, 94,.25),
-  inset 0 -3px 3px -2px  rgb(255, 103, 94,.3); */
    padding: 10px;
    &:hover {
      background-size: 100% 88%;
@@ -177,9 +161,6 @@ h2.skilltitle{
      background-size: 100% 88%;
    }
 }
-
-
-
 /* the skills lists */
 p.skills{
   font-family: "Segoe UI",sans-serif;
@@ -190,8 +171,6 @@ p.skills{
   -webkit-background-clip: text;
   font-weight: 500;
 }
-
-
 /* the skills lists */
 p.skills a {
   font-family: "Segoe UI",sans-serif;
@@ -202,7 +181,6 @@ p.skills a {
   font-weight: 500;
   text-decoration: none;
 }
-
 /* the skills lists */
 p.skills a:hover {
   font-family: "Segoe UI",sans-serif;
@@ -271,7 +249,6 @@ p.skills a:hover {
   margin-right: -20px;
   text-align: center;
 }
-
 /* about paragraph */
 p.about{
   line-height: 1.5;
@@ -291,14 +268,12 @@ p.about{
   height:100%;
   margin-bottom:10vh;
 }
-
 /*not actually section skills this section is about stuff */
 section.skills{
   padding-top: 20%;
   padding-left:13%;
   padding-right: 13%;
 }
-
 /* this is skills */
 h2.skills{
   font-stretch:extra-expanded;
@@ -319,7 +294,7 @@ h2.skills{
   border-radius: 5vw;
   color:#dfe3e6;
   text-shadow: 3px 1.6px 4px hsl(210, 8%, 60%)	,-1px -3px 10px hsl(210, 8%, 100%);
- background: none;
+  background: none;
 }
 
 #prog.skills {
@@ -334,7 +309,6 @@ h2.skills{
   text-shadow: 1px 0px 15px rgb(255, 103, 94,0.75)
   , 2px 1px 4.5px hsl(210, 8%, 46%)	,
   -1px -2px 4px hsl(210, 8%, 100%);
-
 }
 
 #pg.skills {
@@ -343,7 +317,6 @@ h2.skills{
   , 2px 1.6px 4px hsl(210, 8%, 62%)	,
   -1px -2px 4px hsl(210, 8%, 100%);
 }
-
 /*footer css */
 footer{
   margin-top: 10%;
@@ -352,7 +325,6 @@ footer{
   height: 100px;
   width: 100vw;
 }
-
 /* section hover*/
 .skill-background {
   padding-bottom: 1%;
@@ -368,7 +340,6 @@ footer{
   box-shadow:  5px 5px 10px hsl(210, 8%, 65%),
   -5px -5px 10px #ffffff;
 }
-
 /* skills title neumorphism border */
 .neu-skill{
   display: flex;
@@ -386,7 +357,6 @@ footer{
   position: relative;
   opacity: 1;
 }
-
 /* skills list inset neumorphism */
 .neu-skill-list {
   background: none ;
@@ -397,7 +367,6 @@ footer{
   width: 100%;
   padding-bottom: 1vh;
 }
-
 /* skills inset neumorphism title */
 .neu-skill-title{
   width: 38%;
@@ -408,7 +377,6 @@ footer{
   margin-top: 9%;
   opacity: 0.9;
 }
-
 /* skills body  neumorphism */
 .neu-skill-body{
   background: none;
@@ -427,7 +395,6 @@ footer{
 }
 
 @media screen and (max-width: 1100px){
-
   /* about paragraph */
   p.about{
     font-size: 16px;
@@ -436,7 +403,6 @@ footer{
     margin-bottom:0vh;
       width: 360px;
   }
-
   /* skill category titles */
   h2.skilltitle{
     padding-top: 15%;
@@ -447,40 +413,29 @@ footer{
 
 /*mobile state*/
 @media screen and (max-width: 1010px) and (min-width: 750px){
-
   /*intro text*/
   .egg{
     padding-top: 220px;
     margin-bottom: -40px;
     font-size: 70px;
   }
-
-
   body {
     font-size: 38px;
   }
-
-
-
-
   img.in-modal{
     height: 400px;
     width: 400px;
-      margin-bottom: -14vh;
+    margin-bottom: -14vh;
     margin-left: 0%;
     margin-right: 24%;
     margin-top: 13vh;
   }
-
-
   /*not actually section skills this section is about stuff */
   section.skills{
     padding-top: 20%;
     padding-left:13%;
     padding-right: 13%;
   }
-
-
   /* about flex box */
   .row-about{
     display: flex;
@@ -516,7 +471,6 @@ footer{
     text-align: center;
     width:  100%;
   }
-
   /* skill category titles */
   h2.skilltitle{
     margin-top: 50px;
@@ -524,7 +478,6 @@ footer{
     margin-bottom: -10px;
     margin-left: 2%;
   }
-
   /* about paragraph */
   p.about{
     padding-top: 3%;
@@ -532,11 +485,9 @@ footer{
     margin-bottom:6vh;
     width: 83%;
   }
-
   h2.skills{
     font-size: 16px;
   }
-
   /* skills title neumorphism border */
   .neu-line{
     display: flex;
@@ -557,25 +508,20 @@ footer{
 }
 
 @media screen and (max-width: 750px) and (min-width: 600px){
-
 /* section hover*/
 .skill-background {
     margin: 0 auto;
     width: 400px;
 }
-
-
 body {
   font-size: 38px;
 }
-
 /*intro text*/
 .egg{
   padding-top: 210px;
   margin-bottom: -40px;
   /* font-size: 50px; */
 }
-
 img.in-modal{
   height: 450px;
   width: 450px;
@@ -584,14 +530,12 @@ img.in-modal{
   margin-left: 6%;
   margin-top: 13vh;
 }
-
 /*not actually section skills this section is about stuff */
 section.skills{
   padding-top: 20%;
   padding-left:13%;
   padding-right: 13%;
 }
-
 /* about flex box */
 .row-about{
   display: flex;
@@ -602,7 +546,6 @@ section.skills{
   height: 100%;
   margin-left: 0%;
 }
-
 /* skill category titles */
 h2.skilltitle{
   padding-top: 0px;
@@ -612,7 +555,6 @@ h2.skilltitle{
   margin-top: 100px;
   width: 80%;
 }
-
 /* about paragraph */
 p.about{
   padding-top: 3%;
@@ -620,7 +562,6 @@ p.about{
   margin-bottom:9vh;
   width: 83%;
 }
-
 /* skill flex box */
 .row{
   display: flex;
@@ -650,7 +591,6 @@ p.about{
 body {
   font-size: 38px;
 }
-
 img.in-modal{
   height: 300px;
   width: 300px;
@@ -659,15 +599,12 @@ img.in-modal{
   margin-left: 0%;
   padding-left: 0%;
 }
-
-
 /*not actually section skills this section is about stuff */
 section.skills{
   padding-top: 20%;
   padding-left:10%;
   padding-right: 10%;
 }
-
 /* about flex box */
 .row-about{
   display: flex;
@@ -687,7 +624,6 @@ section.skills{
   border-spacing: 5px;
   margin: 0px;
 }
-
 /* skill category titles */
 h2.skilltitle{
   padding-top: 0px;
@@ -697,7 +633,6 @@ h2.skilltitle{
   margin-top: 100px;
   width: 80%;
 }
-
 /*intro text*/
 .egg{
   margin-bottom: -40px;
@@ -707,7 +642,6 @@ h2.skilltitle{
   font-weight: 500;
   text-shadow: 2px 3px 14px rgb(91, 91, 91,0.8);
 }
-
 /* about paragraph */
 p.about{
   padding-top: 3%;
@@ -715,8 +649,6 @@ p.about{
   margin-bottom:6vh;
   width: 83%;
 }
-
-
 /* skill flex box */
 .row{
   display: flex;
@@ -739,5 +671,4 @@ p.about{
   margin-bottom: 5vh;
   margin-top: 5vh;
 }
-
 }
