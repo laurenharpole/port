@@ -67,14 +67,13 @@ p.stamp{
   padding-left: 4%;
   -webkit-text-stroke: 0.12px   rgb(91, 91, 91);
   margin-right: 25%;
+  margin-top: 20px;
   width: 250px;
   position: relative;
   background: #d6dadd;
-  /* #f0f4f7; */
   box-shadow:  -6px 4px 19px rgb(255, 255, 255,0.5),
   -4px -6px 7px rgb(255, 255, 255,0.3)
   , 5px 8px 20px hsl(210, 8%, 50%);
-
 }
 
 /* gray messages  */

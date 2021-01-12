@@ -13,7 +13,6 @@ nav ul {
 img.title{
   display: flex;
   float: left;
-  /* margin-top: -16px; */
   padding: 0px 36px;
   width: 30px;
   opacity: 0.9;
@@ -101,6 +100,7 @@ nav li a:hover, a:focus {
   nav ul {
     display:inline;
     margin-top: -10px;
+    /* THE LINE THAT MAKES THE PAGE LARGER THAN IT IS */
     margin-right: -21px;
   }
   nav li a {
