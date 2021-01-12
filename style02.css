@@ -932,10 +932,10 @@ img.close {
 
 /* top image header */
   img.in-modal-top{
-    width: 90vw;
+    width: 100%;
     align-content: center;
     margin-left: 0vw;
-    height:270px;
+    height:190px;
   }
 
   /* mostly for gifs and book images in graphics */
@@ -992,7 +992,7 @@ img.close {
   p.data {
     margin-left: 6%;
     font-size: 16px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     margin-top: 60px;
     width: 80%;
   }
@@ -1001,11 +1001,13 @@ img.close {
     margin-left: 6%;
     font-size: 16px;
     margin-bottom: 10px;
+    margin-top: 0px;
     width: 80%;
   }
 
   h4.base-info {
     font-size: 15px;
+    margin-bottom: 20px;
     margin-left: 10%;
     width: 80%;
   }
@@ -1019,8 +1021,8 @@ img.close {
   }
 /* close button on top*/
   p.launch-top {
-    margin-top: -260px;
-    margin-bottom: 200px;
+    margin-top: -170px;
+    margin-bottom: 100px;
     margin-left: 15px;
   }
 
