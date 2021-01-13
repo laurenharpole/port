@@ -535,6 +535,7 @@ body {
       visibility: visible;
     }
 
+    /*blue labeling case study */
     h4.base-info {
       margin-left: 75px;
       font-weight: bold;
@@ -556,6 +557,29 @@ body {
       , 2px 1.6px 4px hsl(210, 8%, 62%)	,
       -1px -2px 4px hsl(210, 8%, 100%);
       opacity: 0.9;
+    }
+
+    /* brown labeling */
+    h4.base-info-brown {
+      margin-left: 75px;
+      font-weight: bold;
+      margin-top: 32px;
+      padding-bottom: 0px;
+      margin-bottom: -15px;
+      text-align: left;
+      font-size: 15px;
+      text-transform: uppercase;
+      font-family: 'Helvetica', sans-serif;
+      font-stretch:extra-expanded;
+      transform: scale(1.1, 1);
+      -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
+      -moz-transform: scale(1.1, 1); /* Firefox */
+      -ms-transform: scale(1.1, 1); /* IE 9+ */
+      -o-transform: scale(1.1, 1); /* Opera */
+      color:  hsl(0, 0%, 36%);
+      text-shadow: 2px 2px 11px rgb(91, 91, 91,0.8);
+      opacity: 0.9;
+      -webkit-text-stroke: 0.1px   hsl(0, 0%, 36%);
     }
     /* type labels */
     h4 {
@@ -970,7 +994,7 @@ body {
         p.data {
           margin-left: 6%;
           font-size: 16px;
-          margin-bottom: 10px;
+          margin-bottom: 32px;
           margin-top: 60px;
           width: 80%;
         }
@@ -978,14 +1002,23 @@ body {
         p.data-info {
           margin-left: 6%;
           font-size: 16px;
-          margin-bottom: 10px;
+          margin-bottom: 32px;
           margin-top: 0px;
           width: 80%;
         }
 
-        h4.base-info {
+        h4.base-info-brown {
+          margin-top: 0px;
           font-size: 15px;
-          margin-bottom: 20px;
+          margin-bottom: 15px;
+          margin-left: 10%;
+          width: 80%;
+        }
+
+        h4.base-info {
+          margin-top: 0px;
+          font-size: 15px;
+          margin-bottom: 15px;
           margin-left: 10%;
           width: 80%;
         }
@@ -1002,6 +1035,7 @@ body {
           margin-top: -180px;
           margin-bottom: 110px;
           margin-left: 15px;
+          font-size: 15px;
         }
 
         /* type labels */
@@ -1014,7 +1048,7 @@ body {
         }
 
         h2.data {
-          font-size: 34px;
+          font-size: 26px;
           margin-top: 45px;
           margin-bottom: -40px;
           margin-left: 10%;
@@ -1149,7 +1183,7 @@ body {
           overflow: hidden;
           object-fit: cover;
         }
-        
+
         #game.photo-modal{
           width: 165px;
           border-radius: 18px;
