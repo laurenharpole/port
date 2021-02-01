@@ -16,7 +16,7 @@ body {
 
   img.in-modal{
     height: auto;
-    width: 780px;
+    width: 800px;
     display: block;
     margin-bottom: 2%;
     margin: 0 auto;
@@ -188,7 +188,7 @@ body {
   }
   /* mostly for gifs and book images in graphics */
   img.in-grid-modal{
-    width: 380px;
+    width: 400px;
     align-content: center;
     display: block;
     overflow: hidden;

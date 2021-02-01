@@ -149,6 +149,10 @@ p.stamp{
   font-family: "Helvetica";
 }
 
+ a {
+  color: #dee2e6;
+}
+
 .message   a:hover {
   text-shadow: 1px 0px 27px  #dee2e6,
   -1px -2px 4px hsl(210, 8%, 100%);
