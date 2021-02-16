@@ -3,12 +3,7 @@ body {
 , #f0f4f7);
     font-family: 'Helvetica';
   font-size: 23px;
-
 }
-
-/* .about {
-  padding-top: -170px;
-} */
 
 img.in-modal{
   height: 700px;
@@ -57,16 +52,22 @@ img.in-modal{
 }
 /* big header blue words */
 .egg{
-  font-size: 90px;
+  align-content: center;
+  margin: 0 auto;
+  font-size: 70px;
   text-align: left;
-  padding-left: 5%;
+  /* padding-left: 5%; */
   line-height: 123%;
-  padding-top: 220px;
-  padding-right: 10%;
-  padding-left: 8%;
+  padding-top: 240px;
+
   letter-spacing: .01em;
   word-wrap:break-word;
-  text-shadow: 0.7px 0.9px 1px hsl(210, 8%, 90%),0.9px 1px 1px hsl(210, 8%, 89%),
+  -webkit-text-stroke: 0px  #f6f7f8;
+  color:rgba(92, 92, 92,0.9);
+  font-weight: 500;
+  max-width: 1000px;
+  text-shadow: 2px 3px 18px rgb(91, 91, 91,0.8);
+  /* text-shadow: 0.7px 0.9px 1px hsl(210, 8%, 90%),0.9px 1px 1px hsl(210, 8%, 89%),
   1.3px 1.3px 1px hsl(210, 8%, 87%), 1.45px 1.6px 1px hsl(210, 8%, 86%),
   1.7px 1.9px 1px hsl(210, 8%, 85%),1.85px 2.1px 1px hsl(210, 8%, 83%),
   1.95px 2.3px 1px hsl(210, 8%, 80%),1.95px 2.9px 1px hsl(210, 8%, 80%),
@@ -74,9 +75,8 @@ img.in-modal{
   9px 7px 12px hsl(210, 8%, 70%),  3px 3px 8px hsl(210, 8%, 70%), -1.5px 0px 14px
   rgb(246, 252, 255, 1),
   -1.5px 0px 34px rgb(246, 252, 255, 0.6),0.5px -1px 14px rgb(246, 252, 255, 0.4)
-  ;
-  -webkit-text-stroke: 0.8px  #f6f7f8;
-  color:#dfe3e6;
+  ; */
+
 }
 /* skill category titles */
 h2.skilltitle{
@@ -103,20 +103,6 @@ h2.skilltitle{
   margin-left: 19%;
 }
 
-#po  {
-  text-shadow: none;
-  border-radius: 2vw;
-  filter: drop-shadow(7px 4px 14px  rgb(74,121,255,0.7))
-  drop-shadow(2px 1.6px 2px hsl(210, 8%, 55%))
-  drop-shadow(-2px -4px 2px hsl(210, 8%, 100%))
-  drop-shadow(-4px -4px 2px hsl(210, 8%, 100%))
-  drop-shadow(-4px -4px 2px hsl(210, 8%, 100%));
-  color:rgb(74,121,255,1);
-  transform: rotate(910deg);
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -webkit-text-stroke: transparent;
-}
 
 #decoration1 {
   border-bottom:3px solid rgb(255, 103, 94,1);
@@ -144,11 +130,12 @@ h2.skilltitle{
 }
 
 #decoration3 {
-  vertical-align:bottom;
-  text-shadow: 2px 3px 14px rgb(255, 103, 94,1);
-  color: rgb(255, 103, 94,1);
+  text-shadow: 2px 3px 14px rgb(74,121,255,1);
+  color: rgb(74,121,255,1);
   text-decoration: none;
-  font-weight: 400;
+  align-self: stretch;
+    font-weight: 800;
+    vertical-align: middle;
   -webkit-text-stroke: 0.0px  #f6f7f8;
    padding: 10px;
    &:hover {
@@ -179,7 +166,7 @@ p.skills{
 /* the skills lists */
 p.skills a {
   font-family: "Segoe UI",sans-serif;
-  color:  hsl(0, 0%, 36%);
+  color:  #5c5c5c;
   opacity: 0.9;
   text-shadow: 2px 3px 14px rgb(91, 91, 91,0.8);
   -webkit-background-clip: text;
@@ -420,9 +407,11 @@ footer{
 @media screen and (max-width: 1010px) and (min-width: 750px){
   /*intro text*/
   .egg{
+    padding-right: 10%;
+    padding-left: 8%;
     padding-top: 220px;
     margin-bottom: -40px;
-    font-size: 70px;
+    font-size: 60px;
   }
   body {
     font-size: 38px;
@@ -523,6 +512,8 @@ body {
 }
 /*intro text*/
 .egg{
+  padding-right: 10%;
+  padding-left: 8%;
   padding-top: 210px;
   margin-bottom: -40px;
   /* font-size: 50px; */
@@ -640,10 +631,12 @@ h2.skilltitle{
 }
 /*intro text*/
 .egg{
+  padding-right: 10%;
+  padding-left: 8%;
   margin-bottom: -40px;
   font-size: 45px;
   -webkit-text-stroke: 0px  #f6f7f8;
-  color:rgb(92, 92, 92,0.9);
+  color:rgba(92, 92, 92,0.9);
   font-weight: 500;
   text-shadow: 2px 3px 14px rgb(91, 91, 91,0.8);
 }
