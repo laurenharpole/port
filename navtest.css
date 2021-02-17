@@ -10,9 +10,12 @@ img.title{
   drop-shadow(-2px -4px 3px hsl(210, 8%, 100%))
   drop-shadow(-4px -4px 4px hsl(210, 8%, 100%))
   drop-shadow(-4px -4px 4px hsl(210, 8%, 100%));
+  z-index: 9999;
 }
 
+
 .nav {
+
   margin-top: 15px;
   height: 50px;
   width: 100%;
@@ -70,6 +73,7 @@ img.title{
     top: 0px;
   }
 
+
   .nav > .nav-btn > label {
     display: inline-block;
     width: 30px;
@@ -122,15 +126,14 @@ img.title{
   }
 
   .nav > #nav-check:checked ~ .nav-links {
-    margin-top: 30px;
-    height: calc(100vh - 50px);
-    overflow-y: auto;
+    margin-top: 40px;
+    height: 100vh;
+    position: fixed;
     background: linear-gradient(315deg,#f0f4f7
   , #f0f4f7);
     box-shadow:
     0px 12px 11px -9px #f0f4f7;
-    background-size: cover;
-    z-index: 4000;
-    
+    z-index: 8000;
+
   }
 }
