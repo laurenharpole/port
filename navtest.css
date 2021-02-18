@@ -3,7 +3,7 @@
 img.title{
   display: flex;
   float: left;
-  margin-left: 8px;
+  margin-left: 16px;
   width: 30px;
   opacity: 0.97;
   filter: drop-shadow(7px 4px 14px  rgba(92, 92, 92, 0.6))
@@ -21,7 +21,6 @@ img.title{
   width: 100%;
   font-size: 27px;
   background: none;
-
   text-transform: uppercase;
   line-height: 1.5;
   text-shadow: 7px 4px 14px  rgba(92, 92, 92, 0.6),
@@ -48,6 +47,7 @@ img.title{
 .nav > .nav-links {
   display: inline;
   float: right;
+  margin-right: 16px;
 }
 
 .nav > .nav-links >  a {
@@ -72,16 +72,15 @@ img.title{
 
     display: inline-block;
     position: absolute;
-    right: 0px;
+    right: 18px;
     top: 0px;
   }
 
   img.title {
-    margin-left: 0px;
+    margin-left: 16px;
   }
   .nav > .nav-btn > label {
     display: inline-block;
-
     width: 30px;
     height: 50px;
     filter: drop-shadow(7px 4px 14px  rgb(74,121,255,0.6))
@@ -93,7 +92,6 @@ img.title{
   }
 
   .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-
     filter: drop-shadow(7px 4px 24px  rgb(74,121,255,0.6))
     drop-shadow(2px 1.6px 13px hsl(210, 8%, 45%))
     drop-shadow(-2px -4px 13px hsl(210, 8%, 100%))
@@ -133,21 +131,30 @@ img.title{
 
   .nav {
     position: fixed;
-    background: linear-gradient(315deg,#f0f4f7
-  , #f0f4f7);
+    background: rgba(240, 244, 247,1);
+    -webkit-backdrop-filter: blur(10px);
+    /* -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -ms-filter: blur(3px);
+    -o-filter: blur(3px);  */
     box-shadow:
     0px 12px 11px -9px #f0f4f7;
     z-index: 9000;
   }
+
+
   .nav > #nav-check:checked ~ .nav-links {
     margin-top: 50px;
     height: 100vh;
     position: fixed;
-    background: linear-gradient(315deg,#f0f4f7
-  , #f0f4f7);
+    background: rgba(240, 244, 247,1);
+    /* -webkit-backdrop-filter: blur(10px); */
     box-shadow:
     0px 12px 11px -9px #f0f4f7;
     z-index: 9000;
+  }
 
+  #nav-check:checked ~ .nav{
+    background: rgba(240, 244, 247,1);
   }
 }

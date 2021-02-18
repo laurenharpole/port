@@ -11,7 +11,7 @@ body {
   }
 
   .portfolio {
-    padding-top: 180px;
+    padding-top: 120px;
   }
 
   img.in-modal{
@@ -532,7 +532,7 @@ body {
     background: linear-gradient(315deg, #e0e4e7
       , #f0f4f7);
       overflow: scroll;
-    
+
     }
 
     /*blue labeling case study */
