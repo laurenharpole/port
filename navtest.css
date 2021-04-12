@@ -6,7 +6,7 @@ img.title{
   margin-left: 16px;
   width: 30px;
   opacity: 0.97;
-  filter: drop-shadow(7px 4px 14px  rgba(92, 92, 92, 0.6))
+  filter: drop-shadow(7px 4px 14px  rgba(92, 92, 92, 0.5))
   drop-shadow(2px 1.6px 3px hsl(210, 8%, 45%))
   drop-shadow(-2px -4px 3px hsl(210, 8%, 100%))
   drop-shadow(-4px -4px 4px hsl(210, 8%, 100%))
@@ -23,7 +23,7 @@ img.title{
   background: none;
   text-transform: uppercase;
   line-height: 1.5;
-  text-shadow: 7px 4px 14px  rgba(92, 92, 92, 0.6),
+  text-shadow: 7px 3px 14px  hsla(0, 0%, 32%, 0.4),
   2px 1.6px 5px hsl(210, 8%, 65%),
   -4px -3px 6px hsl(210, 8%, 100%),
   -4px -3px 6px hsl(210, 8%, 100%);
@@ -53,8 +53,9 @@ img.title{
 .nav > .nav-links >  a {
   display: inline-block;
   padding: 13px 10px 13px 10px;
-  color:rgba(92, 92, 92, 1);
+  color:hsl(0, 0%, 28%);
   font-weight: 600;
+  opacity: 0.9;
   text-decoration: none;
 }
 
@@ -72,7 +73,7 @@ img.title{
 
     display: inline-block;
     position: absolute;
-    right: 18px;
+    right: 4px;
     top: 0px;
   }
 
@@ -103,7 +104,7 @@ img.title{
     display: block;
     width: 30px;
     height: 8px;
-    border-top: 3px solid rgba(92, 92, 92, 0.9);
+    border-top: 3px solid #4a4a4a;
   }
 
   .nav > .nav-links {
@@ -133,13 +134,10 @@ img.title{
     position: fixed;
     background: rgba(240, 244, 247,1);
     -webkit-backdrop-filter: blur(10px);
-    /* -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -ms-filter: blur(3px);
-    -o-filter: blur(3px);  */
     box-shadow:
     0px 12px 11px -9px #f0f4f7;
     z-index: 9000;
+
   }
 
 
@@ -148,7 +146,6 @@ img.title{
     height: 100vh;
     position: fixed;
     background: rgba(240, 244, 247,1);
-    /* -webkit-backdrop-filter: blur(10px); */
     box-shadow:
     0px 12px 11px -9px #f0f4f7;
     z-index: 9000;
