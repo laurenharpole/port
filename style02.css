@@ -75,7 +75,7 @@ body {
     width: 800px;
     font-size: 2px;
     margin-left: 55px;
-    background:  hsl(0, 0%, 36%);
+    color:  hsla(0, 0%, 28%,0.9);
     /* #f0f4f7; */
     box-shadow:  2px 3px 14px rgb(91, 91, 91,1);;
     opacity: 0.3;
@@ -585,7 +585,7 @@ body {
       -moz-transform: scale(1.1, 1); /* Firefox */
       -ms-transform: scale(1.1, 1); /* IE 9+ */
       -o-transform: scale(1.1, 1); /* Opera */
-      color:  hsl(0, 0%, 36%);
+      color:  hsla(0, 0%, 28%,0.9);
       text-shadow: 2px 2px 11px rgb(91, 91, 91,0.8);
       opacity: 0.9;
       -webkit-text-stroke: 0.1px   hsl(0, 0%, 36%);
@@ -624,7 +624,7 @@ body {
 
     p.graphic-2 {
       font-family: "Segoe UI",sans-serif;
-      color:  hsl(0, 0%, 36%);
+      color:  hsla(0, 0%, 28%,0.9);
       text-shadow: 2px 2px 11px rgb(91, 91, 91,0.8);
       font-size: 18px;
       text-align: right;
@@ -635,7 +635,7 @@ body {
 
     h2.data {
       word-wrap: break-word;
-      color:  hsl(0, 0%, 36%);
+      color:  hsla(0, 0%, 28%,0.9);
       text-shadow: 2px 2px 11px rgb(91, 91, 91,0.8);
       opacity: 0.9;
       -webkit-text-stroke: 0.1px   hsl(0, 0%, 36%);
@@ -659,7 +659,7 @@ body {
     p.data {
       font-family: "Segoe UI",sans-serif;
       font-stretch:extra-expanded;
-      color:  hsl(0, 0%, 36%);
+      color:  hsla(0, 0%, 28%,0.9);
       text-shadow: 2px 3px 14px rgb(91, 91, 91,0.6);
       opacity: 0.9;
       line-height: 1.4;
@@ -677,7 +677,7 @@ body {
     p.data-info {
       font-family: "Segoe UI",sans-serif;
       font-stretch:extra-expanded;
-      color:  hsl(0, 0%, 36%);
+      color:  hsla(0, 0%, 28%,0.9);
       text-shadow: 2px 3px 14px rgb(91, 91, 91,0.6);
       opacity: 0.9;
       line-height: 1.4;
@@ -708,7 +708,7 @@ body {
       -o-transform: scale(1.05, 1); /* Opera */
       text-decoration: none;
       display: inline-block;
-      border-radius: 14px;
+      border-radius: 10px;
       border: 2px solid rgb(250, 251, 251,0.5);
       background-color: #e0e4e7;
       box-shadow:  6px 6px 18px #c8ccd2,
@@ -746,7 +746,7 @@ body {
       -ms-transform: scale(1.05, 1); /* IE 9+ */
       -o-transform: scale(1.05, 1); /* Opera */
       text-decoration: none;
-      border-radius: 14px;
+      border-radius: 10px;
       border: 2px solid rgb(250, 251, 251,0.5);
       background-color: #e0e4e7;
       box-shadow:  6px 6px 18px #c8ccd2,
@@ -852,7 +852,7 @@ body {
 
       p.graphic-2 {
         font-family: "Segoe UI",sans-serif;
-        color:  hsl(0, 0%, 36%);
+        color:  hsla(0, 0%, 28%,0.9);
         text-shadow: 2px 2px 11px rgb(91, 91, 91,0.8);
         font-size: 18px;
         text-align: right;
@@ -870,7 +870,7 @@ body {
         font-size: 2px;
         margin-left: 25px;
         margin-right: 25px;
-        background:  hsl(0, 0%, 36%);
+      color:  hsla(0, 0%, 28%,0.9);
         /* #f0f4f7; */
         box-shadow:  2px 3px 14px rgb(91, 91, 91,1);;
         opacity: 0.3;
@@ -894,8 +894,8 @@ body {
         /* launch the site button */
         .launch a {
           font-size: 16px;
-          padding-top: 25px;
-          padding-bottom: 25px;
+          padding-top: 14px;
+          padding-bottom: 14px;
           box-shadow:  6px 6px 24px hsl(215, 9%, 65%),
           -6px -6px 13px rgb(255,255,255,0.9);
           display: block;
@@ -910,8 +910,8 @@ body {
         /* launch the site button */
         #close.launch a {
           font-size: 16px;
-          padding-top: 25px;
-          padding-bottom: 25px;
+          padding-top: 14px;
+          padding-bottom: 14px;
           box-shadow:  6px 6px 24px hsl(215, 9%, 65%),
           -6px -6px 13px rgb(255,255,255,0.9);
           display: block;
