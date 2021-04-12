@@ -514,9 +514,18 @@ body {
     transition: opacity 400ms ease-in;
     overflow: scroll;
   }
+  #blurryscroll {
+  	top: 0; left: 0;
+    width: 100%;
+  	height: 5rem;
+  	overflow: hidden;
+  	position: fixed;
+  	filter: blur(4px);
+  }
   /* make the current clicked on modal visible, scrollable and displayed
   pointer events are only those currently visible*/
   .modalDialog:target {
+    @extend #blurryscroll;
     opacity:1;
     visibility: visible;
     display:block;

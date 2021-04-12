@@ -4,15 +4,23 @@ body {
     font-family: 'Helvetica';
   font-size: 23px;
   margin: 0px;
-}
+  z-index: 0;
 
+}
+#blurryscroll {
+	top: 0; left: 0;
+  width: 100%;
+	height: 5rem;
+	overflow: hidden;
+	position: fixed;
+	filter: blur(4px);
+}
 .right-blob {
   background-image: url('blob.svg');
   background-size: 2000px;
   background-repeat:no-repeat;
   background-position: 480px -200px;
   background-blend-mode: color-dodge;
-  background-clip: none;
 
 }
 
@@ -22,7 +30,6 @@ body {
   background-repeat:no-repeat;
   background-position: -1100px -210px;
   background-blend-mode: color-dodge;
-  margin-right: -10px;
 }
 
 img.in-modal{
@@ -62,14 +69,17 @@ h1.egg{
   padding-right: 10%;
   padding-left: 8.5%;
   line-height: 123%;
-  padding-top: 220px;
+  padding-top: 100px;
   letter-spacing: .01em;
   word-wrap:break-word;
   -webkit-text-stroke: 0px  #f6f7f8;
   color:hsla(0, 0%, 29%, 0.9);
   font-weight: 500;
   max-width: 1000px;
-  text-shadow: 2px 3px 18px hsla(0, 0%, 33%, 0.7);
+  text-shadow: 7px 3px 14px  hsla(0, 0%, 30%, 0.4),
+  2px 1.6px 5px hsl(210, 8%, 65%),
+  -3px -3px 6px rgb(255, 255, 255,0.8),
+  -3px -3px 6px rgb(255, 255, 255,0.8)
 }
 
 /* about paragraph */
@@ -84,7 +94,7 @@ p.egg{
   padding-top: 20px;
   padding-bottom: 470px;
   letter-spacing: .01em;
-  word-wrap:break-word;
+  /* word-wrap:break-word; */
   -webkit-text-stroke: 0px  #f6f7f8;
   color:hsla(0, 0%, 28%, 0.9);
   font-weight: 500;
@@ -105,7 +115,7 @@ h2.skilltitle{
   color:hsla(0, 0%, 30%, 0.9);
   text-shadow: 1px 0px 12px  hsla(0, 0%, 32%, 0.7)
   , 2px 2.6px 4px hsl(210, 8%, 62%)	,
-  -1px -2px 4px hsl(210, 8%, 100%);
+  -1px -2px 4px rgb(255, 255, 255,0.8);
   font-family: 'Helvetica', sans-serif;
   font-stretch:extra-expanded;
   transform: scale(1.1, 1);
@@ -129,9 +139,8 @@ p.skills{
 /* the skills lists */
 p.skills a {
   font-family: "Segoe UI",sans-serif;
-  color:  #5c5c5c;
-  opacity: 0.9;
-  text-shadow: 2px 3px 14px rgb(91, 91, 91,0.8);
+  color:hsla(0, 0%, 28%, 0.9);
+  text-shadow: 1px 0px 15px  hsla(0, 0%, 28%, 0.9);
   -webkit-background-clip: text;
   font-weight: 500;
   text-decoration: none;
@@ -139,9 +148,9 @@ p.skills a {
 /* the skills lists */
 p.skills a:hover {
   font-family: "Segoe UI",sans-serif;
-  color:  hsl(0, 0%, 28%);
+  color:  hsla(0, 0%, 28%,0.9);
   opacity: 0.9;
-  text-shadow: 2px 3px 14px hsl(0, 0%, 36%),
+  text-shadow: 2px 3px 14px hsl(0, 0%, 28%),
   0px 0px 6px hsl(0, 0%, 30%),0px 0px 3px hsl(0, 0%, 30%);
   -webkit-background-clip: text;
   font-weight: 500;
@@ -177,7 +186,7 @@ p.skills a:hover {
   flex-direction:  row;
   flex-wrap: wrap;
   padding-top: 1%;
-  width:  75%;
+  /* width:  75%; */
   height: 100%;
   margin-left: 12%;
 }
@@ -188,7 +197,7 @@ p.skills a:hover {
   flex: .45;
   align-items: center;
   border-spacing: 5px;
-  margin: 10px;
+  margin: 17px;
 }
 
 .one-column-about {
@@ -265,6 +274,7 @@ p.skill-head-info {
   text-shadow: 2px 3px 14px rgb(91, 91, 91,0.8);
   -webkit-background-clip: text;
   font-weight: 400;
+  word-wrap: normal;
   text-align: center;
 }
 
@@ -275,10 +285,12 @@ span.prog {
   font-size: 16px;
   background-color:#4a79ff;
   box-shadow: 1px 0px 11px  rgb(74,121,255);
+  word-wrap: normal;
 }
 
 span.ed {
   color: white;
+  word-wrap: normal;
   border-radius: 5px;
   padding:2px;
   font-size: 16px;
@@ -349,18 +361,16 @@ footer{
     background-repeat:no-repeat;
     background-position: 250px -260px;
     background-blend-mode: color-dodge;
-    background-clip: none;
-
   }
 
   .left-blob {
     background-image: url('blob.svg');
-    background-size: 1600px;
+    background-size: 1800px;
     background-repeat:no-repeat;
-  background-position: -1000px -180px;
+    background-position: -1100px -310px;
     background-blend-mode: color-dodge;
-    margin-right: -10px;
   }
+
   /* big header blue words */
   h1.egg{
     padding-top: 130px;
@@ -379,7 +389,6 @@ footer{
   /* skills list inset neumorphism */
   .neu-skill-list {
     background: none ;
-
     border-radius: 0.7vw;
     height: 100%;
     width: 100%;
@@ -415,7 +424,6 @@ p.egg{
   padding-top: 20px;
   padding-bottom: 250px;
   letter-spacing: .01em;
-  word-wrap:break-word;
   -webkit-text-stroke: 0px  #f6f7f8;
   font-weight: 500;
   max-width: 1000px;
@@ -452,8 +460,6 @@ img.in-modal{
   -5px -5px 10px rgb(255,255,255,0.6);
 }
 
-
-
 }
 
 /*mobile state*/
@@ -464,8 +470,6 @@ img.in-modal{
     background-repeat:no-repeat;
     background-position: 90px -230px;
     background-blend-mode: color-dodge;
-    background-clip: none;
-
   }
 
   .left-blob {
@@ -474,7 +478,6 @@ img.in-modal{
     background-repeat:no-repeat;
     background-position: -670px 190px;
     background-blend-mode: color-dodge;
-    margin-right: -10px;
   }
 
   /* big header blue words */
@@ -540,7 +543,6 @@ p.egg{
   padding-top: 20px;
   padding-bottom: 250px;
   letter-spacing: .01em;
-  word-wrap:break-word;
   font-weight: 500;
   max-width: 1000px;
 }
@@ -585,8 +587,6 @@ img.in-modal{
     background-repeat:no-repeat;
     background-position: -110px -10px;
     background-blend-mode: color-dodge;
-    background-clip: none;
-
   }
 
   .left-blob {
@@ -595,7 +595,6 @@ img.in-modal{
     background-repeat:no-repeat;
     background-position: -690px -120px;
     background-blend-mode: color-dodge;
-    margin-right: -10px;
   }
 
     /* skill flex box */
@@ -631,7 +630,7 @@ img.in-modal{
 
   h2.skilltitle{
     text-align: center;
-    padding-left: 7%;
+    padding-left: 9%;
     margin-top: 30px;
     padding-bottom: 20px;
     margin: 0 auto;
@@ -648,7 +647,6 @@ img.in-modal{
     padding-top: 20px;
     padding-bottom: 250px;
     letter-spacing: .01em;
-    word-wrap:break-word;
     font-weight: 500;
     max-width: 350px;
   }
@@ -662,15 +660,8 @@ img.in-modal{
     margin-top: 13vh;
     margin-bottom: -130px;
     margin: 0 auto;
-    /* margin-left: 0%;
-    padding-left: 0%; */
   }
-  /*not actually section skills this section is about stuff */
-  section.skills{
-    padding-top: 20%;
-    padding-left:10%;
-    padding-right: 10%;
-  }
+
   /* about flex box */
   .row-about{
     display: flex;
@@ -703,7 +694,6 @@ img.in-modal{
     padding-top: 20px;
     padding-bottom: 250px;
     letter-spacing: .01em;
-    word-wrap:break-word;
     font-weight: 500;
     max-width: 350px;
   }
